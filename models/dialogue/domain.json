@@ -1,0 +1,21 @@
+{
+  "states": [
+    "intent_findExistingJob",
+    "intent_importanceOfExperience",
+    "intent_introduction",
+    "entity_nameApplicant",
+    "entity_desiredJob",
+    "entity_universityCourse",
+    "entity_university",
+    "entity_formOfEmployment",
+    "entity_amountOfExp",
+    "entity_technology",
+    "entity_currentJob",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_findJob",
+    "prev_utter_bye"
+  ]
+}

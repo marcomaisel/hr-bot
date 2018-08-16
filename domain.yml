@@ -1,0 +1,29 @@
+intents:
+  - introduction
+  - findExistingJob
+  - importanceOfExperience
+
+entities:
+  - nameApplicant
+  - desiredJob
+  - universityCourse
+  - university
+  - formOfEmployment
+  - amountOfExp
+  - technology
+  - currentJob
+
+actions:
+- utter_greet
+- utter_findJob
+- utter_bye
+
+templates:
+  utter_greet:
+  - text: "Hallo! Wie kann ich dir behilflich sein?"
+
+  utter_findJob:
+  - text: "Ich habe dir mögliche Stellenanzeigen gesucht, die für dich intertessant sein könnten."
+
+  utter_bye:
+  - text: "Machs gut"

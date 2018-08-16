@@ -1,0 +1,2 @@
+rasa_nlu[tensorflow]==0.13.1
+rasa_core==0.10.4
