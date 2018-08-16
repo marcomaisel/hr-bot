@@ -24,6 +24,14 @@ To run the bot with both these models:
 python -m rasa_core.run -d models/dialogue -u models/current/nlu
 ```
 
+To run the bot on the website install rasa-addons:
+```
+pip install rasa-addons
+```
+Launch the website backend:
+```
+python website.py
+```
 
 ## Overview of the files
 
