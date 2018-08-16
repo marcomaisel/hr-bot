@@ -11,7 +11,9 @@ This version of the bot  supports:
 To install the bot, please clone the repo and run:
 
 ```
-pip install -e .
+pip install rasa_nlu
+pip install rasa_nlu[tensorflow]
+pip install rasa_core
 ```
 This will install the bot and all of its requirements.
 
