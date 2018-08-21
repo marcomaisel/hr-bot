@@ -13,17 +13,24 @@ entities:
   - technology
   - currentJob
 
+slots:
+  nameApplicant:
+    type: text
+  jobs:
+    type: list
+
 actions:
 - utter_greet
-- utter_findJob
 - utter_bye
+- utter_youarewelcome
+- actions.ActionFindJob
 
 templates:
   utter_greet:
   - text: "Hallo! Wie kann ich dir behilflich sein?"
 
-  utter_findJob:
-  - text: "Ich habe dir mögliche Stellenanzeigen gesucht, die für dich intertessant sein könnten."
-
   utter_bye:
-  - text: "Machs gut"
+  - text: "Machs gut {nameApplicant}"
+
+  utter_youarewelcome:
+    - "Freut mich, dass ich dir helfen konnte"

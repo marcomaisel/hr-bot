@@ -1,25 +1,31 @@
+## greet
+* greet
+    - utter_greet
+
+## happy
+* thankyou
+    - utter_youarewelcome
+
+## goodbye
+* goodbye
+    - utter_bye
+
 ## path 1
 * introduction{"nameApplicant":"Marco"}
   - utter_greet
-* findExistingJob{"desiredJob":"iOS-Entwicklung"}
-  - utter_findJob
+* findExistingJob
+  - action_find_job
 
-## path 2
-* introduction{"nameApplicant":"Mona", "universityCourse":"BWL"}
-  - utter_greet
-* findExistingJob{"desiredJob":"Projektmanagement", "formOfEmployment":"Student"}
-  - utter_findJob
+## Generated Story 2557009174438235936
+* greet
+    - utter_greet
+* findExistingJob
+    - action_find_job
+    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]}
+* goodbye
+    - utter_bye
 
-## path 3
-* findExistingJob{"desiredJob":"Software-Entwicklung", "formOfEmployment":"Werkstudent"}
-  - utter_findJob
-* importanceOfExperience{"desiredJob":"Software-Entwicklung", "formOfEmployment":"Werkstudent"}
-  - utter_bye
-
-## path 4
-* introduction{"nameApplicant":"Jan", "university":"Hochschule der Medien", "universityCourse":"Medieninformatik"}
-  - utter_greet
-* findExistingJob{"desiredJob":"DevOps Spezialist", "formOfEmployment":"Werkstudent"}
-  - utter_findJob
-* importanceOfExperience{"amountOfExp":"wenig", "technology":"Berufserfahrung"}
-  - utter_bye
+## Generated Story 7245999155665718207
+* findExistingJob
+    - action_find_job
+    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]}

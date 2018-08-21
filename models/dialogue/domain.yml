@@ -3,12 +3,14 @@
 action_factory: null
 action_names:
 - utter_greet
-- utter_findJob
 - utter_bye
+- utter_youarewelcome
+- action_find_job
 actions:
 - utter_greet
-- utter_findJob
 - utter_bye
+- utter_youarewelcome
+- actions.ActionFindJob
 config:
   store_entities_as_slots: true
 entities:
@@ -27,12 +29,17 @@ intents:
     use_entities: true
 - importanceOfExperience:
     use_entities: true
-slots: {}
+slots:
+  jobs:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  nameApplicant:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
   utter_bye:
-  - text: Machs gut
-  utter_findJob:
-  - text: Ich habe dir mögliche Stellenanzeigen gesucht, die für dich intertessant
-      sein könnten.
+  - text: Machs gut {nameApplicant}
   utter_greet:
   - text: Hallo! Wie kann ich dir behilflich sein?
+  utter_youarewelcome:
+  - text: Freut mich, dass ich dir helfen konnte

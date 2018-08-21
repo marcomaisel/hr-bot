@@ -1,15 +1,22 @@
 {
   "action_fingerprints": {
     "action_listen": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
+      "slots": [
+        "nameApplicant"
+      ]
     },
     "utter_bye": {
       "slots": []
     },
-    "utter_findJob": {
+    "action_find_job": {
+      "slots": [
+        "jobs"
+      ]
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_youarewelcome": {
       "slots": []
     }
   },
