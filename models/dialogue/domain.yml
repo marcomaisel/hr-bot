@@ -1,5 +1,3 @@
-%YAML 1.1
----
 action_factory: null
 action_names:
 - utter_greet
@@ -24,8 +22,6 @@ entities:
 - currentJob
 intents:
 - introduction:
-    use_entities: true
-- findExistingJob:
     use_entities: true
 - importanceOfExperience:
     use_entities: true
