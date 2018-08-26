@@ -1,17 +1,22 @@
 intents:
+  - enterData
+  - greet
+  - thankyou
+  - goodbye
   - introduction
   - findExistingJob
-  - importanceOfExperience
+  - findJob
 
 entities:
   - nameApplicant
+  - formOfEmployment
+  - technology
+  - metatechnology
+  - jobTask
   - desiredJob
+  - currentJob
   - universityCourse
   - university
-  - formOfEmployment
-  - amountOfExp
-  - technology
-  - currentJob
 
 slots:
   nameApplicant:
@@ -21,18 +26,65 @@ slots:
   jobs:
     type: list
 
+  technology:
+    type: list
+
+  metatechnology:
+    type: text
+  
+  jobTask:
+    type: text
+
+  formOfEmployment:
+    type: text
+
 actions:
+- actions.ActionFindExistingJob
 - utter_greet
 - utter_bye
 - utter_youarewelcome
-- actions.ActionFindJob
+- utter_askJobTask
+- utter_askTechnology
+- utter_askMetatechnology
+- utter_askFormOfEmployment
 
 templates:
   utter_greet:
-  - text: "Hallo! Wie kann ich dir behilflich sein?"
+    - text: "Hallo! Wie kann ich dir behilflich sein?"
 
   utter_bye:
-  - text: "Machs gut {nameApplicant}"
+    - text: "Machs gut {nameApplicant}"
 
   utter_youarewelcome:
-    - "Freut mich, dass ich dir helfen konnte"
+    - text: "Freut mich, dass ich dir helfen konnte"
+
+  utter_askTechnology:
+    - text: "Mit welchen Technologien würdest du gerne arbeiten?"
+
+  utter_askJobTask:
+    - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
+      buttons:
+      - title: "Entwicklung"
+        payload: '/enterData{"jobTask": "entwicklung"}'
+      - title: "Design"
+        payload: '/enterData{"jobTask": "design"}'
+
+  utter_askMetatechnology:
+    - text: "In welchem Bereich würdest du gerne arbeiten?"
+      buttons:
+      - title: "Web"
+        payload: '/enterData{"metatechnology": "web"}'
+      - title: "Mobile"
+        payload: '/enterData{"metatechnology": "mobile"}'
+
+  utter_askFormOfEmployment:
+    - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"
+      buttons:
+      - title: "Vollzeit"
+        payload: '/enterData{"formOfEmployment": "vollzeit"}'
+      - title: "Teilzeit"
+        payload: '/enterData{"formOfEmployment": "teilzeit"}'
+      - title: "Werkstudent"
+        payload: '/enterData{"formOfEmployment": "student"}'
+      - title: "Praktikum"
+        payload: '/enterData{"formOfEmployment": "praktikum"}'

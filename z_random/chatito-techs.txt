@@ -1,0 +1,27 @@
+%[enterData]('training': '50')
+    @[technology]
+    @[technology], @[technology], @[technology]
+    @[technology] oder @[technology]
+    @[technology] und @[technology]
+    @[metatechnology]
+    @[metatechnology], @[metatechnology]
+    @[metatechnology] oder @[metatechnology]
+    @[metatechnology] und @[metatechnology]
+
+
+@[technology]
+    Javascript
+    HTML
+    CSS
+    Photoshop
+    Java
+    Java EE
+    Swift
+    Kotlin
+    Scrum
+    Typescript
+    Angular
+
+@[metatechnology]
+    Web
+    Mobile

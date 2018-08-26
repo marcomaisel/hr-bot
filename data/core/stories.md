@@ -10,22 +10,37 @@
 * goodbye
     - utter_bye
 
-<!-- ## path 1
-* introduction{"nameApplicant":"Marco"}
-  - utter_greet
-* findExistingJob
-  - action_find_job
-
-## Generated Story 2557009174438235936
+## Greet + findJob
 * greet
     - utter_greet
-* findExistingJob
+* findJob
+    - utter_askJobTask
+* enterData{"jobTask": "design"}
+    - slot{"jobTask": "design"}
+    - utter_askMetatechnology
+* enterData{"metatechnology": "web"}
+    - slot{"metatechnology": "web"}
+    - utter_askTechnology
+* enterData{"technology": "photoshop"}
+    - slot{"technology": "photoshop"}
+    - utter_askFormOfEmployment
+* enterData{"formOfEmployment": "praktikum"}
+    - slot{"formOfEmployment": "praktikum"}
     - action_find_job
-    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]}
-* goodbye
-    - utter_bye
+    - slot{"jobs": [{"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design", "metatechnology": ["web"], "technology": "photoshop"}]}
 
-## Generated Story 7245999155665718207
-* findExistingJob
+## FindJob
+* findJob
+    - utter_askJobTask
+* enterData{"jobTask": "entwicklung"}
+    - slot{"jobTask": "entwicklung"}
+    - utter_askMetatechnology
+* enterData{"metatechnology": "mobile"}
+    - slot{"metatechnology": "mobile"}
+    - utter_askTechnology
+* enterData{"technology": "html"}
+    - slot{"technology": ["photoshop", "html"]}
+    - utter_askFormOfEmployment
+* enterData{"formOfEmployment": "vollzeit"}
+    - slot{"formOfEmployment": "vollzeit"}
     - action_find_job
-    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]} -->

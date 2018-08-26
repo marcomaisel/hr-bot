@@ -4150,6 +4150,942 @@
             "entity": "amountOfExp"
           }
         ]
+      },
+      {
+        "text": "Web",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "metatechnology",
+            "start": 0,
+            "value": "Web"
+          }
+        ]
+      },
+      {
+        "text": "Mobile oder Web",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "metatechnology",
+            "start": 0,
+            "value": "Mobile"
+          },
+          {
+            "end": 15,
+            "entity": "metatechnology",
+            "start": 12,
+            "value": "Web"
+          }
+        ]
+      },
+      {
+        "text": "Typescript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          }
+        ]
+      },
+      {
+        "text": "Javascript und Javascript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 15,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Javascript oder HTML",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 16,
+            "value": "HTML"
+          }
+        ]
+      },
+      {
+        "text": "Mobile und Mobile",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "metatechnology",
+            "start": 0,
+            "value": "Mobile"
+          },
+          {
+            "end": 17,
+            "entity": "metatechnology",
+            "start": 11,
+            "value": "Mobile"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Java, HTML",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 18,
+            "value": "HTML"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, CSS, Typescript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 12,
+            "value": "CSS"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 17,
+            "value": "Typescript"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, HTML, CSS",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "HTML"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 18,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Javascript, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 9,
+            "value": "Javascript"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop, Angular, Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 11,
+            "value": "Angular"
+          },
+          {
+            "end": 26,
+            "entity": "technology",
+            "start": 20,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Java, Angular, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Kotlin, Swift",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 20,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Java EE, Angular",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java EE"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 21,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "CSS, Java EE, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "CSS"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 5,
+            "value": "Java EE"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 14,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Java, Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "Java"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 15,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Swift, HTML, Photoshop",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Swift"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "HTML"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 13,
+            "value": "Photoshop"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Java, Scrum",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "Java"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, HTML, CSS",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "HTML"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 13,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Photoshop, Javascript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 8,
+            "value": "Photoshop"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 19,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Scrum, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 8,
+            "value": "Scrum"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Java, Javascript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 8,
+            "value": "Java"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 14,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Javascript, Typescript",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 12,
+            "value": "Javascript"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 24,
+            "value": "Typescript"
+          }
+        ]
+      },
+      {
+        "text": "Angular und Java EE",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java EE"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin oder Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, HTML, Angular",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "HTML"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 18,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Typescript, Swift",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 12,
+            "value": "Typescript"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 24,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Typescript, Photoshop",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Typescript"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 20,
+            "value": "Photoshop"
+          }
+        ]
+      },
+      {
+        "text": "Java, CSS, Java EE",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "CSS"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 11,
+            "value": "Java EE"
+          }
+        ]
+      },
+      {
+        "text": "Java EE, Scrum, Angular",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java EE"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 9,
+            "value": "Scrum"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 16,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Angular, HTML, Angular",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "HTML"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 15,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Angular, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 9,
+            "value": "Angular"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 18,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, Java, Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "Java"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 13,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Kotlin, Swift",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 8,
+            "value": "Kotlin"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 16,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "HTML, Typescript, Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 6,
+            "value": "Typescript"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 18,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "HTML, Scrum, Kotlin",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 6,
+            "value": "Scrum"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 13,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, CSS, Java",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 7,
+            "value": "CSS"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop und Scrum",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 14,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "HTML oder CSS",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 10,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop, Kotlin, Scrum",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 11,
+            "value": "Kotlin"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 19,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Java, Java EE, Scrum",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "Java EE"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Kotlin, CSS",
+        "intent": "enterData",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 20,
+            "value": "CSS"
+          }
+        ]
       }
     ],
     "regex_features": [],

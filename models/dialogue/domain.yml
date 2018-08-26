@@ -1,40 +1,98 @@
+%YAML 1.1
+---
 action_factory: null
 action_names:
-- utter_greet
-- utter_bye
-- utter_youarewelcome
 - action_find_job
-actions:
 - utter_greet
 - utter_bye
 - utter_youarewelcome
-- actions.ActionFindJob
+- utter_askJobTask
+- utter_askTechnology
+- utter_askMetatechnology
+- utter_askFormOfEmployment
+actions:
+- actions.ActionFindExistingJob
+- utter_greet
+- utter_bye
+- utter_youarewelcome
+- utter_askJobTask
+- utter_askTechnology
+- utter_askMetatechnology
+- utter_askFormOfEmployment
 config:
   store_entities_as_slots: true
 entities:
 - nameApplicant
+- formOfEmployment
+- technology
+- metatechnology
+- jobTask
 - desiredJob
+- currentJob
 - universityCourse
 - university
-- formOfEmployment
-- amountOfExp
-- technology
-- currentJob
 intents:
-- introduction:
+- enterData:
     use_entities: true
-- importanceOfExperience:
+- greet:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- introduction:
     use_entities: true
 - findExistingJob:
     use_entities: true
+- findJob:
+    use_entities: true
 slots:
+  formOfEmployment:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  jobTask:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   jobs:
     initial_value: null
     type: rasa_core.slots.ListSlot
-  nameApplicant:
+  metatechnology:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  nameApplicant:
+    initial_value: ''
+    type: rasa_core.slots.TextSlot
+  technology:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
 templates:
+  utter_askFormOfEmployment:
+  - buttons:
+    - payload: '/enterData{"formOfEmployment": "vollzeit"}'
+      title: Vollzeit
+    - payload: '/enterData{"formOfEmployment": "teilzeit"}'
+      title: Teilzeit
+    - payload: '/enterData{"formOfEmployment": "student"}'
+      title: Werkstudent
+    - payload: '/enterData{"formOfEmployment": "praktikum"}'
+      title: Praktikum
+    text: In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?
+  utter_askJobTask:
+  - buttons:
+    - payload: '/enterData{"jobTask": "entwicklung"}'
+      title: Entwicklung
+    - payload: '/enterData{"jobTask": "design"}'
+      title: Design
+    text: Welche Tätigkeit möchtest du bei uns ausführen?
+  utter_askMetatechnology:
+  - buttons:
+    - payload: '/enterData{"metatechnology": "web"}'
+      title: Web
+    - payload: '/enterData{"metatechnology": "mobile"}'
+      title: Mobile
+    text: In welchem Bereich würdest du gerne arbeiten?
+  utter_askTechnology:
+  - text: Mit welchen Technologien würdest du gerne arbeiten?
   utter_bye:
   - text: Machs gut {nameApplicant}
   utter_greet:

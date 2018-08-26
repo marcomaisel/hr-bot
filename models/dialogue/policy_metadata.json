@@ -1,33 +1,36 @@
 {
   "action_fingerprints": {
-    "utter_greet": {
+    "action_listen": {
+      "slots": [
+        "jobTask",
+        "metatechnology",
+        "technology",
+        "formOfEmployment"
+      ]
+    },
+    "utter_bye": {
       "slots": []
-    }, 
+    },
     "action_find_job": {
       "slots": [
         "jobs"
       ]
-    }, 
-    "utter_bye": {
-      "slots": []
-    }, 
-    "action_listen": {
-      "slots": [
-        "nameApplicant"
-      ]
-    }, 
+    },
     "utter_youarewelcome": {
       "slots": []
+    },
+    "utter_greet": {
+      "slots": []
     }
-  }, 
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy", 
-    "rasa_core.policies.keras_policy.KerasPolicy"
-  ], 
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  },
+  "rasa_core": "0.10.4",
   "max_histories": [
-    3, 
+    3,
     3
-  ], 
-  "rasa_core": "0.10.4"
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
 }
