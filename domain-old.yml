@@ -16,8 +16,6 @@ entities:
 slots:
   nameApplicant:
     type: text
-    initial_value: ""
-
   jobs:
     type: list
 

@@ -10,7 +10,7 @@
 * goodbye
     - utter_bye
 
-## path 1
+<!-- ## path 1
 * introduction{"nameApplicant":"Marco"}
   - utter_greet
 * findExistingJob
@@ -28,4 +28,4 @@
 ## Generated Story 7245999155665718207
 * findExistingJob
     - action_find_job
-    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]}
+    - slot{"jobs": [{"name": "Werkstudent Software-Entwicklung", "type": "student"}, {"name": "DevOps Spezialist", "type": "fulltime"}]} -->

@@ -1,33 +1,33 @@
 {
   "action_fingerprints": {
-    "action_listen": {
-      "slots": [
-        "nameApplicant"
-      ]
-    },
-    "utter_bye": {
+    "utter_greet": {
       "slots": []
-    },
+    }, 
     "action_find_job": {
       "slots": [
         "jobs"
       ]
-    },
-    "utter_greet": {
+    }, 
+    "utter_bye": {
       "slots": []
-    },
+    }, 
+    "action_listen": {
+      "slots": [
+        "nameApplicant"
+      ]
+    }, 
     "utter_youarewelcome": {
       "slots": []
     }
-  },
+  }, 
   "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy", 
     "rasa_core.policies.keras_policy.KerasPolicy"
-  ],
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  ], 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
   "max_histories": [
-    3,
+    3, 
     3
-  ],
+  ], 
   "rasa_core": "0.10.4"
 }

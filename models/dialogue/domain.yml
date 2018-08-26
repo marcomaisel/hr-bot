@@ -25,6 +25,8 @@ intents:
     use_entities: true
 - importanceOfExperience:
     use_entities: true
+- findExistingJob:
+    use_entities: true
 slots:
   jobs:
     initial_value: null
