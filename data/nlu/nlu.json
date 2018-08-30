@@ -4157,7 +4157,7 @@
         "entities": [
           {
             "end": 3,
-            "entity": "metatechnology",
+            "entity": "domain",
             "start": 0,
             "value": "Web"
           }
@@ -4169,13 +4169,13 @@
         "entities": [
           {
             "end": 6,
-            "entity": "metatechnology",
+            "entity": "domain",
             "start": 0,
             "value": "Mobile"
           },
           {
             "end": 15,
-            "entity": "metatechnology",
+            "entity": "domain",
             "start": 12,
             "value": "Web"
           }
@@ -4235,13 +4235,13 @@
         "entities": [
           {
             "end": 6,
-            "entity": "metatechnology",
+            "entity": "domain",
             "start": 0,
             "value": "Mobile"
           },
           {
             "end": 17,
-            "entity": "metatechnology",
+            "entity": "domain",
             "start": 11,
             "value": "Mobile"
           }

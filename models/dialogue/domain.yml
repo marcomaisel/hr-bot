@@ -1,5 +1,3 @@
-%YAML 1.1
----
 action_factory: null
 action_names:
 - action_find_job
@@ -8,7 +6,7 @@ action_names:
 - utter_youarewelcome
 - utter_askJobTask
 - utter_askTechnology
-- utter_askMetatechnology
+- utter_askDomain
 - utter_askFormOfEmployment
 actions:
 - actions.ActionFindExistingJob
@@ -17,7 +15,7 @@ actions:
 - utter_youarewelcome
 - utter_askJobTask
 - utter_askTechnology
-- utter_askMetatechnology
+- utter_askDomain
 - utter_askFormOfEmployment
 config:
   store_entities_as_slots: true
@@ -25,28 +23,31 @@ entities:
 - nameApplicant
 - formOfEmployment
 - technology
-- metatechnology
+- domain
 - jobTask
 - desiredJob
 - currentJob
 - universityCourse
 - university
 intents:
-- enterData:
-    use_entities: true
-- greet:
-    use_entities: true
 - thankyou:
     use_entities: true
 - goodbye:
     use_entities: true
+- findJob:
+    use_entities: true
 - introduction:
+    use_entities: true
+- enterData:
     use_entities: true
 - findExistingJob:
     use_entities: true
-- findJob:
+- greet:
     use_entities: true
 slots:
+  domain:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   formOfEmployment:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -56,9 +57,6 @@ slots:
   jobs:
     initial_value: null
     type: rasa_core.slots.ListSlot
-  metatechnology:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
   nameApplicant:
     initial_value: ''
     type: rasa_core.slots.TextSlot
@@ -66,6 +64,13 @@ slots:
     initial_value: null
     type: rasa_core.slots.ListSlot
 templates:
+  utter_askDomain:
+  - buttons:
+    - payload: '/enterData{"domain": "web"}'
+      title: Web
+    - payload: '/enterData{"domain": "mobile"}'
+      title: Mobile
+    text: In welchem Bereich würdest du gerne arbeiten?
   utter_askFormOfEmployment:
   - buttons:
     - payload: '/enterData{"formOfEmployment": "vollzeit"}'
@@ -84,13 +89,6 @@ templates:
     - payload: '/enterData{"jobTask": "design"}'
       title: Design
     text: Welche Tätigkeit möchtest du bei uns ausführen?
-  utter_askMetatechnology:
-  - buttons:
-    - payload: '/enterData{"metatechnology": "web"}'
-      title: Web
-    - payload: '/enterData{"metatechnology": "mobile"}'
-      title: Mobile
-    text: In welchem Bereich würdest du gerne arbeiten?
   utter_askTechnology:
   - text: Mit welchen Technologien würdest du gerne arbeiten?
   utter_bye:

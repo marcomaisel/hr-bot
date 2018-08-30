@@ -17,9 +17,9 @@
     - utter_askJobTask
 * enterData{"jobTask": "design"}
     - slot{"jobTask": "design"}
-    - utter_askMetatechnology
-* enterData{"metatechnology": "web"}
-    - slot{"metatechnology": "web"}
+    - utter_askDomain
+* enterData{"domain": "web"}
+    - slot{"domain": "web"}
     - utter_askTechnology
 * enterData{"technology": "photoshop"}
     - slot{"technology": "photoshop"}
@@ -27,16 +27,16 @@
 * enterData{"formOfEmployment": "praktikum"}
     - slot{"formOfEmployment": "praktikum"}
     - action_find_job
-    - slot{"jobs": [{"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design", "metatechnology": ["web"], "technology": "photoshop"}]}
+    - slot{"jobs": [{"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design", "domain": ["web"], "technology": "photoshop"}]}
 
 ## FindJob
 * findJob
     - utter_askJobTask
 * enterData{"jobTask": "entwicklung"}
     - slot{"jobTask": "entwicklung"}
-    - utter_askMetatechnology
-* enterData{"metatechnology": "mobile"}
-    - slot{"metatechnology": "mobile"}
+    - utter_askDomain
+* enterData{"domain": "mobile"}
+    - slot{"domain": "mobile"}
     - utter_askTechnology
 * enterData{"technology": "html"}
     - slot{"technology": ["photoshop", "html"]}

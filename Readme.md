@@ -17,9 +17,13 @@ pip install rasa_core
 ```
 This will install the bot and all of its requirements.
 
-To train the core model: `python -m rasa_core.train -d domain.yml -s data/core/stories.md -o models/dialogue`
+To train the core model: 
 
-To train the NLU model: `python -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose`
+`python -m rasa_core.train -d domain.yml -s data/core/stories.md -o models/dialogue`
+
+To train the NLU model: 
+
+`python -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose`
 
 To run the bot with both these models:
 ```

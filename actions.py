@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf8
+
 from rasa_core.actions import Action
 from rasa_core.events import SlotSet
 
@@ -10,20 +13,20 @@ class ActionFindExistingJob(Action):
     def run(self, dispatcher, tracker, domain):
         jobs = [
             {"name": "Werkstudent Software-Entwicklung", "formOfEmployment": "student",
-             "jobTask": "entwicklung", "metatechnology": ["web", "mobile"], "technology": ["java ee", "java"]},
+             "jobTask": "entwicklung", "domain": ["web", "mobile"], "technology": ["java ee", "java"]},
 
             {"name": "Webdesigner", "formOfEmployment": "vollzeit", "jobTask": "design",
-             "metatechnology": ["web"], "technology": ["photoshop", "html", "css", "javascript"]},
+             "domain": ["web"], "technology": ["photoshop", "html", "css", "javascript"]},
 
             {"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design",
-             "metatechnology": ["web"], "technology": "photoshop"}
+             "domain": ["web"], "technology": "photoshop"}
         ]
 
         foundJobs = []
 
         # Store the values of slots given by the user with the tracker object
         taskSlot = tracker.get_slot('jobTask')
-        metatechnologySlot = tracker.get_slot('metatechnology')
+        domainSlot = tracker.get_slot('domain')
         technologySlot = tracker.get_slot('technology')
         formOfEmploymentSlot = tracker.get_slot('formOfEmployment')
 
@@ -35,13 +38,13 @@ class ActionFindExistingJob(Action):
             # Store the values of each key for all job dictionaries in the jobs list
             tech = job["technology"]
             task = job["jobTask"]
-            metatech = job["metatechnology"]
+            metatech = job["domain"]
             employment = job["formOfEmployment"]
 
             # Search for matches between slots sent by the user and stored jobs in the jobs list.
             # If a job has at least one value for each key in the dictionary the job is appended to the foundJobs list.
             if [i for i in technologySlot if i in tech] and \
-               [i for i in metatechnologySlot if i in metatech] and \
+               [i for i in domainSlot if i in metatech] and \
                taskSlot in task and \
                formOfEmploymentSlot in employment:
                 foundJobs.append(job)

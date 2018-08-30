@@ -11,7 +11,7 @@ entities:
   - nameApplicant
   - formOfEmployment
   - technology
-  - metatechnology
+  - domain
   - jobTask
   - desiredJob
   - currentJob
@@ -29,7 +29,7 @@ slots:
   technology:
     type: list
 
-  metatechnology:
+  domain:
     type: text
   
   jobTask:
@@ -45,7 +45,7 @@ actions:
 - utter_youarewelcome
 - utter_askJobTask
 - utter_askTechnology
-- utter_askMetatechnology
+- utter_askDomain
 - utter_askFormOfEmployment
 
 templates:
@@ -69,13 +69,13 @@ templates:
       - title: "Design"
         payload: '/enterData{"jobTask": "design"}'
 
-  utter_askMetatechnology:
+  utter_askDomain:
     - text: "In welchem Bereich würdest du gerne arbeiten?"
       buttons:
       - title: "Web"
-        payload: '/enterData{"metatechnology": "web"}'
+        payload: '/enterData{"domain": "web"}'
       - title: "Mobile"
-        payload: '/enterData{"metatechnology": "mobile"}'
+        payload: '/enterData{"domain": "mobile"}'
 
   utter_askFormOfEmployment:
     - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"
