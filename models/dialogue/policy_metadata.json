@@ -1,36 +1,39 @@
 {
   "action_fingerprints": {
-    "utter_greet": {
-      "slots": []
-    }, 
+    "action_listen": {
+      "slots": [
+        "technology",
+        "formOfEmployment",
+        "jobTask",
+        "domain"
+      ]
+    },
     "action_find_job": {
       "slots": [
         "jobs"
       ]
-    }, 
+    },
     "utter_bye": {
       "slots": []
-    }, 
-    "action_listen": {
-      "slots": [
-        "jobTask", 
-        "domain", 
-        "technology", 
-        "formOfEmployment"
-      ]
-    }, 
+    },
     "utter_youarewelcome": {
       "slots": []
+    },
+    "utter_greet": {
+      "slots": []
     }
-  }, 
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy", 
-    "rasa_core.policies.keras_policy.KerasPolicy"
-  ], 
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  },
+  "rasa_core": "0.11.3",
+  "python": "3.6.2",
   "max_histories": [
-    3, 
+    null,
+    3,
     3
-  ], 
-  "rasa_core": "0.10.4"
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
 }

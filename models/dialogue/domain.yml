@@ -1,15 +1,8 @@
-action_factory: null
-action_names:
-- action_find_job
-- utter_greet
-- utter_bye
-- utter_youarewelcome
-- utter_askJobTask
-- utter_askTechnology
-- utter_askDomain
-- utter_askFormOfEmployment
+%YAML 1.1
+---
 actions:
-- actions.ActionFindExistingJob
+- action_find_job
+- action_match_job_slots
 - utter_greet
 - utter_bye
 - utter_youarewelcome
@@ -30,19 +23,21 @@ entities:
 - universityCourse
 - university
 intents:
+- enterData:
+    use_entities: true
+- greet:
+    use_entities: true
 - thankyou:
     use_entities: true
 - goodbye:
     use_entities: true
-- findJob:
-    use_entities: true
 - introduction:
-    use_entities: true
-- enterData:
     use_entities: true
 - findExistingJob:
     use_entities: true
-- greet:
+- findJob:
+    use_entities: true
+- testIntent:
     use_entities: true
 slots:
   domain:

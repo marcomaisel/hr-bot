@@ -6,6 +6,7 @@ intents:
   - introduction
   - findExistingJob
   - findJob
+  - testIntent
 
 entities:
   - nameApplicant
@@ -39,7 +40,8 @@ slots:
     type: text
 
 actions:
-- actions.ActionFindExistingJob
+- action_find_job
+- action_match_job_slots
 - utter_greet
 - utter_bye
 - utter_youarewelcome
