@@ -35,16 +35,19 @@ result = select(p for p in Technology)
 # Get Tasks for Technology
 @db_session
 def get_task_for_technology(inTech):
+    taskName = []
 
     if inTech is not None:
-        inTech = inTech.lower()
-        result = select(tech for tech in Technology if tech.name == inTech)[:]
-        for tech in result:
-            taskName = []
-            for task in tech.tasks:
-                taskName.append(task.name)
-            print("TaskForTech: ", taskName)
-            return taskName
+        for techResult in inTech:
+            techResult = techResult.lower()
+            result = select(
+                tech for tech in Technology if tech.name == techResult)[:]
+            for tech in result:
+                for task in tech.tasks:
+                    if task.name not in taskName:
+                        taskName.append(task.name)
+        print("TaskForTech: ", taskName)
+        return taskName
 
     else:
         return []
@@ -53,16 +56,20 @@ def get_task_for_technology(inTech):
 # Get Domains for Technology
 @db_session
 def get_domain_for_technology(inTech):
+    domainName = []
 
     if inTech is not None:
-        inTech = inTech.lower()
-        result = select(tech for tech in Technology if tech.name == inTech)[:]
-        for tech in result:
-            domainName = []
-            for domain in tech.domains:
-                domainName.append(domain.name)
-            print("DomainForTech: ", domainName)
-            return domainName
+        for techResult in inTech:
+            techResult = techResult.lower()
+            result = select(
+                tech for tech in Technology if tech.name == techResult)[:]
+            for tech in result:
+
+                for domain in tech.domains:
+                    if domain.name not in domainName:
+                        domainName.append(domain.name)
+        print("DomainForTech: ", domainName)
+        return domainName
 
     else:
         return []
@@ -71,16 +78,19 @@ def get_domain_for_technology(inTech):
 # Get Technology for Task
 @db_session
 def get_technology_for_task(inTask):
+    technologyName = []
 
     if inTask is not None:
-        inTask = inTask.lower()
-        result = select(task for task in Task if task.name == inTask)[:]
-        for task in result:
-            technologyName = []
-            for technology in task.technologies:
-                technologyName.append(technology.name)
-            print("TechnologyForTask: ", technologyName)
-            return technologyName
+        for taskResult in inTask:
+            taskResult = taskResult.lower()
+            result = select(
+                task for task in Task if task.name == taskResult)[:]
+            for task in result:
+                for technology in task.technologies:
+                    if technology.name not in technologyName:
+                        technologyName.append(technology.name)
+        print("TechnologyForTask: ", technologyName)
+        return technologyName
 
     else:
         return []
@@ -89,16 +99,19 @@ def get_technology_for_task(inTask):
 # Get Domain for Task
 @db_session
 def get_domain_for_task(inTask):
+    domainName = []
 
     if inTask is not None:
-        inTask = inTask.lower()
-        result = select(task for task in Task if task.name == inTask)[:]
-        for task in result:
-            domainName = []
-            for domain in task.domains:
-                domainName.append(domain.name)
-            print("DomainForTask: ", domainName)
-            return domainName
+        for taskResult in inTask:
+            taskResult = taskResult.lower()
+            result = select(
+                task for task in Task if task.name == taskResult)[:]
+            for task in result:
+                for domain in task.domains:
+                    if domain.name not in domainName:
+                        domainName.append(domain.name)
+        print("DomainForTask: ", domainName)
+        return domainName
 
     else:
         return []
@@ -107,17 +120,19 @@ def get_domain_for_task(inTask):
 # Get Technology for Domain
 @db_session
 def get_technology_for_domain(inDomain):
+    technologyName = []
 
     if inDomain is not None:
-        inDomain = inDomain.lower()
-        result = select(
-            domain for domain in Domain if domain.name == inDomain)[:]
-        for domain in result:
-            technologyName = []
-            for technology in domain.technologies:
-                technologyName.append(technology.name)
-            print("TechnologyForDomain: ", technologyName)
-            return technologyName
+        for domainResult in inDomain:
+            domainResult = domainResult.lower()
+            result = select(
+                domain for domain in Domain if domain.name == domainResult)[:]
+            for domain in result:
+                for technology in domain.technologies:
+                    if technology.name not in technologyName:
+                        technologyName.append(technology.name)
+        print("TechnologyForDomain: ", technologyName)
+        return technologyName
 
     else:
         return []
@@ -126,17 +141,18 @@ def get_technology_for_domain(inDomain):
 # Get Task for Domain
 @db_session
 def get_task_for_domain(inDomain):
-
+    taskName = []
     if inDomain is not None:
-        inDomain = inDomain.lower()
-        result = select(
-            domain for domain in Domain if domain.name == inDomain)[:]
-        for domain in result:
-            taskName = []
-            for task in domain.tasks:
-                taskName.append(task.name)
-            print("TaskForDomain: ", taskName)
-            return taskName
+        for domainResult in inDomain:
+            domainResult = domainResult.lower()
+            result = select(
+                domain for domain in Domain if domain.name == domainResult)[:]
+            for domain in result:
+                for task in domain.tasks:
+                    if task.name not in taskName:
+                        taskName.append(task.name)
+        print("TaskForDomain: ", taskName)
+        return taskName
 
     else:
         return []
@@ -147,6 +163,7 @@ def get_task_for_domain(inDomain):
 def get_task_for_domain_and_tech(inDomain, inTech):
 
     if inDomain is not None and inTech is not None:
+
         taskNameinDomain = get_task_for_domain(inDomain)
         taskNameinTech = get_task_for_technology(inTech)
 
@@ -244,6 +261,10 @@ def populate_database():
                     entwicklung], domains=[devops])
     cd = Technology(name='continuous deployment', tasks=[
                     entwicklung], domains=[devops])
+
+    photoshop = Technology(name='photoshop', tasks=[
+        design], domains=[web, mobile, frontend])
+
     commit()
 
 
@@ -251,12 +272,12 @@ if __name__ == "__main__":
     with db_session:
         if Technology.select().first() is None:
             populate_database()
-    # get_domain_for_technology('angular')
-    # get_task_for_technology('angular')
-    # get_technology_for_task('entwicklung')
-    # get_domain_for_task('entwicklung')
-    # get_task_for_domain('web')
-    # get_technology_for_domain('web')
-    # get_task_for_domain_and_tech('web', 'angular')
-    # get_domain_for_task_and_tech('entwicklung', 'angular')
-    # get_technology_for_task_and_domain('entwicklung', 'web')
+    # get_domain_for_technology(['angular'])
+    # get_task_for_technology(['angular', 'photoshop', 'swift'])
+    # get_technology_for_task(['entwicklung'])
+    # get_domain_for_task(['entwicklung'])
+    # get_task_for_domain(['web'])
+    # get_technology_for_domain(['web'])
+    get_task_for_domain_and_tech(['web', 'mobile'], ['angular', 'kotlin'])
+    # get_domain_for_task_and_tech(['entwicklung'], ['angular'])
+    # get_technology_for_task_and_domain(['entwicklung'], ['web'])

@@ -39,6 +39,15 @@ slots:
   formOfEmployment:
     type: text
 
+  possibleTasks:
+    type: text
+
+  possibleDomains:
+    type: text
+
+  possibleTechnologies:
+    type: text
+
 actions:
 - action_find_job
 - action_match_job_slots
@@ -64,20 +73,10 @@ templates:
     - text: "Mit welchen Technologien würdest du gerne arbeiten?"
 
   utter_askJobTask:
-    - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
-      buttons:
-      - title: "Entwicklung"
-        payload: '/enterData{"jobTask": "entwicklung"}'
-      - title: "Design"
-        payload: '/enterData{"jobTask": "design"}'
+    - text: "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten sind: {possibleTasks}"
 
   utter_askDomain:
-    - text: "In welchem Bereich würdest du gerne arbeiten?"
-      buttons:
-      - title: "Web"
-        payload: '/enterData{"domain": "web"}'
-      - title: "Mobile"
-        payload: '/enterData{"domain": "mobile"}'
+    - text: "In welchem Bereich würdest du gerne arbeiten? Mögliche Bereiche sind: {possibleDomains}"
 
   utter_askFormOfEmployment:
     - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"

@@ -55,17 +55,21 @@ slots:
   nameApplicant:
     initial_value: ''
     type: rasa_core.slots.TextSlot
+  possibleDomains:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  possibleTasks:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  possibleTechnologies:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   technology:
     initial_value: null
     type: rasa_core.slots.ListSlot
 templates:
   utter_askDomain:
-  - buttons:
-    - payload: '/enterData{"domain": "web"}'
-      title: Web
-    - payload: '/enterData{"domain": "mobile"}'
-      title: Mobile
-    text: In welchem Bereich würdest du gerne arbeiten?
+  - text: 'In welchem Bereich würdest du gerne arbeiten? Mögliche Bereiche sind: {possibleDomains}'
   utter_askFormOfEmployment:
   - buttons:
     - payload: '/enterData{"formOfEmployment": "vollzeit"}'
@@ -78,12 +82,8 @@ templates:
       title: Praktikum
     text: In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?
   utter_askJobTask:
-  - buttons:
-    - payload: '/enterData{"jobTask": "entwicklung"}'
-      title: Entwicklung
-    - payload: '/enterData{"jobTask": "design"}'
-      title: Design
-    text: Welche Tätigkeit möchtest du bei uns ausführen?
+  - text: 'Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten sind:
+      {possibleTasks}'
   utter_askTechnology:
   - text: Mit welchen Technologien würdest du gerne arbeiten?
   utter_bye:

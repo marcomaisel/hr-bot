@@ -3,9 +3,9 @@
     "action_listen": {
       "slots": [
         "technology",
+        "domain",
         "formOfEmployment",
-        "jobTask",
-        "domain"
+        "jobTask"
       ]
     },
     "action_find_job": {
@@ -13,10 +13,10 @@
         "jobs"
       ]
     },
-    "utter_bye": {
+    "utter_youarewelcome": {
       "slots": []
     },
-    "utter_youarewelcome": {
+    "utter_bye": {
       "slots": []
     },
     "utter_greet": {
