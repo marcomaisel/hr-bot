@@ -42,13 +42,13 @@ intents:
 slots:
   domain:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   formOfEmployment:
     initial_value: null
     type: rasa_core.slots.TextSlot
   jobTask:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   jobs:
     initial_value: null
     type: rasa_core.slots.ListSlot
@@ -57,13 +57,13 @@ slots:
     type: rasa_core.slots.TextSlot
   possibleDomains:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   possibleTasks:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   possibleTechnologies:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   technology:
     initial_value: null
     type: rasa_core.slots.ListSlot

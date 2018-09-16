@@ -31,22 +31,22 @@ slots:
     type: list
 
   domain:
-    type: text
+    type: list
   
   jobTask:
-    type: text
+    type: list
 
   formOfEmployment:
     type: text
 
   possibleTasks:
-    type: text
+    type: list
 
   possibleDomains:
-    type: text
+    type: list
 
   possibleTechnologies:
-    type: text
+    type: list
 
 actions:
 - action_find_job

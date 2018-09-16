@@ -278,6 +278,6 @@ if __name__ == "__main__":
     # get_domain_for_task(['entwicklung'])
     # get_task_for_domain(['web'])
     # get_technology_for_domain(['web'])
-    get_task_for_domain_and_tech(['web', 'mobile'], ['angular', 'kotlin'])
+    # get_task_for_domain_and_tech(['web', 'mobile'], ['angular', 'kotlin'])
     # get_domain_for_task_and_tech(['entwicklung'], ['angular'])
     # get_technology_for_task_and_domain(['entwicklung'], ['web'])
