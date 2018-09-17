@@ -68,9 +68,6 @@ class ActionMatchJobSlots(Action):
         taskSlot = tracker.get_slot('jobTask')
         domainSlot = tracker.get_slot('domain')
         technologySlot = tracker.get_slot('technology')
-        # possibleTaskSlot = tracker.get_slot('possibleTasks')
-        # possibleTechnologySlot = tracker.get_slot('possibleTechnologies')
-        # possibleDomainSlot = tracker.get_slot('possibleDomains')
 
         # for given task and domain: ask for technologies
         if taskSlot is not None and domainSlot is not None:
@@ -82,37 +79,37 @@ class ActionMatchJobSlots(Action):
                 SlotSet("possibleTechnologies", possibleTechnologies),
                 FollowupAction("utter_askTechnology")]
 
-        # for given task and technology differentiate between 1 or more than 1 possible domain
+        # for given task and technology: differentiate between 1 or more than 1 possible domain
         elif taskSlot is not None and technologySlot is not None:
 
             possibleDomains = get_domain_for_task_and_tech(
                 taskSlot, technologySlot)
 
-            # if only 1 domain is possible automatically set it and proceed with action_find_job
-            if len(possibleDomains) < 2:
+            # if only 1 domain is possible: automatically set it and proceed with action_find_job
+            if len(possibleDomains) == 1:
                 return [
                     SlotSet("domain", possibleDomains),
                     FollowupAction("action_find_job")]
 
-            # if more than 1 domain is possible: ask for domain
+            # if none or more than 1 domain is possible: ask for domain
             else:
                 return [
                     SlotSet("possibleDomains", possibleDomains),
                     FollowupAction("utter_askDomain")]
 
-        # for given domain and technology: present a list of all possible tasks to choose from
+        # for given domain and technology: differentiate between 1 or more than 1 possible task
         elif domainSlot is not None and technologySlot is not None:
 
             possibleTasks = get_task_for_domain_and_tech(
                 domainSlot, technologySlot)
 
-            # if only 1 task is possible automatically set it and proceed with action_find_job
-            if len(possibleTasks) < 2:
+            # if only 1 task is possible: automatically set it and proceed with action_find_job
+            if len(possibleTasks) == 1:
                 return [
                     SlotSet("jobTask", possibleTasks),
                     FollowupAction("action_find_job")]
 
-            # if more than 1 task is possible: ask for task
+            # if non or more than 1 task is possible: ask for task
             else:
                 return [
                     SlotSet("possibleTasks", possibleTasks),
@@ -123,55 +120,67 @@ class ActionMatchJobSlots(Action):
             possibleDomains = get_domain_for_task(taskSlot)
             possibleTechnologies = get_technology_for_task(taskSlot)
 
-            # if only 1 domain is possible automatically set it
-            if len(possibleDomains) < 2:
-                SlotSet("domain", possibleDomains)
+            # if only 1 domain is possible: automatically set it and ask for technology
+            if len(possibleDomains) == 1:
+                return[
+                    SlotSet("possibleTechnologies", possibleTechnologies),
+                    SlotSet("domain", possibleDomains)
+                    FollowupAction("utter_askTechnology")]
 
-            return [
-                SlotSet("possibleTechnologies", possibleTechnologies),
-                SlotSet("possibleDomains", possibleDomains),
-                FollowupAction("utter_askTechnology")]
+            # if non or more than 1 domain is possible: ask for technology
+            else:
+                return [
+                    SlotSet("possibleTechnologies", possibleTechnologies),
+                    SlotSet("possibleDomains", possibleDomains),
+                    FollowupAction("utter_askTechnology")]
 
         elif domainSlot is not None:
 
             possibleTasks = get_task_for_domain(domainSlot)
             possibleTechnologies = get_technology_for_domain(domainSlot)
 
-            # if only 1 task is possible automatically set it
-            if len(possibleTasks) < 2:
-                SlotSet("jobTask", possibleTasks)
+            # if only 1 task is possible: automatically set it and ask for technology
+            if len(possibleTasks) == 1:
+                return[
+                    SlotSet("possibleTechnologies", possibleTechnologies),
+                    SlotSet("jobTask", possibleTasks)
+                    FollowupAction("utter_askTechnology")]
 
-            return [
-                SlotSet("possibleTechnologies", possibleTechnologies),
-                SlotSet("possibleTasks", possibleTasks),
-                FollowupAction("utter_askTechnology")]
+            # if non or more than 1 task is possible: ask for domain
+            else:
+                return [
+                    SlotSet("possibleTechnologies", possibleTechnologies),
+                    SlotSet("possibleTasks", possibleTasks),
+                    FollowupAction("utter_askTask")]
 
         elif technologySlot is not None:
             possibleDomains = get_domain_for_technology(technologySlot)
             possibleTasks = get_task_for_technology(technologySlot)
 
-            # if only 1 task is possible and only 1 domain is possible automatically set both
-            if len(possibleTasks) < 2 and len(possibleDomains) < 2:
+            # if only 1 task is possible and only 1 domain is possible:
+            # automatically set both and proceed with action_find_job
+            if len(possibleTasks) == 1 and len(possibleDomains) == 1:
                 return [
                     SlotSet("jobTask", possibleTasks),
                     SlotSet("domain", possibleDomains),
                     FollowupAction("action_find_job")]
 
-            # if only 1 task is possible automatically set it
-            elif len(possibleTasks) < 2:
+            # if only 1 task is possible: automatically set it and ask for domain
+            elif len(possibleTasks) == 1:
                 print("possibleTasks: ", possibleTasks)
                 return [
                     SlotSet("jobTask", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
                     FollowupAction("utter_askDomain")]
 
-            # if only 1 domain is possible automatically set it
-            elif len(possibleDomains) < 2:
+            # if only 1 domain is possible: automatically set it and ask for task
+            elif len(possibleDomains) == 1:
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("domain", possibleDomains),
                     FollowupAction("utter_askTask")]
 
+            # if non or more than 1 in both slots is possible: ask for task
             else:
                 return [
                     SlotSet("possibleTasks", possibleTasks),
