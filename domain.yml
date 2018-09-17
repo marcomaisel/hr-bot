@@ -73,10 +73,10 @@ templates:
     - text: "Mit welchen Technologien würdest du gerne arbeiten?"
 
   utter_askJobTask:
-    - text: "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten sind: {possibleTasks}"
+    - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
 
   utter_askDomain:
-    - text: "In welchem Bereich würdest du gerne arbeiten? Mögliche Bereiche sind: {possibleDomains}"
+    - text: "In welchem Bereich würdest du gerne arbeiten?"
 
   utter_askFormOfEmployment:
     - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"

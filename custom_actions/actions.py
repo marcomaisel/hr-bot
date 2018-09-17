@@ -11,13 +11,13 @@ class ActionFindExistingJob(Action):
     def run(self, dispatcher, tracker, domain):
         jobs = [
             {"name": "Werkstudent Software-Entwicklung", "formOfEmployment": "student",
-             "jobTask": "entwicklung", "domain": ["web", "mobile"], "technology": ["java ee", "java"]},
+                "jobTask": "entwicklung", "domain": ["web", "mobile"], "technology": ["java ee", "java"]},
 
             {"name": "Webdesigner", "formOfEmployment": "vollzeit", "jobTask": "design",
-             "domain": ["web"], "technology": ["photoshop", "html", "css", "javascript"]},
+                "domain": ["web"], "technology": ["photoshop", "html", "css", "javascript"]},
 
-            {"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design",
-             "domain": ["web"], "technology": "photoshop"}
+            {"name": "Praktikant Webdesign", "formOfEmployment": "praktikum",
+                "jobTask": "design", "domain": ["web"], "technology": "photoshop"}
         ]
 
         foundJobs = []
@@ -93,9 +93,17 @@ class ActionMatchJobSlots(Action):
 
             # if none or more than 1 domain is possible: ask for domain
             else:
+                # Create a message for the user with a list of names of all possible domains, separated by comma
+                possibleDomainMessage = ", ".join([d for d in possibleDomains])
+
+                # Send message with all found possible domains to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "In welchem Bereich würdest du gerne arbeiten? Mögliche Bereiche, die ich für dich finden konnte, sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage))
+
                 return [
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askDomain")]
+                    FollowupAction("action_listen")]
 
         # for given domain and technology: differentiate between 1 or more than 1 possible task
         elif domainSlot is not None and technologySlot is not None:
@@ -111,9 +119,18 @@ class ActionMatchJobSlots(Action):
 
             # if non or more than 1 task is possible: ask for task
             else:
+                # Create a message for the user with a list of names of all possible tasks, separated by comma
+                possibleTaskMessage = ", ".join(
+                    [t for t in possibleTasks])
+
+                # Send message with all found possible tasks to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten, die ich für dich finden konnte, sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage)),
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("action_listen")]
 
         elif taskSlot is not None:
 
@@ -124,7 +141,7 @@ class ActionMatchJobSlots(Action):
             if len(possibleDomains) == 1:
                 return[
                     SlotSet("possibleTechnologies", possibleTechnologies),
-                    SlotSet("domain", possibleDomains)
+                    SlotSet("domain", possibleDomains),
                     FollowupAction("utter_askTechnology")]
 
             # if non or more than 1 domain is possible: ask for technology
@@ -143,15 +160,24 @@ class ActionMatchJobSlots(Action):
             if len(possibleTasks) == 1:
                 return[
                     SlotSet("possibleTechnologies", possibleTechnologies),
-                    SlotSet("jobTask", possibleTasks)
+                    SlotSet("jobTask", possibleTasks),
                     FollowupAction("utter_askTechnology")]
 
             # if non or more than 1 task is possible: ask for domain
             else:
+                # Create a message for the user with a list of names of all possible tasks, separated by comma
+                possibleTaskMessage = ", ".join(
+                    [t for t in possibleTasks])
+
+                # Send message with all found possible tasks to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten für deinen gewählten Bereich sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage)),
+
                 return [
                     SlotSet("possibleTechnologies", possibleTechnologies),
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("action_listen")]
 
         elif technologySlot is not None:
             possibleDomains = get_domain_for_technology(technologySlot)
@@ -167,25 +193,50 @@ class ActionMatchJobSlots(Action):
 
             # if only 1 task is possible: automatically set it and ask for domain
             elif len(possibleTasks) == 1:
-                print("possibleTasks: ", possibleTasks)
+                # Create a message for the user with a list of names of all possible domains, separated by comma
+                possibleDomainMessage = ", ".join([d for d in possibleDomains])
+
+                # Send message with all found possible domains to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "In welchem Bereich würdest du gerne arbeiten? Mögliche Bereiche, die ich für dich finden konnte, sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage))
+
                 return [
                     SlotSet("jobTask", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askDomain")]
+                    FollowupAction("action_listen")]
 
             # if only 1 domain is possible: automatically set it and ask for task
             elif len(possibleDomains) == 1:
+                # Create a message for the user with a list of names of all possible tasks, separated by comma
+                possibleTaskMessage = ", ".join(
+                    [t for t in possibleTasks])
+
+                # Send message with all found possible tasks to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten, die ich für dich finden konnte, sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage))
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("domain", possibleDomains),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("action_listen")]
 
             # if non or more than 1 in both slots is possible: ask for task
             else:
+                # Create a message for the user with a list of names of all possible tasks, separated by comma
+                possibleTaskMessage = ", ".join(
+                    [t for t in possibleTasks])
+
+                # Send message with all found possible tasks to the user with the dispatcher object
+                dispatcher.utter_message(
+                    "Welche Tätigkeit möchtest du bei uns ausführen? Mögliche Tätigkeiten, die ich für dich finden konnte, sind:"),
+                dispatcher.utter_message("{}".format(possibleTaskMessage))
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("action_listen")]
 
             # for job in jobs:
             #     # Store the values of each key for all job dictionaries in the jobs list
