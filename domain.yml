@@ -6,7 +6,7 @@ intents:
   - introduction
   - findExistingJob
   - findJob
-  - testIntent
+  - show_interest
 
 entities:
   - nameApplicant
@@ -15,9 +15,6 @@ entities:
   - domain
   - jobTask
   - desiredJob
-  - currentJob
-  - universityCourse
-  - university
 
 slots:
   nameApplicant:
@@ -52,6 +49,7 @@ actions:
 - action_find_job
 - action_match_job_slots
 - utter_greet
+- utter_ask_job_intention
 - utter_bye
 - utter_youarewelcome
 - utter_askJobTask
@@ -61,7 +59,10 @@ actions:
 
 templates:
   utter_greet:
-    - text: "Hallo! Wie kann ich dir behilflich sein?"
+    - text: "Hallo {nameApplicant}! Wie kann ich dir behilflich sein?"
+
+  utter_ask_job_intention:
+    - text: "Hast du bereits eine konkrete Stelle gefunden oder kann ich dich bei der Suche unterstützen? Gerne helfe ich dir beim Finden einer für dich passenden Stelle"
 
   utter_bye:
     - text: "Machs gut {nameApplicant}"
