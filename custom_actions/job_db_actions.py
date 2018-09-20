@@ -64,7 +64,6 @@ def get_domain_for_technology(inTech):
             result = select(
                 tech for tech in Technology if tech.name == techResult)[:]
             for tech in result:
-
                 for domain in tech.domains:
                     if domain.name not in domainName:
                         domainName.append(domain.name)
@@ -224,46 +223,61 @@ def get_technology_for_task_and_domain(inTask, inDomain):
 def populate_database():
 
     # Tasks
-    entwicklung = Task(name='entwicklung')
-    design = Task(name='design')
+    entwickeln = Task(name='entwickeln')
+    designen = Task(name='designen')
+    administrieren = Task(name='administrieren')
+    coachen = Task(name='coachen')
+    analysieren = Task(name='analysieren')
 
     # Domains
-    web = Domain(name="web", tasks=[entwicklung, design], otherDomains=[])
+    web = Domain(name="web", tasks=[entwickeln,
+                                    designen, coachen], otherDomains=[])
     mobile = Domain(name="mobile", tasks=[
-                    entwicklung, design], otherDomains=[])
-    backend = Domain(name="backend", tasks=[entwicklung], otherDomains=[])
-    devops = Domain(name="devops", tasks=[entwicklung], otherDomains=[])
+                    entwickeln, designen, coachen], otherDomains=[])
+    backend = Domain(name="backend", tasks=[
+                     entwickeln, coachen], otherDomains=[])
+    devops = Domain(name="devops", tasks=[
+                    entwickeln, coachen], otherDomains=[])
     frontend = Domain(name="frontend", tasks=[
-                      entwicklung], otherDomains=[web, mobile])
-    fullstack = Domain(name="fullstack", tasks=[entwicklung], otherDomains=[
+                      entwickeln, designen, coachen], otherDomains=[web, mobile])
+    fullstack = Domain(name="fullstack", tasks=[entwickeln, coachen], otherDomains=[
                        web, mobile, backend, frontend])
+    agile = Domain(name="agile", tasks=[coachen, entwickeln], otherDomains=[])
+    data_science = Domain(name="data science", tasks=[
+                          analysieren, ], otherDomains=[])
+    security = Domain(name="security", tasks=[
+                      analysieren, entwickeln], otherDomains=[])
+    # = Domain(name="agile", tasks=[coachen, entwickeln], otherDomains=[])
+    # = Domain(name="agile", tasks=[coachen, entwickeln], otherDomains=[])
+    # = Domain(name="agile", tasks=[coachen, entwickeln], otherDomains=[])
+    # = Domain(name="agile", tasks=[coachen, entwickeln], otherDomains=[])
 
     # Technologies
     angular = Technology(name='angular', tasks=[
-                         entwicklung], domains=[frontend, web, fullstack])
-    java = Technology(name='java', tasks=[entwicklung], domains=[
+                         entwickeln], domains=[frontend, web, fullstack])
+    java = Technology(name='java', tasks=[entwickeln], domains=[
                       frontend, backend, fullstack, mobile, web])
-    kotlin = Technology(name='kotlin', tasks=[entwicklung], domains=[
+    kotlin = Technology(name='kotlin', tasks=[entwickeln], domains=[
                         backend, fullstack, mobile])
-    swift = Technology(name='swift', tasks=[entwicklung], domains=[
+    swift = Technology(name='swift', tasks=[entwickeln], domains=[
                        backend, fullstack, mobile])
-    typescript = Technology(name='typescript', tasks=[entwicklung], domains=[
+    typescript = Technology(name='typescript', tasks=[entwickeln], domains=[
                             frontend, backend, fullstack, mobile, web])
-    javascript = Technology(name='javascript', tasks=[entwicklung], domains=[
+    javascript = Technology(name='javascript', tasks=[entwickeln], domains=[
                             frontend, backend, fullstack, mobile, web])
-    c = Technology(name='c', tasks=[entwicklung], domains=[backend, fullstack])
+    c = Technology(name='c', tasks=[entwickeln], domains=[backend, fullstack])
     csharp = frontend, backend, fullstack, mobile, web
 
-    docker = Technology(name='docker', tasks=[entwicklung], domains=[devops])
+    docker = Technology(name='docker', tasks=[entwickeln], domains=[devops])
     openshift = Technology(name='openshift', tasks=[
-                           entwicklung], domains=[devops])
+                           entwickeln], domains=[devops])
     ci = Technology(name='continuous integration', tasks=[
-                    entwicklung], domains=[devops])
+                    entwickeln], domains=[devops])
     cd = Technology(name='continuous deployment', tasks=[
-                    entwicklung], domains=[devops])
+                    entwickeln], domains=[devops])
 
     photoshop = Technology(name='photoshop', tasks=[
-        design], domains=[web, mobile, frontend])
+        designen], domains=[web, mobile, frontend])
 
     commit()
 
@@ -272,12 +286,12 @@ if __name__ == "__main__":
     with db_session:
         if Technology.select().first() is None:
             populate_database()
-    # get_domain_for_technology(['angular'])
+    get_domain_for_technology(['angular'])
     # get_task_for_technology(['angular', 'photoshop', 'swift'])
-    # get_technology_for_task(['entwicklung'])
-    # get_domain_for_task(['entwicklung'])
+    # get_technology_for_task(['entwickeln'])
+    # get_domain_for_task(['entwickeln'])
     # get_task_for_domain(['web'])
     # get_technology_for_domain(['web'])
     # get_task_for_domain_and_tech(['web', 'mobile'], ['angular', 'kotlin'])
-    # get_domain_for_task_and_tech(['entwicklung'], ['angular'])
-    # get_technology_for_task_and_domain(['entwicklung'], ['web'])
+    # get_domain_for_task_and_tech(['entwickeln'], ['angular'])
+    # get_technology_for_task_and_domain(['entwickeln'], ['web'])

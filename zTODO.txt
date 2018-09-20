@@ -3,5 +3,5 @@
 
 
 
-
+- Value Proposition Canvas
 - "Mein Name ist nicht ...." -> Change-Name Intent

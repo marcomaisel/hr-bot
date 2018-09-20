@@ -15,8 +15,8 @@
     - utter_greet
 * findJob
     - utter_askJobTask
-* enterData{"jobTask": "design"}
-    - slot{"jobTask": "design"}
+* enterData{"jobTask": "designen"}
+    - slot{"jobTask": "designen"}
     - utter_askDomain
 * enterData{"domain": "web"}
     - slot{"domain": "web"}
@@ -27,13 +27,13 @@
 * enterData{"formOfEmployment": "praktikum"}
     - slot{"formOfEmployment": "praktikum"}
     - action_find_job
-    - slot{"jobs": [{"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "design", "domain": ["web"], "technology": "photoshop"}]}
+    - slot{"jobs": [{"name": "Praktikant Webdesign", "formOfEmployment": "praktikum", "jobTask": "designen", "domain": ["web"], "technology": "photoshop"}]}
 
 ## FindJob
 * findJob
     - utter_askJobTask
-* enterData{"jobTask": "entwicklung"}
-    - slot{"jobTask": "entwicklung"}
+* enterData{"jobTask": "entwickeln"}
+    - slot{"jobTask": "entwickeln"}
     - utter_askDomain
 * enterData{"domain": "mobile"}
     - slot{"domain": "mobile"}
