@@ -1,7 +1,2 @@
-- Domains und Tasks festlegen
-
-
-
-
 - Value Proposition Canvas
 - "Mein Name ist nicht ...." -> Change-Name Intent
