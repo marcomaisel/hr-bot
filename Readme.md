@@ -26,7 +26,8 @@ python3 -m rasa_core.train -d domain.yml -s data/core/stories.md -o models/dialo
 To train the NLU model: 
 
 ```
-python3 -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose```
+python3 -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose
+```
 
 To run the bot with both these models:
 ```
@@ -49,12 +50,23 @@ python3 -m rasa_core.train --online -o models/dialogue -d domain.yml -s data/cor
 
 To run the bot on the website install rasa-addons:
 ```
-pip install rasa-addons
+pip install rasa-addons (currently not working with master branch)
 ```
+
+Serve the website containing the chat widget:
+```
+cd static
+```
+```
+python -m http.server 5100
+```
+
 Launch the website backend:
 ```
-python website.py
+python3 website.py
 ```
+
+The website can be found on http://localhost:5100/index.html
 
 ## Overview of the files
 
