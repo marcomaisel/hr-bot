@@ -6,6 +6,11 @@
             "class": "rasa_nlu.tokenizers.whitespace_tokenizer.WhitespaceTokenizer"
         },
         {
+            "name": "intent_entity_featurizer_regex",
+            "regex_file": "regex_featurizer.json",
+            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+        },
+        {
             "BILOU_flag": true,
             "features": [
                 [
@@ -40,7 +45,7 @@
             "class": "rasa_nlu.extractors.crf_entity_extractor.CRFEntityExtractor"
         },
         {
-            "token_pattern": "(?u)\\b\\w+\\b",
+            "token_pattern": "(?u)\\b\\w\\w+\\b",
             "strip_accents": null,
             "stop_words": null,
             "min_df": 1,
@@ -49,7 +54,7 @@
             "max_ngram": 1,
             "max_features": null,
             "lowercase": true,
-            "OOV_token": "oov",
+            "OOV_token": null,
             "OOV_words": [],
             "name": "intent_featurizer_count_vectors",
             "featurizer_file": "intent_featurizer_count_vectors.pkl",
@@ -77,8 +82,8 @@
             "C2": 0.002,
             "C_emb": 0.8,
             "droprate": 0.2,
-            "intent_tokenization_flag": false,
-            "intent_split_symbol": "_",
+            "intent_tokenization_flag": true,
+            "intent_split_symbol": "+",
             "evaluate_every_num_epochs": 10,
             "evaluate_on_num_examples": 1000,
             "name": "intent_classifier_tensorflow_embedding",
@@ -87,6 +92,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20180916-153319",
+    "trained_at": "20181002-150458",
     "rasa_nlu_version": "0.13.3"
 }

@@ -1,12 +1,8 @@
-from rasa_addons.webchat import WebChatInput, SocketInputChannel
-from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.agent import Agent
+from rasa_core.channels.socketio import SocketIOInput
 import os
 import sys
 
-#interpreter = RasaNLUInterpreter("models/current/nlu/")
 agent = Agent.load("models/dialogue/", "models/current/nlu/")
 
-input_channel = WebChatInput(static_assets_path=os.path.join(
-    os.path.dirname(os.path.realpath(__file__)), 'index.html'))
-agent.handle_channels(SocketInputChannel(5500, "/bot", input_channel))
+agent.handle_channels([SocketIOInput()], 5500, serve_forever=True)
