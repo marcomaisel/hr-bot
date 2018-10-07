@@ -1,12 +1,10 @@
 intents:
-  - enterData
+  - enter_data
   - greet
   - thankyou
   - goodbye
   - introduction
-  - findExistingJob
-  - findJob
-  - show_interest
+  - find_job
 
 entities:
   - nameApplicant
@@ -14,7 +12,7 @@ entities:
   - technology
   - domain
   - jobTask
-  - desiredJob
+  - jobName
 
 slots:
   nameApplicant:
@@ -83,10 +81,10 @@ templates:
     - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"
       buttons:
       - title: "Vollzeit"
-        payload: '/enterData{"formOfEmployment": "vollzeit"}'
+        payload: '/enter_data{"formOfEmployment": "vollzeit"}'
       - title: "Teilzeit"
-        payload: '/enterData{"formOfEmployment": "teilzeit"}'
+        payload: '/enter_data{"formOfEmployment": "teilzeit"}'
       - title: "Werkstudent"
-        payload: '/enterData{"formOfEmployment": "student"}'
+        payload: '/enter_data{"formOfEmployment": "student"}'
       - title: "Praktikum"
-        payload: '/enterData{"formOfEmployment": "praktikum"}'
+        payload: '/enter_data{"formOfEmployment": "praktikum"}'

@@ -124,7 +124,7 @@ class ActionMatchJobSlots(Action):
             if len(possibleDomains) == 1:
                 return[
                     SlotSet("possibleTechnologies", possibleTechnologies),
-                    SlotSet("domain", possibleDomains)
+                    SlotSet("domain", possibleDomains),
                     FollowupAction("utter_askTechnology")]
 
             # if non or more than 1 domain is possible: ask for technology
@@ -143,7 +143,7 @@ class ActionMatchJobSlots(Action):
             if len(possibleTasks) == 1:
                 return[
                     SlotSet("possibleTechnologies", possibleTechnologies),
-                    SlotSet("jobTask", possibleTasks)
+                    SlotSet("jobTask", possibleTasks),
                     FollowupAction("utter_askTechnology")]
 
             # if non or more than 1 task is possible: ask for domain

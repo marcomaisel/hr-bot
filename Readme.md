@@ -29,6 +29,12 @@ To train the NLU model:
 python3 -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose
 ```
 
+To evaluate the NLU model: 
+
+```
+python3 -m rasa_nlu.evaluate --config config_tensorflow.yml --data data/nlu/nlu.json --mode crossvalidation
+```
+
 To run the bot with both these models:
 ```
 python3 -m rasa_core.run -d models/dialogue -u models/current/nlu --endpoints endpoints.yml
@@ -44,7 +50,7 @@ python3 -m rasa_core_sdk.endpoint --actions actions
 ```
 
 ```
-python3 -m rasa_core.train --online -o models/dialogue -d domain.yml -s data/core/stories.md --endpoints endpoints.yml
+python3 -m rasa_core.train -u models/current/nlu/ --online -o models/dialogue -d domain.yml -s data/core/stories.md --endpoints endpoints.yml
 
 ```
 
@@ -58,7 +64,7 @@ Serve the website containing the chat widget:
 cd static
 ```
 ```
-python -m http.server 5100
+python3 -m http.server 5100
 ```
 
 Launch the website backend:

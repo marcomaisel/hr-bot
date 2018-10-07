@@ -2,13 +2,13 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "formOfEmployment",
         "domain",
         "technology",
-        "jobTask",
-        "formOfEmployment"
+        "jobTask"
       ]
     },
-    "utter_greet": {
+    "utter_youarewelcome": {
       "slots": []
     },
     "action_find_job": {
@@ -16,15 +16,15 @@
         "jobs"
       ]
     },
-    "utter_youarewelcome": {
+    "utter_greet": {
       "slots": []
     },
     "utter_bye": {
       "slots": []
     }
   },
-  "rasa_core": "0.11.3",
-  "python": "3.6.6",
+  "rasa_core": "0.11.11",
+  "python": "3.6.2",
   "max_histories": [
     null,
     3,

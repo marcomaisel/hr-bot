@@ -257,6 +257,8 @@ def populate_database():
     testing = Domain(name="testing", tasks=[
         entwickeln, analysieren], otherDomains=[])
     recht = Domain(name="recht", tasks=[administrieren], otherDomains=[])
+    consulting = Domain(name="consulting", tasks=[], otherDomains=[])
+    marketing = Domain(name="marketing", tasks=[], otherDomains=[])
 
     # Technologies
     angular = Technology(name='angular', tasks=[
@@ -312,13 +314,15 @@ def populate_database():
         name='scikit-learn', tasks=[entwickeln], domains=[data_science, machine_learning])
     rasa = Technology(name='rasa', tasks=[entwickeln], domains=[
         mobile, backend, fullstack, machine_learning])
+    cui = Technology(name='cui', tasks=[entwickeln], domains=[
+        mobile, backend, fullstack, machine_learning])
     dialogflow = Technology(name='dialogflow', tasks=[entwickeln], domains=[
         mobile, backend, fullstack, machine_learning])
     alexa = Technology(name='alexa', tasks=[entwickeln], domains=[
         mobile, backend, fullstack, machine_learning])
     snips = Technology(name='snips', tasks=[
         entwickeln], domains=[machine_learning])
-    clustering = Technology(name='dialogflow', tasks=[entwickeln], domains=[
+    clustering = Technology(name='clustering', tasks=[entwickeln], domains=[
         machine_learning, data_science])
     watson = Technology(name='watson', tasks=[
         entwickeln], domains=[machine_learning])
@@ -416,7 +420,7 @@ def populate_database():
 
     prozessdesign = Technology(name='prozessdesign', tasks=[
         administrieren, designen], domains=[business])
-    prozessanalyse = Technology(name='prozessdesign', tasks=[
+    prozessanalyse = Technology(name='prozessanalyse', tasks=[
         administrieren, analysieren], domains=[business])
     businessanalyse = Technology(name='businessanalyse', tasks=[
         administrieren, analysieren], domains=[business])
@@ -431,6 +435,8 @@ def populate_database():
     personalverwaltung = Technology(name='personalverwaltung', tasks=[
         administrieren], domains=[personal])
     projektplan = Technology(name='projektplan', tasks=[
+        administrieren], domains=[business])
+    projektmanagement = Technology(name='projektmanagement', tasks=[
         administrieren], domains=[business])
     gantt = Technology(name='gantt', tasks=[
         administrieren], domains=[business])

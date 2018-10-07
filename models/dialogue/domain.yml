@@ -19,9 +19,9 @@ entities:
 - technology
 - domain
 - jobTask
-- desiredJob
+- jobName
 intents:
-- enterData:
+- enter_data:
     use_entities: true
 - greet:
     use_entities: true
@@ -31,11 +31,7 @@ intents:
     use_entities: true
 - introduction:
     use_entities: true
-- findExistingJob:
-    use_entities: true
-- findJob:
-    use_entities: true
-- show_interest:
+- find_job:
     use_entities: true
 slots:
   domain:
@@ -70,13 +66,13 @@ templates:
   - text: In welchem Bereich würdest du gerne arbeiten?
   utter_askFormOfEmployment:
   - buttons:
-    - payload: '/enterData{"formOfEmployment": "vollzeit"}'
+    - payload: '/enter_data{"formOfEmployment": "vollzeit"}'
       title: Vollzeit
-    - payload: '/enterData{"formOfEmployment": "teilzeit"}'
+    - payload: '/enter_data{"formOfEmployment": "teilzeit"}'
       title: Teilzeit
-    - payload: '/enterData{"formOfEmployment": "student"}'
+    - payload: '/enter_data{"formOfEmployment": "student"}'
       title: Werkstudent
-    - payload: '/enterData{"formOfEmployment": "praktikum"}'
+    - payload: '/enter_data{"formOfEmployment": "praktikum"}'
       title: Praktikum
     text: In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?
   utter_askJobTask:

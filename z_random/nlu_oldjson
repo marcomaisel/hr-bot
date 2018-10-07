@@ -1,0 +1,3198 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [{
+        "text": "Hallo. Ich bin auf der Suche nach einer Arbeitsstelle auf diese Seite gelangt.",
+        "intent": "introduction+find_job",
+        "entities": []
+      },
+      {
+        "text": "Hallo, mein Name ist Hans.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 25,
+          "value": "Hans",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Sehr geehrte Damen und Herren, mein Name ist Janina.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 45,
+          "end": 51,
+          "value": "Janina",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Lukas.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 30,
+          "value": "Lukas",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Morgen, ich bin der Alex",
+        "intent": "introduction",
+        "entities": [{
+          "start": 26,
+          "end": 30,
+          "value": "Alex",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Abend, mein Name ist Fati.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 27,
+          "end": 31,
+          "value": "Fati",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Daniel.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Daniel",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo Chatbot, ich heiße Laura und freue mich mich heute bei Dir vorstellen zu dürfen.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 30,
+          "value": "Laura",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo ich bin Corinna und bin auf eure ausgeschriebenen Stellen aufmerksam geworden.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 14,
+          "end": 21,
+          "value": "Corinna",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Christof und ich würde mich gerne auf eine Stelle bewerben.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 21,
+          "end": 29,
+          "value": "Christof",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi Bot, ich bin Marcel. Ich würde mich gerne bei euch bewerben.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 16,
+          "end": 22,
+          "value": "Marcel",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Korbinian. Ich würde mich gerne auf eine Stelle bewerben",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 25,
+          "end": 34,
+          "value": "Korbinian",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo mein Name ist Mark und ich suche einen Job als Werkstudent",
+        "intent": "introduction+find_job",
+        "entities": [{
+            "start": 20,
+            "end": 24,
+            "value": "Mark",
+            "entity": "nameApplicant"
+          },
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Sehr geehrte Damen und Herren, meine Name ist Melissa und ich bin im Internet auf Ihre Anzeige gestoßen.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 46,
+          "end": 53,
+          "value": "Melissa",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Stephanie.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 30,
+          "value": "Stephanie",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo! Mein Name ist Conny",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 26,
+          "value": "Conny",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Nick.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 25,
+          "value": "Nick",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Sabine.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Sabine",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin der Laurenz.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 19,
+          "end": 26,
+          "value": "Laurenz",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, hier ist Martin.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 20,
+          "end": 26,
+          "value": "Martin",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin Tim",
+        "intent": "introduction",
+        "entities": [{
+          "start": 12,
+          "end": 15,
+          "value": "Tim",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Servus, ich bin der Max",
+        "intent": "introduction",
+        "entities": [{
+          "start": 20,
+          "end": 23,
+          "value": "Max",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Mein Name ist Caroline und bin 27 Jahre alt.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 14,
+          "end": 22,
+          "value": "Caroline",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin Susanne.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 12,
+          "end": 19,
+          "value": "Susanne",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Almut.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 30,
+          "value": "Almut",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Julian. Ich bin 24 Jahre alt",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Julian",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Daniel",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Daniel",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Morgen, mein Name ist Judith",
+        "intent": "introduction",
+        "entities": [{
+          "start": 28,
+          "end": 34,
+          "value": "Judith",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Abend, ich bin Stefanie",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Sehr geehrte Damen und Herren, mein Name ist Mona",
+        "intent": "introduction",
+        "entities": [{
+          "start": 45,
+          "end": 49,
+          "value": "Mona",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich heiße Manuel",
+        "intent": "introduction",
+        "entities": [{
+          "start": 17,
+          "end": 23,
+          "value": "Manuel",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Stefan",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Stefan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Ich heiße Carina",
+        "intent": "introduction",
+        "entities": [{
+          "start": 10,
+          "end": 16,
+          "value": "Carina",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Marco",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 20,
+          "value": "Marco",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Peter",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 30,
+          "value": "Peter",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Guten Tag",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Guten Morgen",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Guten Abend",
+        "intent": "introduction",
+        "entities": []
+      },
+      {
+        "text": "Guten Tag, mein Name ist Stefan.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 31,
+          "value": "Stefan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Liebes Team, mein Name ist Stefanie. Ich interessiere mich sehr für Ihre Firma und würde mich freuen, ein Teil ihres Teams zu werden!",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 27,
+          "end": 35,
+          "value": "Stefanie",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin die Lisa.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 16,
+          "end": 20,
+          "value": "Lisa",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Christian.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 30,
+          "value": "Christian",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Servus, ich bin die Johanna.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 20,
+          "end": 27,
+          "value": "Johanna",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Theresia. Ich bin 22 Jahre alt und komme aus Jena.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 23,
+          "value": "Theresia",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 28,
+          "end": 32,
+          "value": "Anna",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 21,
+          "end": 24,
+          "value": "Jan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Mein Name ist Marco und ich würde mich gerne bewerben.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 14,
+          "end": 19,
+          "value": "Marco",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, ich bin Jonas. Auf der Suche nach einem Job bin ich auf euere Seite gelangt.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 19,
+          "end": 24,
+          "value": "Jonas",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 28,
+          "end": 32,
+          "value": "Anna",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 21,
+          "end": 24,
+          "value": "Jan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hey, ich bin der Sebastian, 30 Jahre alt und komme aus dem schönen Alpenvorland.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 17,
+          "end": 26,
+          "value": "Sebastian",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Liebes Team, mein Name ist Elise",
+        "intent": "introduction",
+        "entities": [{
+          "start": 27,
+          "end": 32,
+          "value": "Elise",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Moin. Ich bin der Ferdinand, Bachelor-Student im Fach Public Relations und auf der Suche nach einem Job ab sofort.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 18,
+          "end": 27,
+          "value": "Ferdinand",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Lieber Bot, ich bin die Lauren und bin Studentin im Fach Mathematik.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 24,
+          "end": 30,
+          "value": "Lauren",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin die Madeleine",
+        "intent": "introduction",
+        "entities": [{
+          "start": 16,
+          "end": 25,
+          "value": "Madeleine",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Sehr geehrte Damen und Herren, meine Name ist Sibylle. Ich bin 25 Jahre alt und Studentin",
+        "intent": "introduction",
+        "entities": [{
+          "start": 46,
+          "end": 53,
+          "value": "Sibylle",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo! :) Ich bin die Ana-Maria. Ich würde mich gerne über offene Stellen in Ihrem Unternehmen erkundigen.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 22,
+          "end": 31,
+          "value": "Ana-Maria",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Christian.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 30,
+          "value": "Christian",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Theresa. Ich würde mich gerne bei Ihnen vorstellen.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 25,
+          "end": 32,
+          "value": "Theresa",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Johann",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 21,
+          "value": "Johann",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Kristina. Ich bin auf der Suche nach einer Stelle.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 21,
+          "end": 29,
+          "value": "Kristina",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin Patrick",
+        "intent": "introduction",
+        "entities": [{
+          "start": 12,
+          "end": 19,
+          "value": "Patrick",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Roman und würde mich gerne bei Ihnen vorstellen.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 26,
+          "value": "Roman",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, mein Name ist Timo",
+        "intent": "introduction",
+        "entities": [{
+          "start": 18,
+          "end": 22,
+          "value": "Timo",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Benedict und ich interessiere mich für eine Stelle in Ihrem Unternehmen.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 21,
+          "end": 29,
+          "value": "Benedict",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag. Ich heiße Petra.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 26,
+          "value": "Petra",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin Robin",
+        "intent": "introduction",
+        "entities": [{
+          "start": 12,
+          "end": 17,
+          "value": "Robin",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Servus, ich bin der Adam",
+        "intent": "introduction",
+        "entities": [{
+          "start": 20,
+          "end": 24,
+          "value": "Adam",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Larissa",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 28,
+          "value": "Larissa",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Sehr geehrte Damen und Herren, ich heiße Abnet",
+        "intent": "introduction",
+        "entities": [{
+          "start": 41,
+          "end": 46,
+          "value": "Abnet",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin die Annalena",
+        "intent": "introduction",
+        "entities": [{
+          "start": 19,
+          "end": 27,
+          "value": "Annalena",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Grüß euch, ich bin der Bernhard",
+        "intent": "introduction",
+        "entities": [{
+          "start": 23,
+          "end": 31,
+          "value": "Bernhard",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Dean",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 29,
+          "value": "Dean",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin der Dominik. Nach Abschluss meines Bachelor-Studiums bin ich auf der Suche nach einem Job.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 16,
+          "end": 23,
+          "value": "Dominik",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hey, ich bin der Georg. Ich bin 23 Jahre alt und komme aus Nürnberg",
+        "intent": "introduction",
+        "entities": [{
+          "start": 17,
+          "end": 22,
+          "value": "Georg",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Frizzi",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 21,
+          "value": "Frizzi",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hey, ich bin Klaus.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 13,
+          "end": 18,
+          "value": "Klaus",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Louisa.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 27,
+          "value": "Louisa",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo zusammen. Ich bin Maja",
+        "intent": "introduction",
+        "entities": [{
+          "start": 24,
+          "end": 28,
+          "value": "Maja",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Morgen. Ich heiße Mario",
+        "intent": "introduction",
+        "entities": [{
+          "start": 18,
+          "end": 23,
+          "value": "Mario",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin Rebecca",
+        "intent": "introduction",
+        "entities": [{
+          "start": 12,
+          "end": 19,
+          "value": "Rebecca",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin die Sara und würde mich gerne bei Ihnen bewerben.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 19,
+          "end": 23,
+          "value": "Sara",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hey, ich bin der Simon und komme aus einem kleinen Dorf in der Nähe von Berlin.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 17,
+          "end": 22,
+          "value": "Simon",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin die Tami",
+        "intent": "introduction",
+        "entities": [{
+          "start": 19,
+          "end": 23,
+          "value": "Tami",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin der Uli.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 16,
+          "end": 19,
+          "value": "Uli",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Nino.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 19,
+          "value": "Nino",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo ich bin Stefan",
+        "intent": "introduction",
+        "entities": [{
+          "start": 14,
+          "end": 20,
+          "value": "Stefan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Martina.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 32,
+          "value": "Martina",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Monika.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 31,
+          "value": "Monika",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo! Mein Name ist Conny",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 26,
+          "value": "Conny",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin der Joost. Ich bin auf der Suche nach einer neuen Herausforderung.",
+        "intent": "introduction+find_job",
+        "entities": [{
+          "start": 16,
+          "end": 21,
+          "value": "Joost",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Jose",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 25,
+          "value": "Jose",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, mein Name ist Marc",
+        "intent": "introduction",
+        "entities": [{
+          "start": 18,
+          "end": 22,
+          "value": "Marc",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Tag, mein Name ist Michael.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 25,
+          "end": 32,
+          "value": "Michael",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, ich bin Stefan",
+        "intent": "introduction",
+        "entities": [{
+          "start": 15,
+          "end": 21,
+          "value": "Stefan",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Guten Morgen, ich bin Julia.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 22,
+          "end": 27,
+          "value": "Julia",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hi, ich bin die Nadine. Ich bin 22 Jahre alt",
+        "intent": "introduction",
+        "entities": [{
+          "start": 16,
+          "end": 22,
+          "value": "Nadine",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Hallo, mein Name ist Francis.",
+        "intent": "introduction",
+        "entities": [{
+          "start": 21,
+          "end": 28,
+          "value": "Francis",
+          "entity": "nameApplicant"
+        }]
+      },
+      {
+        "text": "Könnten Sie mir Informationen über die bei Ihnen vakanten Positionen geben?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Welche offenen Stellen gibt es?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Gibt des derzeit freie Stellen?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Sind Sie gerade auf der Suche nach neuen Mitarbeitern? Ich bin auf der Suche nach einem neuen Job.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Gibt es offene Stellen in Ihrem Unternehmen?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Welche Stellen sind derzeit zu besetzen?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Bitte zeig mir offene Stellen an.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Kannst du mir alle Stellen zeigen, die zur Zeit offen sind?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Können Sie mir offene Stellen in ihrer Firma zeigen?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Ich würde gerne wissen, welche Jobs im Moment zu besetzen sind.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Haben sie offene Stellen?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Zeigen sie mir offene Stellen.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Zeig mir doch bitte alle zu besetzenden Stellen an.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Ich möchte gerne in Erfahrung bringen, ob es gerade offene Stellen gibt.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Welche Möglichkeit in ihrer Firma zu arbeiten gibt es zur Zeit?",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Ich interessiere mich für offene Stellenanzeigen.",
+        "intent": "findExistingJob",
+        "entities": []
+      },
+      {
+        "text": "Ich möchte gerne in Erfahrung bringen, ob Sie denn noch PraktikantInnen aufnehmen.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 56,
+          "end": 71,
+          "value": "PraktikantInnen",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich würde gerne wissen, ob zur Zeit Praktikanten gesucht werden.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 36,
+          "end": 48,
+          "value": "Praktikanten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Sind Stellen für Praktikanten zu besetzen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 17,
+          "end": 29,
+          "value": "Praktikanten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Gibt es offene Stellen als Praktikant?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 27,
+          "end": 37,
+          "value": "Praktikant",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Werden im Moment Werkstudenten gesucht?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 17,
+          "end": 30,
+          "value": "Werkstudenten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Welche Positionen sind gerade offen eine Stelle in Teilzeit?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 51,
+          "end": 59,
+          "value": "Teilzeit",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Bieten sie Stellen für Praktikanten an?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 23,
+          "end": 35,
+          "value": "Praktikanten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ist es möglich bei Ihnen ein Praktikum zu absolvieren?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 29,
+          "end": 38,
+          "value": "Praktikum",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Sind Sie gerade auf der Suche nach Werkstudenten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 35,
+          "end": 48,
+          "value": "Werkstudenten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Gibt es die Möglichkeit bei Ihnen ein Praktikum zu absolvieren?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 38,
+          "end": 47,
+          "value": "Praktikum",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Kann man bei Ihnen als Werkstudent arbeiten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 23,
+          "end": 34,
+          "value": "Werkstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Besteht bei Ihnen im Moment Bedarf an Werkstudenten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 38,
+          "end": 51,
+          "value": "Werkstudenten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Habt ihr Stellen für Werkstudenten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 21,
+          "end": 34,
+          "value": "Werkstudenten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Welche Möglichkeit habe ich als Werkstudent in ihrem Unternehmen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 32,
+          "end": 43,
+          "value": "Werkstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich interessiere mich für eine Stelle als Werksstudent bei ihrer Firma. Wie kann ich mich auf diese Stelle bewerben?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 42,
+          "end": 54,
+          "value": "Werksstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich interessiere mich für ein Praktikum in Ihrem Unternehmen",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 30,
+          "end": 39,
+          "value": "Praktikum",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Durch meinen Abschluss des Studiums bin ich nun interessiert an einer Festanstellung in Ihrer Firma.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 70,
+          "end": 84,
+          "value": "Festanstellung",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich hätte großes Interesse an einem Praktikum in Ihrem Unternehmen.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 36,
+          "end": 45,
+          "value": "Praktikum",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Gibt es freie Stellen für Praktikanten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 26,
+          "end": 38,
+          "value": "Praktikanten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich würde mich gerne auf eine Stelle als Werksstudent bewerben. Welche Möglichkeiten habe ich im Moment in ihrem Unternehmen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 41,
+          "end": 53,
+          "value": "Werksstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich bin momentan auf der Suche nach einer Werkstudentenstelle. Welche Möglichkeiten habe ich denn dafür in eurer Firma?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 42,
+          "end": 61,
+          "value": "Werkstudentenstelle",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Konkret bin ich auf der Suche nach einer Stelle als Werkstudentin. Ich befinde mich gerade im 6 Semester meines Studiums und bin auf der Suche nach einer neuen Herausforderung.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 52,
+          "end": 65,
+          "value": "Werkstudentin",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich bin gerade auf der Suche nach einem sechsmonatigen Praktikumsplatz.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 55,
+          "end": 70,
+          "value": "Praktikumsplatz",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich habe Interesse an einer Stelle als Werkstudent.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 39,
+          "end": 50,
+          "value": "Werkstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich hätte gerne Informationen zu offenen Stellen für Werkstudenten.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 53,
+          "end": 66,
+          "value": "Werkstudenten",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Werden in nächster Zeit Praktikumsstellen besetzt?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 24,
+          "end": 41,
+          "value": "Praktikumsstellen",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Gibt es aktuell offene Praktikantenstellen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 23,
+          "end": 42,
+          "value": "Praktikantenstellen",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Haben Sie eine Stelle als Praktikant zu Verfügung?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 26,
+          "end": 36,
+          "value": "Praktikant",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Mich würde interessieren, ob ich in Ihrem Unternehmen in der Abteilung Conversational User Interfaces meine Fähigkeiten unter Beweis stellen kann.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 71,
+          "end": 101,
+          "value": "Conversational User Interfaces",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Haben Sie derzeit freie Stellen im Bereich Controlling?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 43,
+          "end": 54,
+          "value": "Controlling",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Haben sie offene Stellen im Bereich Projektmanagement?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 36,
+          "end": 53,
+          "value": "Projektmanagement",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Gibt es Stellen für Softwareentwickler Web?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 20,
+          "end": 42,
+          "value": "Softwareentwickler Web",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Habt ihr Stellen im Bereich Künstliche Intelligenz?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 28,
+          "end": 50,
+          "value": "Künstliche Intelligenz",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Wie sieht es mit Stellen im Bereich Data Science aus?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 36,
+          "end": 48,
+          "value": "Data Science",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich würde gerne bei Ihnen arbeiten. Ist eine Stelle im Bereich Personalwesen noch verfügbar?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 63,
+          "end": 76,
+          "value": "Personalwesen",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Hiermit bewerbe ich mich um eine Stelle im Consulting in Ihrem Unternehmen.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 43,
+          "end": 53,
+          "value": "Consulting",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich würde mich gerne auf eine Position in der iOS-Programmierung bewerben.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 46,
+          "end": 64,
+          "value": "iOS-Programmierung",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich würde gerne wissen, ob es Stellen im Bereich des Marketing gibt.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 53,
+          "end": 62,
+          "value": "Marketing",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich würde gerne eine Stelle im Controlling besetzen.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 31,
+          "end": 42,
+          "value": "Controlling",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Werden in nächster Zeit Positionen im Testing-Bereich besetzt?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 38,
+          "end": 53,
+          "value": "Testing-Bereich",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich interessiere mich für Stellen in der iOS-Entwicklung oder im Projektmanagement.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 41,
+            "end": 56,
+            "value": "iOS-Entwicklung",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 65,
+            "end": 82,
+            "value": "Projektmanagement",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Können Sie mir aufzeigen, welche Stellen es für Backend-Entwickler gibt? Ich suche einen Job zum nächstmöglichen Zeitpunkt.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 48,
+          "end": 66,
+          "value": "Backend-Entwickler",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich bin auf Ihr Angebot aufmerksam geworden und interessiere mich für eine Stelle im Bereich Android-Entwicklung",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 93,
+          "end": 112,
+          "value": "Android-Entwicklung",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich interessiere mich besonders für eine Stelle im Bereich Projektmanagement.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 59,
+          "end": 76,
+          "value": "Projektmanagement",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Welche Stellen im Bereich Controlling gibt es?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 26,
+          "end": 37,
+          "value": "Controlling",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Welche Stellen im iOS-Development sind zu besetzen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 18,
+          "end": 33,
+          "value": "iOS-Development",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich bin auf der Suche nach einem Job als Softwareentwickler Backend.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 41,
+          "end": 67,
+          "value": "Softwareentwickler Backend",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich suche einen Job im Bereich der Produktentwicklung. Auch eine Stelle im Projektmanagement kommt für mich in Frage.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 35,
+            "end": 53,
+            "value": "Produktentwicklung",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 75,
+            "end": 92,
+            "value": "Projektmanagement",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde mich gerne bei Ihnen über meine Möglichkeiten in ihrer Firma im Bereich Machine Learning informieren.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 82,
+          "end": 98,
+          "value": "Machine Learning",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich suche einen Job im Bereich Machine-Learning ab sofort",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 31,
+          "end": 47,
+          "value": "Machine-Learning",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Können Sie Jobs im Bereich KI anbieten?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 27,
+          "end": 29,
+          "value": "KI",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Wie sieht es mit Stellen im Bereich Human Ressources aus?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 36,
+          "end": 52,
+          "value": "Human Ressources",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Was muss ich tun, wenn ich Softwareentwickler werden möchte?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 27,
+          "end": 45,
+          "value": "Softwareentwickler",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich wollte fragen, ob in Ihrem Unternehmen eine Stelle im Bereich Buchhaltung vakant ist?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 66,
+          "end": 77,
+          "value": "Buchhaltung",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Können Sie Jobs im Bereich Webentwicklung für Praktikanten anbieten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 27,
+            "end": 41,
+            "value": "Webentwicklung",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 46,
+            "end": 58,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich interessiere mich für eine Stelle im Bereich Software Development in Festanstellung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 49,
+            "end": 69,
+            "value": "Software Development",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 73,
+            "end": 87,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Wie sieht es mit Stellen im Bereich Finanzwesen in Festanstellung aus?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 36,
+            "end": 47,
+            "value": "Finanzwesen",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 51,
+            "end": 65,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich suche nach einer Festanstellung im Bereich Creative Development. Habt ihr eine solche oder ähnliche Stelle offen?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 21,
+            "end": 35,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 67,
+            "value": "Creative Development",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es offene Stellen im Frontend-Bereich als Werkstudent?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 26,
+            "end": 42,
+            "value": "Frontend-Bereich",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Stellen im Bereich Design als Praktikant ?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 27,
+            "end": 33,
+            "value": "Design",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Wäre es möglich, als Werkstudent im Marketing zu arbeiten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 21,
+            "end": 32,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Marketing",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Wäre es möglich, als Praktikant im Bereich des Mobile Developments zu arbeiten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 21,
+            "end": 31,
+            "value": "Praktikant",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 66,
+            "value": "Mobile Developments",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es Stellenanzeigen im Bereich Projektmanagement für Studenten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 35,
+            "end": 52,
+            "value": "Projektmanagement",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 57,
+            "end": 66,
+            "value": "Studenten",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Besteht bei Ihnen im Moment Bedarf an Werkstudenten im Bereich iOS-Entwicklung?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 38,
+            "end": 51,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 63,
+            "end": 78,
+            "value": "iOS-Entwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Besteht bei Ihnen im Moment Bedarf an Praktikanten im Design?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 38,
+            "end": 50,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 54,
+            "end": 60,
+            "value": "Design",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde gerne im Bereich von Mobilen Applikationen (Android/iOs) arbeiten.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 31,
+          "end": 66,
+          "value": "Mobilen Applikationen (Android/iOs)",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Gibt es Stellenanzeigen im Bereich Testing für Werkstudenten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 35,
+            "end": 42,
+            "value": "Testing",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 47,
+            "end": 60,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich hätte gerne Informationen zu offenen Stellen für Praktikanten in der Softwareentwicklung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 53,
+            "end": 65,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 73,
+            "end": 92,
+            "value": "Softwareentwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Kannst du mir Informationen zu Stellen im HR-Bereich in Teilzeit geben?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 42,
+            "end": 52,
+            "value": "HR-Bereich",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "Teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Können Sie mir Informationen zu Stellen in der Software-Entwicklung in Festanstellung geben?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 47,
+            "end": 67,
+            "value": "Software-Entwicklung",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 71,
+            "end": 85,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Haben Sie Informationen zu Stellen für Praktikanten im Bereich Web-Entwicklung",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 39,
+            "end": 51,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 63,
+            "end": 78,
+            "value": "Web-Entwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich hätte gerne Infos zu Stellen im Bereich Projektmanagement für Werkstudenten",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 44,
+            "end": 61,
+            "value": "Projektmanagement",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 66,
+            "end": 79,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich hätte Interesse an der freien Stelle als Chatbot-Entwickler in Festanstellung. Werden Sie diese Stelle besetzen?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 45,
+            "end": 63,
+            "value": "Chatbot-Entwickler",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 67,
+            "end": 81,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich habe Interesse an Stellen für Softwareentwickler in Festanstellung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 34,
+            "end": 52,
+            "value": "Softwareentwickler",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 56,
+            "end": 70,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde gerne als Werkstudent in der Softwareentwicklung arbeiten.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 20,
+            "end": 31,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 39,
+            "end": 58,
+            "value": "Softwareentwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde mich dafür Interessieren bei Ihnen ein Praktikum in der Abteilung Produktion zu machen.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 49,
+            "end": 58,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 76,
+            "end": 86,
+            "value": "Produktion",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin interessiert als Entwickler im Bereich CUI zu arbeiten. Haben Sie dafür eine zu besetzende Stelle frei?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 25,
+          "end": 50,
+          "value": "Entwickler im Bereich CUI",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Ich würde gerne als ScrumMaster anfangen. Mit einer Festanstellung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 20,
+            "end": 31,
+            "value": "ScrumMaster",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 52,
+            "end": 66,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Werden in nächster Zeit Werkstudentenstellen für Webentwicklung besetzt?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 24,
+            "end": 44,
+            "value": "Werkstudentenstellen",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 49,
+            "end": 63,
+            "value": "Webentwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Im Juli werde ich mein Studium der Wirtschaftsinformatik mit dem M.Sc. abschließen und bin daher auf der Suche nach einer Festanstellung. Haben Sie in diesem Bereich interessante Stellen offen?",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 122,
+          "end": 136,
+          "value": "Festanstellung",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich bin auf der Suche für eine Stelle zum Schreiben meiner Abschlussarbeit im Bereich iOS Programmierung für das kommende Semester",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 59,
+            "end": 74,
+            "value": "Abschlussarbeit",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 86,
+            "end": 104,
+            "value": "iOS Programmierung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ist es möglich als Werkstudent im Bereich Controlling im Unternehmen zu arbeiten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 19,
+            "end": 30,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "Controlling",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin auf der Suche nach einer Stelle als Softwareentwickler in Festanstellung",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 44,
+            "end": 62,
+            "value": "Softwareentwickler",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 66,
+            "end": 80,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin auf der Suche nach einem Job als HR Business Partner in Teilzeit",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 41,
+            "end": 60,
+            "value": "HR Business Partner",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 64,
+            "end": 72,
+            "value": "Teilzeit",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Wäre es möglich bei euch in der Firma als Werkstudent im Bereich Design zu arbeiten?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 42,
+            "end": 53,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 65,
+            "end": 71,
+            "value": "Design",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin auf der Suche nach einer Festanstellung in der Abteilung Controlling.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 33,
+            "end": 47,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 65,
+            "end": 76,
+            "value": "Controlling",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Kann ich bei euch ein Praktikum im Bereich Softwareentwicklung absolvieren?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 22,
+            "end": 31,
+            "value": "Praktikum",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 43,
+            "end": 62,
+            "value": "Softwareentwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin an einer Stelle als Werkstudent in der Softwareentwicklung interessiert und würde mich hierfür gerne bewerben.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 28,
+            "end": 39,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 47,
+            "end": 66,
+            "value": "Softwareentwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin interessiert an einem Job im Bereich Management in Festanstellung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 45,
+            "end": 55,
+            "value": "Management",
+            "entity": "desiredJob"
+          },
+          {
+            "start": 59,
+            "end": 73,
+            "value": "Festanstellung",
+            "entity": "formOfEmployment"
+          }
+        ]
+      },
+      {
+        "text": "Könnte ich als Werkstudent in ihrer Firma arbeiten? Am liebste wäre mir eine Stelle im Bereich Mobile Entwicklung.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 15,
+            "end": 26,
+            "value": "Werkstudent",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 95,
+            "end": 113,
+            "value": "Mobile Entwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Kannst du mir Informationen zu Teilzeit-Stellen in der Entwicklung geben?",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 31,
+            "end": 47,
+            "value": "Teilzeit-Stellen",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 55,
+            "end": 66,
+            "value": "Entwicklung",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich interessiere mich insbesondere für die Stelle als Trainee im Bereich Finanzen.",
+        "intent": "findExistingJob",
+        "entities": [{
+            "start": 54,
+            "end": 61,
+            "value": "Trainee",
+            "entity": "formOfEmployment"
+          },
+          {
+            "start": 73,
+            "end": 81,
+            "value": "Finanzen",
+            "entity": "desiredJob"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde mich gerne als iOS-Entwickler bewerben.",
+        "intent": "findExistingJob",
+        "entities": [{
+          "start": 25,
+          "end": 39,
+          "value": "iOS-Entwickler",
+          "entity": "desiredJob"
+        }]
+      },
+      {
+        "text": "Web",
+        "intent": "enterData",
+        "entities": [{
+          "end": 3,
+          "entity": "domain",
+          "start": 0,
+          "value": "Web"
+        }]
+      },
+      {
+        "text": "Mobile oder Web",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "domain",
+            "start": 0,
+            "value": "Mobile"
+          },
+          {
+            "end": 15,
+            "entity": "domain",
+            "start": 12,
+            "value": "Web"
+          }
+        ]
+      },
+      {
+        "text": "Typescript",
+        "intent": "enterData",
+        "entities": [{
+          "end": 10,
+          "entity": "technology",
+          "start": 0,
+          "value": "Typescript"
+        }]
+      },
+      {
+        "text": "Javascript und Javascript",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 15,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Javascript oder HTML",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 16,
+            "value": "HTML"
+          }
+        ]
+      },
+      {
+        "text": "Mobile und Mobile",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "domain",
+            "start": 0,
+            "value": "Mobile"
+          },
+          {
+            "end": 17,
+            "entity": "domain",
+            "start": 11,
+            "value": "Mobile"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Java, HTML",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 18,
+            "value": "HTML"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, CSS, Typescript",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 12,
+            "value": "CSS"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 17,
+            "value": "Typescript"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, HTML, CSS",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "HTML"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 18,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Javascript, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 9,
+            "value": "Javascript"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop, Angular, Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 11,
+            "value": "Angular"
+          },
+          {
+            "end": 26,
+            "entity": "technology",
+            "start": 20,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Java, Angular, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Kotlin, Swift",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 20,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Java EE, Angular",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java EE"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 21,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "CSS, Java EE, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "CSS"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 5,
+            "value": "Java EE"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 14,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Java, Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "Java"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 15,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Swift, HTML, Photoshop",
+        "intent": "enterData",
+        "entities": [{
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Swift"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "HTML"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 13,
+            "value": "Photoshop"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Java, Scrum",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "Java"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, HTML, CSS",
+        "intent": "enterData",
+        "entities": [{
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "HTML"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 13,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Photoshop, Javascript",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 8,
+            "value": "Photoshop"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 19,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Scrum, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 8,
+            "value": "Scrum"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Java, Javascript",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 8,
+            "value": "Java"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 14,
+            "value": "Javascript"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, Javascript, Typescript",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 12,
+            "value": "Javascript"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 24,
+            "value": "Typescript"
+          }
+        ]
+      },
+      {
+        "text": "Angular und Java EE",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java EE"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin oder Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Typescript, HTML, Angular",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "HTML"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 18,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Typescript, Swift",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 12,
+            "value": "Typescript"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 24,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Typescript, Photoshop",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Typescript"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 20,
+            "value": "Photoshop"
+          }
+        ]
+      },
+      {
+        "text": "Java, CSS, Java EE",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "CSS"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 11,
+            "value": "Java EE"
+          }
+        ]
+      },
+      {
+        "text": "Java EE, Scrum, Angular",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java EE"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 9,
+            "value": "Scrum"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 16,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Angular, HTML, Angular",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 9,
+            "value": "HTML"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 15,
+            "value": "Angular"
+          }
+        ]
+      },
+      {
+        "text": "Angular, Angular, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Angular"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 9,
+            "value": "Angular"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 18,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, Java, Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "Java"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 13,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Kotlin, Kotlin, Swift",
+        "intent": "enterData",
+        "entities": [{
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 8,
+            "value": "Kotlin"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 16,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "HTML, Typescript, Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 6,
+            "value": "Typescript"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 18,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "HTML, Scrum, Kotlin",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 6,
+            "value": "Scrum"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 13,
+            "value": "Kotlin"
+          }
+        ]
+      },
+      {
+        "text": "Scrum, CSS, Java",
+        "intent": "enterData",
+        "entities": [{
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 10,
+            "entity": "technology",
+            "start": 7,
+            "value": "CSS"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 12,
+            "value": "Java"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop und Scrum",
+        "intent": "enterData",
+        "entities": [{
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 14,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "HTML oder CSS",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "HTML"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 10,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Photoshop, Kotlin, Scrum",
+        "intent": "enterData",
+        "entities": [{
+            "end": 9,
+            "entity": "technology",
+            "start": 0,
+            "value": "Photoshop"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 11,
+            "value": "Kotlin"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 19,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Java, Java EE, Scrum",
+        "intent": "enterData",
+        "entities": [{
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Java"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "Java EE"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Scrum"
+          }
+        ]
+      },
+      {
+        "text": "Javascript, Kotlin, CSS",
+        "intent": "enterData",
+        "entities": [{
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Javascript"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 20,
+            "value": "CSS"
+          }
+        ]
+      },
+      {
+        "text": "Ich bin auf eure ausgeschriebenen Stellen aufmerksam geworden",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde mich gerne bei euch bewerben",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde mich gerne auf eine Stelle bewerben.",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich suche einen Job als Werkstudent",
+        "intent": "",
+        "entities": [{
+          "start": 24,
+          "end": 35,
+          "value": "Werkstudent",
+          "entity": "formOfEmployment"
+        }]
+      },
+      {
+        "text": "Ich interessiere mich sehr für Ihre Firma und würde mich freuen, ein Teil ihres Teams zu werden!",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich bin nach meinem Studium auf der Suche nach einem Job.",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Auf der Suche nach einem Job bin ich auf euere Seite gelangt.",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich bin auf der Suche nach einer neuen Herausforderung.",
+        "intent": "find_job",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [{
+        "value": "ios",
+        "synonyms": ["IOS", "iOS", "ios-entwicklung", "iOS-Entwicklung"]
+      },
+      {
+        "value": "entwickeln",
+        "synonyms": ["Entwickeln", "Entwicklung", "Entwickler", "Software-Entwicklung", "Software-Entwickler"]
+      }
+    ]
+  }
+}
