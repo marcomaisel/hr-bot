@@ -22,8 +22,8 @@
     Android
     Swift
     iOS
-    Typescript
-    Javascript
+    TypeScript
+    JavaScript
     HTML
     CSS
     SASS
