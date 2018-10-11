@@ -113,7 +113,7 @@ class ActionMatchJobSlots(Action):
             else:
                 return [
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("utter_askJobTask")]
 
         elif taskSlot is not None:
 
@@ -151,7 +151,7 @@ class ActionMatchJobSlots(Action):
                 return [
                     SlotSet("possibleTechnologies", possibleTechnologies),
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("utter_askJobTask")]
 
         elif technologySlot is not None:
             possibleDomains = get_domain_for_technology(technologySlot)
@@ -178,12 +178,12 @@ class ActionMatchJobSlots(Action):
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("domain", possibleDomains),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("utter_askJobTask")]
 
             # if non or more than 1 in both slots is possible: ask for task
             else:
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askTask")]
+                    FollowupAction("utter_askJobTask")]
         return

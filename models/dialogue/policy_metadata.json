@@ -2,10 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "formOfEmployment",
         "domain",
+        "jobTask",
         "technology",
-        "jobTask"
+        "formOfEmployment"
       ]
     },
     "utter_youarewelcome": {
@@ -16,15 +16,15 @@
         "jobs"
       ]
     },
-    "utter_greet": {
+    "utter_bye": {
       "slots": []
     },
-    "utter_bye": {
+    "utter_greet": {
       "slots": []
     }
   },
-  "rasa_core": "0.11.11",
-  "python": "3.6.2",
+  "rasa_core": "0.11.8",
+  "python": "3.6.6",
   "max_histories": [
     null,
     3,
