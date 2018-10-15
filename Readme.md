@@ -59,6 +59,14 @@ To run the bot on the website install rasa-addons:
 pip install rasa-addons (currently not working with master branch)
 ```
 
+Start the action webserver
+```
+cd custom_actions
+```
+```
+python3 -m rasa_core_sdk.endpoint --actions actions
+```
+
 Serve the website containing the chat widget:
 ```
 cd static

@@ -8,22 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <!-- <script src="main.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="webchat" />
-    <script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+    <section class="karriere bg-primary" id="karriere">
+        <div class="wrapper">
+            <header class="content-headline">
+                <br><br>
+                <h2 class="title border-bottom">Wir suchen dich</h2>
+                <p>Hier könnte weiterer Text stehen. Zum Beispiel eine kleine Beschreibung über die Funktion des
+                    Chatbots.</p>
+                <div id="webchat" />
+            </header>
+        </div>
+    </section>
+    <!-- <script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script> -->
+    <script src="webchat.js"></script>
 
     <script>
         WebChat.default.init({
             selector: "#webchat",
-            initPayload: "hello",
+            initPayload: "start_chat_on_website",
             socketUrl: "http://localhost:5500",
             title: "HR Chatbot",
             // subtitle: "Ask your questions here",
             profileAvatar: "",
             showCloseButton: true,
-            // fullScreenMode: true
+            fullScreenMode: true
         })
     </script>
     </div>

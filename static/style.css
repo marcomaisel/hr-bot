@@ -1,0 +1,147 @@
+body {
+    background-color: #0a9dd3;
+}
+
+#webchat {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-container {
+    position: relative !important;
+    max-width: 40% !important;
+}
+
+.header {
+    visibility: hidden;
+    height: 0;
+    padding: 0 !important;
+}
+
+.conversation-container {
+    box-shadow: none !important;
+}
+
+.client {
+    background-color: rgb(5, 79, 114) !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0
+}
+
+
+h2,
+.h2 {
+    font-weight: 900;
+    font-size: 48px;
+    text-shadow: 3px 3px 0px rgba(40, 40, 40, 0.1)
+}
+
+a {
+    color: #0984bf;
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    color: #044f73
+}
+
+
+h1,
+.h1 {
+    font-weight: 900;
+    font-size: 48px;
+    text-shadow: 3px 3px 0px rgba(40, 40, 40, 0.1)
+}
+
+
+h3,
+.h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 800
+}
+
+strong {
+    font-weight: 800
+}
+
+@media (max-width: 500px) {
+
+    h1,
+    .h1,
+    h2,
+    .h2 {
+        font-size: 36px
+    }
+
+    h5,
+    .h5 {
+        font-size: 18px
+    }
+}
+
+header.content-headline {
+    text-align: center;
+}
+
+.bg-primary header.content-headline,
+.bg-two-colored header.content-headline {
+    color: #fff;
+}
+
+.bg-primary header.content-headline .title.border-bottom:after,
+.bg-two-colored header.content-headline .title.border-bottom:after {
+    background: #eed52f;
+}
+
+header.content-headline .title.border-bottom:after {
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    height: 6px;
+    width: 50px;
+    margin-left: -25px;
+    content: ' ';
+    background: #0984bf;
+}
+
+header.content-headline .title {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sender {
+    border-radius: 0 !important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
