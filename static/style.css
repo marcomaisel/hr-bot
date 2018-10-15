@@ -29,6 +29,10 @@ body {
     background-color: rgb(5, 79, 114) !important;
 }
 
+.response {
+    max-width: 270px;
+}
+
 h1,
 .h1,
 h2,

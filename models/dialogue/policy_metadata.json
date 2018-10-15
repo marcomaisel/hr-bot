@@ -4,11 +4,11 @@
       "slots": [
         "domain",
         "jobTask",
-        "technology",
-        "formOfEmployment"
+        "formOfEmployment",
+        "technology"
       ]
     },
-    "utter_youarewelcome": {
+    "utter_bye": {
       "slots": []
     },
     "action_find_job": {
@@ -16,15 +16,15 @@
         "jobs"
       ]
     },
-    "utter_bye": {
+    "utter_youarewelcome": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     }
   },
-  "rasa_core": "0.11.8",
-  "python": "3.6.6",
+  "rasa_core": "0.11.11",
+  "python": "3.6.2",
   "max_histories": [
     null,
     3,

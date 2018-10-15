@@ -2330,7 +2330,8 @@
           "start": 0,
           "value": "npm"
         }]
-      }, {
+      },
+      {
         "text": "Fullstack",
         "intent": "enter_data",
         "entities": [{
@@ -2339,7 +2340,8 @@
           "start": 0,
           "value": "Fullstack"
         }]
-      }, {
+      },
+      {
         "text": "Softwarearchitektur",
         "intent": "enter_data",
         "entities": [{
@@ -2348,7 +2350,8 @@
           "start": 0,
           "value": "Softwarearchitektur"
         }]
-      }, {
+      },
+      {
         "text": "CSS",
         "intent": "enter_data",
         "entities": [{
@@ -2357,7 +2360,8 @@
           "start": 0,
           "value": "CSS"
         }]
-      }, {
+      },
+      {
         "text": "Prozessdesign",
         "intent": "enter_data",
         "entities": [{
@@ -2366,7 +2370,8 @@
           "start": 0,
           "value": "Prozessdesign"
         }]
-      }, {
+      },
+      {
         "text": "Businessanalyse",
         "intent": "enter_data",
         "entities": [{
@@ -2375,7 +2380,8 @@
           "start": 0,
           "value": "Businessanalyse"
         }]
-      }, {
+      },
+      {
         "text": "Software Testing",
         "intent": "enter_data",
         "entities": [{
@@ -2384,7 +2390,8 @@
           "start": 0,
           "value": "Software Testing"
         }]
-      }, {
+      },
+      {
         "text": "Agile",
         "intent": "enter_data",
         "entities": [{
@@ -2393,7 +2400,8 @@
           "start": 0,
           "value": "Agile"
         }]
-      }, {
+      },
+      {
         "text": "Sketch",
         "intent": "enter_data",
         "entities": [{
@@ -2402,7 +2410,8 @@
           "start": 0,
           "value": "Sketch"
         }]
-      }, {
+      },
+      {
         "text": "Personalverwaltung",
         "intent": "enter_data",
         "entities": [{
@@ -2411,7 +2420,8 @@
           "start": 0,
           "value": "Personalverwaltung"
         }]
-      }, {
+      },
+      {
         "text": "Build Tools",
         "intent": "enter_data",
         "entities": [{
@@ -2420,7 +2430,8 @@
           "start": 0,
           "value": "Build Tools"
         }]
-      }, {
+      },
+      {
         "text": "scikit-learn",
         "intent": "enter_data",
         "entities": [{
@@ -2429,7 +2440,8 @@
           "start": 0,
           "value": "scikit-learn"
         }]
-      }, {
+      },
+      {
         "text": "LESS",
         "intent": "enter_data",
         "entities": [{
@@ -2438,7 +2450,8 @@
           "start": 0,
           "value": "LESS"
         }]
-      }, {
+      },
+      {
         "text": "Watson",
         "intent": "enter_data",
         "entities": [{
@@ -2447,7 +2460,8 @@
           "start": 0,
           "value": "Watson"
         }]
-      }, {
+      },
+      {
         "text": "SQLite",
         "intent": "enter_data",
         "entities": [{
@@ -2456,7 +2470,8 @@
           "start": 0,
           "value": "SQLite"
         }]
-      }, {
+      },
+      {
         "text": "Systemadministration",
         "intent": "enter_data",
         "entities": [{
@@ -2465,7 +2480,8 @@
           "start": 0,
           "value": "Systemadministration"
         }]
-      }, {
+      },
+      {
         "text": "Gantt",
         "intent": "enter_data",
         "entities": [{
@@ -2474,7 +2490,8 @@
           "start": 0,
           "value": "Gantt"
         }]
-      }, {
+      },
+      {
         "text": "Alexa",
         "intent": "enter_data",
         "entities": [{
@@ -2483,7 +2500,8 @@
           "start": 0,
           "value": "Alexa"
         }]
-      }, {
+      },
+      {
         "text": "Azure",
         "intent": "enter_data",
         "entities": [{
@@ -2492,7 +2510,8 @@
           "start": 0,
           "value": "Azure"
         }]
-      }, {
+      },
+      {
         "text": "Frontend",
         "intent": "enter_data",
         "entities": [{
@@ -2501,7 +2520,8 @@
           "start": 0,
           "value": "Frontend"
         }]
-      }, {
+      },
+      {
         "text": "SASS",
         "intent": "enter_data",
         "entities": [{
@@ -2510,7 +2530,8 @@
           "start": 0,
           "value": "SASS"
         }]
-      }, {
+      },
+      {
         "text": "Strategieberatung",
         "intent": "enter_data",
         "entities": [{
@@ -2519,7 +2540,8 @@
           "start": 0,
           "value": "Strategieberatung"
         }]
-      }, {
+      },
+      {
         "text": "Rasa",
         "intent": "enter_data",
         "entities": [{
@@ -2528,7 +2550,8 @@
           "start": 0,
           "value": "Rasa"
         }]
-      }, {
+      },
+      {
         "text": "Steuerrecht",
         "intent": "enter_data",
         "entities": [{
@@ -2537,7 +2560,8 @@
           "start": 0,
           "value": "Steuerrecht"
         }]
-      }, {
+      },
+      {
         "text": "Web",
         "intent": "enter_data",
         "entities": [{
@@ -2546,7 +2570,8 @@
           "start": 0,
           "value": "Web"
         }]
-      }, {
+      },
+      {
         "text": "Testautomatisierung",
         "intent": "enter_data",
         "entities": [{
@@ -2555,7 +2580,8 @@
           "start": 0,
           "value": "Testautomatisierung"
         }]
-      }, {
+      },
+      {
         "text": "Prozessanalyse",
         "intent": "enter_data",
         "entities": [{
@@ -2564,7 +2590,8 @@
           "start": 0,
           "value": "Prozessanalyse"
         }]
-      }, {
+      },
+      {
         "text": "Natural Language Understanding",
         "intent": "enter_data",
         "entities": [{
@@ -2573,7 +2600,8 @@
           "start": 0,
           "value": "Natural Language Understanding"
         }]
-      }, {
+      },
+      {
         "text": "Unit Tests",
         "intent": "enter_data",
         "entities": [{
@@ -2582,7 +2610,8 @@
           "start": 0,
           "value": "Unit Tests"
         }]
-      }, {
+      },
+      {
         "text": "End-to-End-Test",
         "intent": "enter_data",
         "entities": [{
@@ -2591,7 +2620,8 @@
           "start": 0,
           "value": "End-to-End-Test"
         }]
-      }, {
+      },
+      {
         "text": "Verschlüsselung",
         "intent": "enter_data",
         "entities": [{
@@ -2600,7 +2630,8 @@
           "start": 0,
           "value": "Verschlüsselung"
         }]
-      }, {
+      },
+      {
         "text": "Clustering",
         "intent": "enter_data",
         "entities": [{
@@ -2609,7 +2640,8 @@
           "start": 0,
           "value": "Clustering"
         }]
-      }, {
+      },
+      {
         "text": "MongoDB",
         "intent": "enter_data",
         "entities": [{
@@ -2618,7 +2650,8 @@
           "start": 0,
           "value": "MongoDB"
         }]
-      }, {
+      },
+      {
         "text": "Konfigurationsmanagement",
         "intent": "enter_data",
         "entities": [{
@@ -2627,7 +2660,8 @@
           "start": 0,
           "value": "Konfigurationsmanagement"
         }]
-      }, {
+      },
+      {
         "text": "DevOps",
         "intent": "enter_data",
         "entities": [{
@@ -2636,7 +2670,8 @@
           "start": 0,
           "value": "DevOps"
         }]
-      }, {
+      },
+      {
         "text": "Design Thinking",
         "intent": "enter_data",
         "entities": [{
@@ -2645,7 +2680,8 @@
           "start": 0,
           "value": "Design Thinking"
         }]
-      }, {
+      },
+      {
         "text": "Arbeitsrecht",
         "intent": "enter_data",
         "entities": [{
@@ -2654,7 +2690,8 @@
           "start": 0,
           "value": "Arbeitsrecht"
         }]
-      }, {
+      },
+      {
         "text": "Dialogflow",
         "intent": "enter_data",
         "entities": [{
@@ -2663,7 +2700,8 @@
           "start": 0,
           "value": "Dialogflow"
         }]
-      }, {
+      },
+      {
         "text": "Teststrategie",
         "intent": "enter_data",
         "entities": [{
@@ -2672,7 +2710,8 @@
           "start": 0,
           "value": "Teststrategie"
         }]
-      }, {
+      },
+      {
         "text": "Projektplan",
         "intent": "enter_data",
         "entities": [{
@@ -2681,7 +2720,8 @@
           "start": 0,
           "value": "Projektplan"
         }]
-      }, {
+      },
+      {
         "text": "InDesign",
         "intent": "enter_data",
         "entities": [{
@@ -2690,7 +2730,8 @@
           "start": 0,
           "value": "InDesign"
         }]
-      }, {
+      },
+      {
         "text": "Personal",
         "intent": "enter_data",
         "entities": [{
@@ -2699,7 +2740,8 @@
           "start": 0,
           "value": "Personal"
         }]
-      }, {
+      },
+      {
         "text": "Mocha",
         "intent": "enter_data",
         "entities": [{
@@ -2708,7 +2750,8 @@
           "start": 0,
           "value": "Mocha"
         }]
-      }, {
+      },
+      {
         "text": "Vue",
         "intent": "enter_data",
         "entities": [{
@@ -2717,7 +2760,8 @@
           "start": 0,
           "value": "Vue"
         }]
-      }, {
+      },
+      {
         "text": "Typescript",
         "intent": "enter_data",
         "entities": [{
@@ -2726,7 +2770,8 @@
           "start": 0,
           "value": "Typescript"
         }]
-      }, {
+      },
+      {
         "text": "NOFS",
         "intent": "enter_data",
         "entities": [{
@@ -2735,7 +2780,8 @@
           "start": 0,
           "value": "NOFS"
         }]
-      }, {
+      },
+      {
         "text": "Android",
         "intent": "enter_data",
         "entities": [{
@@ -2744,7 +2790,8 @@
           "start": 0,
           "value": "Android"
         }]
-      }, {
+      },
+      {
         "text": "Accessibility",
         "intent": "enter_data",
         "entities": [{
@@ -2753,7 +2800,8 @@
           "start": 0,
           "value": "Accessibility"
         }]
-      }, {
+      },
+      {
         "text": "Security",
         "intent": "enter_data",
         "entities": [{
@@ -2762,7 +2810,8 @@
           "start": 0,
           "value": "Security"
         }]
-      }, {
+      },
+      {
         "text": "Word",
         "intent": "enter_data",
         "entities": [{
@@ -2771,7 +2820,8 @@
           "start": 0,
           "value": "Word"
         }]
-      }, {
+      },
+      {
         "text": "Continuous Deployment",
         "intent": "enter_data",
         "entities": [{
@@ -2780,7 +2830,8 @@
           "start": 0,
           "value": "Continuous Deployment"
         }]
-      }, {
+      },
+      {
         "text": "Bewerbermanagement",
         "intent": "enter_data",
         "entities": [{
@@ -2789,7 +2840,8 @@
           "start": 0,
           "value": "Bewerbermanagement"
         }]
-      }, {
+      },
+      {
         "text": "Java",
         "intent": "enter_data",
         "entities": [{
@@ -2798,7 +2850,8 @@
           "start": 0,
           "value": "Java"
         }]
-      }, {
+      },
+      {
         "text": "Usability",
         "intent": "enter_data",
         "entities": [{
@@ -2807,7 +2860,8 @@
           "start": 0,
           "value": "Usability"
         }]
-      }, {
+      },
+      {
         "text": "Integrationstest",
         "intent": "enter_data",
         "entities": [{
@@ -2816,7 +2870,8 @@
           "start": 0,
           "value": "Integrationstest"
         }]
-      }, {
+      },
+      {
         "text": "Excel",
         "intent": "enter_data",
         "entities": [{
@@ -2825,7 +2880,8 @@
           "start": 0,
           "value": "Excel"
         }]
-      }, {
+      },
+      {
         "text": "CouchDB",
         "intent": "enter_data",
         "entities": [{
@@ -2834,7 +2890,8 @@
           "start": 0,
           "value": "CouchDB"
         }]
-      }, {
+      },
+      {
         "text": "OpenShift",
         "intent": "enter_data",
         "entities": [{
@@ -2843,7 +2900,8 @@
           "start": 0,
           "value": "OpenShift"
         }]
-      }, {
+      },
+      {
         "text": "InVision",
         "intent": "enter_data",
         "entities": [{
@@ -2852,7 +2910,8 @@
           "start": 0,
           "value": "InVision"
         }]
-      }, {
+      },
+      {
         "text": "Testing",
         "intent": "enter_data",
         "entities": [{
@@ -2861,7 +2920,8 @@
           "start": 0,
           "value": "Testing"
         }]
-      }, {
+      },
+      {
         "text": "TensorFlow",
         "intent": "enter_data",
         "entities": [{
@@ -2870,7 +2930,8 @@
           "start": 0,
           "value": "TensorFlow"
         }]
-      }, {
+      },
+      {
         "text": "Kotlin",
         "intent": "enter_data",
         "entities": [{
@@ -2879,7 +2940,8 @@
           "start": 0,
           "value": "Kotlin"
         }]
-      }, {
+      },
+      {
         "text": "Backend",
         "intent": "enter_data",
         "entities": [{
@@ -2888,7 +2950,8 @@
           "start": 0,
           "value": "Backend"
         }]
-      }, {
+      },
+      {
         "text": "Node.js",
         "intent": "enter_data",
         "entities": [{
@@ -2897,7 +2960,8 @@
           "start": 0,
           "value": "Node.js"
         }]
-      }, {
+      },
+      {
         "text": "PostgreSQL",
         "intent": "enter_data",
         "entities": [{
@@ -2906,7 +2970,8 @@
           "start": 0,
           "value": "PostgreSQL"
         }]
-      }, {
+      },
+      {
         "text": "Mobile",
         "intent": "enter_data",
         "entities": [{
@@ -2915,7 +2980,8 @@
           "start": 0,
           "value": "Mobile"
         }]
-      }, {
+      },
+      {
         "text": "Sozialversicherungsrecht",
         "intent": "enter_data",
         "entities": [{
@@ -2924,7 +2990,8 @@
           "start": 0,
           "value": "Sozialversicherungsrecht"
         }]
-      }, {
+      },
+      {
         "text": "Kanban",
         "intent": "enter_data",
         "entities": [{
@@ -2933,7 +3000,8 @@
           "start": 0,
           "value": "Kanban"
         }]
-      }, {
+      },
+      {
         "text": "Buchhaltung",
         "intent": "enter_data",
         "entities": [{
@@ -2942,7 +3010,8 @@
           "start": 0,
           "value": "Buchhaltung"
         }]
-      }, {
+      },
+      {
         "text": "arc42",
         "intent": "enter_data",
         "entities": [{
@@ -2951,7 +3020,8 @@
           "start": 0,
           "value": "arc42"
         }]
-      }, {
+      },
+      {
         "text": "Workshop",
         "intent": "enter_data",
         "entities": [{
@@ -2960,7 +3030,8 @@
           "start": 0,
           "value": "Workshop"
         }]
-      }, {
+      },
+      {
         "text": "React",
         "intent": "enter_data",
         "entities": [{
@@ -2969,7 +3040,8 @@
           "start": 0,
           "value": "React"
         }]
-      }, {
+      },
+      {
         "text": "Finanzen",
         "intent": "enter_data",
         "entities": [{
@@ -2978,7 +3050,8 @@
           "start": 0,
           "value": "Finanzen"
         }]
-      }, {
+      },
+      {
         "text": "Systemintegration",
         "intent": "enter_data",
         "entities": [{
@@ -2987,7 +3060,8 @@
           "start": 0,
           "value": "Systemintegration"
         }]
-      }, {
+      },
+      {
         "text": "Python",
         "intent": "enter_data",
         "entities": [{
@@ -2996,7 +3070,8 @@
           "start": 0,
           "value": "Python"
         }]
-      }, {
+      },
+      {
         "text": "Photoshop",
         "intent": "enter_data",
         "entities": [{
@@ -3005,7 +3080,8 @@
           "start": 0,
           "value": "Photoshop"
         }]
-      }, {
+      },
+      {
         "text": "C#",
         "intent": "enter_data",
         "entities": [{
@@ -3014,7 +3090,8 @@
           "start": 0,
           "value": "C#"
         }]
-      }, {
+      },
+      {
         "text": "Weiterbildungsmanagement",
         "intent": "enter_data",
         "entities": [{
@@ -3023,7 +3100,8 @@
           "start": 0,
           "value": "Weiterbildungsmanagement"
         }]
-      }, {
+      },
+      {
         "text": "Recht",
         "intent": "enter_data",
         "entities": [{
@@ -3032,7 +3110,8 @@
           "start": 0,
           "value": "Recht"
         }]
-      }, {
+      },
+      {
         "text": "Swift",
         "intent": "enter_data",
         "entities": [{
@@ -3041,7 +3120,8 @@
           "start": 0,
           "value": "Swift"
         }]
-      }, {
+      },
+      {
         "text": "Releasemanagement",
         "intent": "enter_data",
         "entities": [{
@@ -3050,7 +3130,8 @@
           "start": 0,
           "value": "Releasemanagement"
         }]
-      }, {
+      },
+      {
         "text": "Cucumber",
         "intent": "enter_data",
         "entities": [{
@@ -3059,7 +3140,8 @@
           "start": 0,
           "value": "Cucumber"
         }]
-      }, {
+      },
+      {
         "text": "iOS",
         "intent": "enter_data",
         "entities": [{
@@ -3068,7 +3150,8 @@
           "start": 0,
           "value": "iOS"
         }]
-      }, {
+      },
+      {
         "text": "NoSQL",
         "intent": "enter_data",
         "entities": [{
@@ -3077,7 +3160,8 @@
           "start": 0,
           "value": "NoSQL"
         }]
-      }, {
+      },
+      {
         "text": "Photo",
         "intent": "enter_data",
         "entities": [{
@@ -3086,7 +3170,8 @@
           "start": 0,
           "value": "Photo"
         }]
-      }, {
+      },
+      {
         "text": "C",
         "intent": "enter_data",
         "entities": [{
@@ -3095,7 +3180,8 @@
           "start": 0,
           "value": "C"
         }]
-      }, {
+      },
+      {
         "text": "jQuery",
         "intent": "enter_data",
         "entities": [{
@@ -3104,7 +3190,8 @@
           "start": 0,
           "value": "jQuery"
         }]
-      }, {
+      },
+      {
         "text": "Business",
         "intent": "enter_data",
         "entities": [{
@@ -3113,7 +3200,8 @@
           "start": 0,
           "value": "Business"
         }]
-      }, {
+      },
+      {
         "text": "Chai",
         "intent": "enter_data",
         "entities": [{
@@ -3122,7 +3210,8 @@
           "start": 0,
           "value": "Chai"
         }]
-      }, {
+      },
+      {
         "text": "Machine Learning",
         "intent": "enter_data",
         "entities": [{
@@ -3131,7 +3220,8 @@
           "start": 0,
           "value": "Machine Learning"
         }]
-      }, {
+      },
+      {
         "text": "Natural Language Processing",
         "intent": "enter_data",
         "entities": [{
@@ -3140,7 +3230,8 @@
           "start": 0,
           "value": "Natural Language Processing"
         }]
-      }, {
+      },
+      {
         "text": "Angular",
         "intent": "enter_data",
         "entities": [{
@@ -3149,7 +3240,8 @@
           "start": 0,
           "value": "Angular"
         }]
-      }, {
+      },
+      {
         "text": "Requirements engineering",
         "intent": "enter_data",
         "entities": [{
@@ -3158,7 +3250,8 @@
           "start": 0,
           "value": "Requirements engineering"
         }]
-      }, {
+      },
+      {
         "text": "Data Science",
         "intent": "enter_data",
         "entities": [{
@@ -3167,7 +3260,8 @@
           "start": 0,
           "value": "Data Science"
         }]
-      }, {
+      },
+      {
         "text": "Continuous Integration",
         "intent": "enter_data",
         "entities": [{
@@ -3176,7 +3270,8 @@
           "start": 0,
           "value": "Continuous Integration"
         }]
-      }, {
+      },
+      {
         "text": "Buchführung",
         "intent": "enter_data",
         "entities": [{
@@ -3185,7 +3280,8 @@
           "start": 0,
           "value": "Buchführung"
         }]
-      }, {
+      },
+      {
         "text": "Office",
         "intent": "enter_data",
         "entities": [{
@@ -3194,7 +3290,8 @@
           "start": 0,
           "value": "Office"
         }]
-      }, {
+      },
+      {
         "text": "HTML",
         "intent": "enter_data",
         "entities": [{
@@ -3203,7 +3300,8 @@
           "start": 0,
           "value": "HTML"
         }]
-      }, {
+      },
+      {
         "text": "Javascript",
         "intent": "enter_data",
         "entities": [{
@@ -3212,7 +3310,8 @@
           "start": 0,
           "value": "Javascript"
         }]
-      }, {
+      },
+      {
         "text": "Illustrator",
         "intent": "enter_data",
         "entities": [{
@@ -3226,931 +3325,1146 @@
         "text": "Clustering oder Design Thinking",
         "intent": "enter_data",
         "entities": [{
-          "end": 10,
-          "entity": "technology",
-          "start": 0,
-          "value": "Clustering"
-        }, {
-          "end": 31,
-          "entity": "technology",
-          "start": 16,
-          "value": "Design Thinking"
-        }]
-      }, {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Clustering"
+          },
+          {
+            "end": 31,
+            "entity": "technology",
+            "start": 16,
+            "value": "Design Thinking"
+          }
+        ]
+      },
+      {
         "text": "Kotlin und Mocha",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Kotlin"
-        }, {
-          "end": 16,
-          "entity": "technology",
-          "start": 11,
-          "value": "Mocha"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 11,
+            "value": "Mocha"
+          }
+        ]
+      },
+      {
         "text": "Software Testing, iOS",
         "intent": "enter_data",
         "entities": [{
-          "end": 16,
-          "entity": "technology",
-          "start": 0,
-          "value": "Software Testing"
-        }, {
-          "end": 21,
-          "entity": "technology",
-          "start": 18,
-          "value": "iOS"
-        }]
-      }, {
+            "end": 16,
+            "entity": "technology",
+            "start": 0,
+            "value": "Software Testing"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 18,
+            "value": "iOS"
+          }
+        ]
+      },
+      {
         "text": "Continuous Deployment, Typescript, Releasemanagement",
         "intent": "enter_data",
         "entities": [{
-          "end": 21,
-          "entity": "technology",
-          "start": 0,
-          "value": "Continuous Deployment"
-        }, {
-          "end": 33,
-          "entity": "technology",
-          "start": 23,
-          "value": "Typescript"
-        }, {
-          "end": 52,
-          "entity": "technology",
-          "start": 35,
-          "value": "Releasemanagement"
-        }]
-      }, {
+            "end": 21,
+            "entity": "technology",
+            "start": 0,
+            "value": "Continuous Deployment"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 23,
+            "value": "Typescript"
+          },
+          {
+            "end": 52,
+            "entity": "technology",
+            "start": 35,
+            "value": "Releasemanagement"
+          }
+        ]
+      },
+      {
         "text": "Node.js Usability",
         "intent": "enter_data",
         "entities": [{
-          "end": 7,
-          "entity": "technology",
-          "start": 0,
-          "value": "Node.js"
-        }, {
-          "end": 17,
-          "entity": "technology",
-          "start": 8,
-          "value": "Usability"
-        }]
-      }, {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Node.js"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 8,
+            "value": "Usability"
+          }
+        ]
+      },
+      {
         "text": "arc42, Node.js, Sketch",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "arc42"
-        }, {
-          "end": 14,
-          "entity": "technology",
-          "start": 7,
-          "value": "Node.js"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 16,
-          "value": "Sketch"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "arc42"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 7,
+            "value": "Node.js"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 16,
+            "value": "Sketch"
+          }
+        ]
+      },
+      {
         "text": "SQLite, Controlling, NOFS",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "SQLite"
-        }, {
-          "end": 19,
-          "entity": "technology",
-          "start": 8,
-          "value": "Controlling"
-        }, {
-          "end": 25,
-          "entity": "technology",
-          "start": 21,
-          "value": "NOFS"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "SQLite"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 8,
+            "value": "Controlling"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "NOFS"
+          }
+        ]
+      },
+      {
         "text": "Python, Office, NOFS",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Python"
-        }, {
-          "end": 14,
-          "entity": "technology",
-          "start": 8,
-          "value": "Office"
-        }, {
-          "end": 20,
-          "entity": "technology",
-          "start": 16,
-          "value": "NOFS"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Python"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 8,
+            "value": "Office"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 16,
+            "value": "NOFS"
+          }
+        ]
+      },
+      {
         "text": "Natural Language Understanding, HTML, Azure",
         "intent": "enter_data",
         "entities": [{
-          "end": 30,
-          "entity": "technology",
-          "start": 0,
-          "value": "Natural Language Understanding"
-        }, {
-          "end": 36,
-          "entity": "technology",
-          "start": 32,
-          "value": "HTML"
-        }, {
-          "end": 43,
-          "entity": "technology",
-          "start": 38,
-          "value": "Azure"
-        }]
-      }, {
+            "end": 30,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Understanding"
+          },
+          {
+            "end": 36,
+            "entity": "technology",
+            "start": 32,
+            "value": "HTML"
+          },
+          {
+            "end": 43,
+            "entity": "technology",
+            "start": 38,
+            "value": "Azure"
+          }
+        ]
+      },
+      {
         "text": "InDesign, arc42, Java",
         "intent": "enter_data",
         "entities": [{
-          "end": 8,
-          "entity": "technology",
-          "start": 0,
-          "value": "InDesign"
-        }, {
-          "end": 15,
-          "entity": "technology",
-          "start": 10,
-          "value": "arc42"
-        }, {
-          "end": 21,
-          "entity": "technology",
-          "start": 17,
-          "value": "Java"
-        }]
-      }, {
+            "end": 8,
+            "entity": "technology",
+            "start": 0,
+            "value": "InDesign"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 10,
+            "value": "arc42"
+          },
+          {
+            "end": 21,
+            "entity": "technology",
+            "start": 17,
+            "value": "Java"
+          }
+        ]
+      },
+      {
         "text": "Kotlin, Dialogflow, Weiterbildungsmanagement",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Kotlin"
-        }, {
-          "end": 18,
-          "entity": "technology",
-          "start": 8,
-          "value": "Dialogflow"
-        }, {
-          "end": 44,
-          "entity": "technology",
-          "start": 20,
-          "value": "Weiterbildungsmanagement"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Dialogflow"
+          },
+          {
+            "end": 44,
+            "entity": "technology",
+            "start": 20,
+            "value": "Weiterbildungsmanagement"
+          }
+        ]
+      },
+      {
         "text": "LESS, jQuery, InVision",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "LESS"
-        }, {
-          "end": 12,
-          "entity": "technology",
-          "start": 6,
-          "value": "jQuery"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 14,
-          "value": "InVision"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "LESS"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 6,
+            "value": "jQuery"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 14,
+            "value": "InVision"
+          }
+        ]
+      },
+      {
         "text": "Requirements engineering, Integrationstest, InVision",
         "intent": "enter_data",
         "entities": [{
-          "end": 24,
-          "entity": "technology",
-          "start": 0,
-          "value": "Requirements engineering"
-        }, {
-          "end": 42,
-          "entity": "technology",
-          "start": 26,
-          "value": "Integrationstest"
-        }, {
-          "end": 52,
-          "entity": "technology",
-          "start": 44,
-          "value": "InVision"
-        }]
-      }, {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Requirements engineering"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 26,
+            "value": "Integrationstest"
+          },
+          {
+            "end": 52,
+            "entity": "technology",
+            "start": 44,
+            "value": "InVision"
+          }
+        ]
+      },
+      {
         "text": "Mocha, NOFS, Android",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "Mocha"
-        }, {
-          "end": 11,
-          "entity": "technology",
-          "start": 7,
-          "value": "NOFS"
-        }, {
-          "end": 20,
-          "entity": "technology",
-          "start": 13,
-          "value": "Android"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Mocha"
+          },
+          {
+            "end": 11,
+            "entity": "technology",
+            "start": 7,
+            "value": "NOFS"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 13,
+            "value": "Android"
+          }
+        ]
+      },
+      {
         "text": "NoSQL, Businessanalyse, Watson",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "NoSQL"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 7,
-          "value": "Businessanalyse"
-        }, {
-          "end": 30,
-          "entity": "technology",
-          "start": 24,
-          "value": "Watson"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "NoSQL"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 7,
+            "value": "Businessanalyse"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 24,
+            "value": "Watson"
+          }
+        ]
+      },
+      {
         "text": "Illustrator, Continuous Integration, Usability",
         "intent": "enter_data",
         "entities": [{
-          "end": 11,
-          "entity": "technology",
-          "start": 0,
-          "value": "Illustrator"
-        }, {
-          "end": 35,
-          "entity": "technology",
-          "start": 13,
-          "value": "Continuous Integration"
-        }, {
-          "end": 46,
-          "entity": "technology",
-          "start": 37,
-          "value": "Usability"
-        }]
-      }, {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Illustrator"
+          },
+          {
+            "end": 35,
+            "entity": "technology",
+            "start": 13,
+            "value": "Continuous Integration"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 37,
+            "value": "Usability"
+          }
+        ]
+      },
+      {
         "text": "Swift, Gantt, End-to-End-Test",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "Swift"
-        }, {
-          "end": 12,
-          "entity": "technology",
-          "start": 7,
-          "value": "Gantt"
-        }, {
-          "end": 29,
-          "entity": "technology",
-          "start": 14,
-          "value": "End-to-End-Test"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Swift"
+          },
+          {
+            "end": 12,
+            "entity": "technology",
+            "start": 7,
+            "value": "Gantt"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 14,
+            "value": "End-to-End-Test"
+          }
+        ]
+      },
+      {
         "text": "Projektplan, Businessanalyse, Businessanalyse",
         "intent": "enter_data",
         "entities": [{
-          "end": 11,
-          "entity": "technology",
-          "start": 0,
-          "value": "Projektplan"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 13,
-          "value": "Businessanalyse"
-        }, {
-          "end": 45,
-          "entity": "technology",
-          "start": 30,
-          "value": "Businessanalyse"
-        }]
-      }, {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Projektplan"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 13,
+            "value": "Businessanalyse"
+          },
+          {
+            "end": 45,
+            "entity": "technology",
+            "start": 30,
+            "value": "Businessanalyse"
+          }
+        ]
+      },
+      {
         "text": "Natural Language Processing, Scrum, Clustering",
         "intent": "enter_data",
         "entities": [{
-          "end": 27,
-          "entity": "technology",
-          "start": 0,
-          "value": "Natural Language Processing"
-        }, {
-          "end": 34,
-          "entity": "technology",
-          "start": 29,
-          "value": "Scrum"
-        }, {
-          "end": 46,
-          "entity": "technology",
-          "start": 36,
-          "value": "Clustering"
-        }]
-      }, {
+            "end": 27,
+            "entity": "technology",
+            "start": 0,
+            "value": "Natural Language Processing"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 29,
+            "value": "Scrum"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 36,
+            "value": "Clustering"
+          }
+        ]
+      },
+      {
         "text": "C#, NOFS, Cucumber",
         "intent": "enter_data",
         "entities": [{
-          "end": 2,
-          "entity": "technology",
-          "start": 0,
-          "value": "C#"
-        }, {
-          "end": 8,
-          "entity": "technology",
-          "start": 4,
-          "value": "NOFS"
-        }, {
-          "end": 18,
-          "entity": "technology",
-          "start": 10,
-          "value": "Cucumber"
-        }]
-      }, {
+            "end": 2,
+            "entity": "technology",
+            "start": 0,
+            "value": "C#"
+          },
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 4,
+            "value": "NOFS"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 10,
+            "value": "Cucumber"
+          }
+        ]
+      },
+      {
         "text": "Unit Tests, Kotlin, InVision",
         "intent": "enter_data",
         "entities": [{
-          "end": 10,
-          "entity": "technology",
-          "start": 0,
-          "value": "Unit Tests"
-        }, {
-          "end": 18,
-          "entity": "technology",
-          "start": 12,
-          "value": "Kotlin"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 20,
-          "value": "InVision"
-        }]
-      }, {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Unit Tests"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 12,
+            "value": "Kotlin"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 20,
+            "value": "InVision"
+          }
+        ]
+      },
+      {
         "text": "Build Tools, Requirements engineering, Office",
         "intent": "enter_data",
         "entities": [{
-          "end": 11,
-          "entity": "technology",
-          "start": 0,
-          "value": "Build Tools"
-        }, {
-          "end": 37,
-          "entity": "technology",
-          "start": 13,
-          "value": "Requirements engineering"
-        }, {
-          "end": 45,
-          "entity": "technology",
-          "start": 39,
-          "value": "Office"
-        }]
-      }, {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Build Tools"
+          },
+          {
+            "end": 37,
+            "entity": "technology",
+            "start": 13,
+            "value": "Requirements engineering"
+          },
+          {
+            "end": 45,
+            "entity": "technology",
+            "start": 39,
+            "value": "Office"
+          }
+        ]
+      },
+      {
         "text": "Docker, Continuous Integration, Usability",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Docker"
-        }, {
-          "end": 30,
-          "entity": "technology",
-          "start": 8,
-          "value": "Continuous Integration"
-        }, {
-          "end": 41,
-          "entity": "technology",
-          "start": 32,
-          "value": "Usability"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Docker"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 8,
+            "value": "Continuous Integration"
+          },
+          {
+            "end": 41,
+            "entity": "technology",
+            "start": 32,
+            "value": "Usability"
+          }
+        ]
+      },
+      {
         "text": "Scrum, C, Design Thinking",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "Scrum"
-        }, {
-          "end": 8,
-          "entity": "technology",
-          "start": 7,
-          "value": "C"
-        }, {
-          "end": 25,
-          "entity": "technology",
-          "start": 10,
-          "value": "Design Thinking"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Scrum"
+          },
+          {
+            "end": 8,
+            "entity": "technology",
+            "start": 7,
+            "value": "C"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 10,
+            "value": "Design Thinking"
+          }
+        ]
+      },
+      {
         "text": "Kanban, Prozessanalyse, Swift",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Kanban"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 8,
-          "value": "Prozessanalyse"
-        }, {
-          "end": 29,
-          "entity": "technology",
-          "start": 24,
-          "value": "Swift"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kanban"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 8,
+            "value": "Prozessanalyse"
+          },
+          {
+            "end": 29,
+            "entity": "technology",
+            "start": 24,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
         "text": "Softwarearchitektur, jQuery, Alexa",
         "intent": "enter_data",
         "entities": [{
-          "end": 19,
-          "entity": "technology",
-          "start": 0,
-          "value": "Softwarearchitektur"
-        }, {
-          "end": 27,
-          "entity": "technology",
-          "start": 21,
-          "value": "jQuery"
-        }, {
-          "end": 34,
-          "entity": "technology",
-          "start": 29,
-          "value": "Alexa"
-        }]
-      }, {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Softwarearchitektur"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 21,
+            "value": "jQuery"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 29,
+            "value": "Alexa"
+          }
+        ]
+      },
+      {
         "text": "Docker, Powerpoint, Rasa",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Docker"
-        }, {
-          "end": 18,
-          "entity": "technology",
-          "start": 8,
-          "value": "Powerpoint"
-        }, {
-          "end": 24,
-          "entity": "technology",
-          "start": 20,
-          "value": "Rasa"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Docker"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 8,
+            "value": "Powerpoint"
+          },
+          {
+            "end": 24,
+            "entity": "technology",
+            "start": 20,
+            "value": "Rasa"
+          }
+        ]
+      },
+      {
         "text": "Android, CouchDB, Geschäftsmodell",
         "intent": "enter_data",
         "entities": [{
-          "end": 7,
-          "entity": "technology",
-          "start": 0,
-          "value": "Android"
-        }, {
-          "end": 16,
-          "entity": "technology",
-          "start": 9,
-          "value": "CouchDB"
-        }, {
-          "end": 33,
-          "entity": "technology",
-          "start": 18,
-          "value": "Geschäftsmodell"
-        }]
-      }, {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Android"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 9,
+            "value": "CouchDB"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 18,
+            "value": "Geschäftsmodell"
+          }
+        ]
+      },
+      {
         "text": "Word, CouchDB, HTML",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "Word"
-        }, {
-          "end": 13,
-          "entity": "technology",
-          "start": 6,
-          "value": "CouchDB"
-        }, {
-          "end": 19,
-          "entity": "technology",
-          "start": 15,
-          "value": "HTML"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Word"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 6,
+            "value": "CouchDB"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 15,
+            "value": "HTML"
+          }
+        ]
+      },
+      {
         "text": "Gantt, Arbeitsrecht, jQuery",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "Gantt"
-        }, {
-          "end": 19,
-          "entity": "technology",
-          "start": 7,
-          "value": "Arbeitsrecht"
-        }, {
-          "end": 27,
-          "entity": "technology",
-          "start": 21,
-          "value": "jQuery"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Gantt"
+          },
+          {
+            "end": 19,
+            "entity": "technology",
+            "start": 7,
+            "value": "Arbeitsrecht"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 21,
+            "value": "jQuery"
+          }
+        ]
+      },
+      {
         "text": "Controlling, React, C#",
         "intent": "enter_data",
         "entities": [{
-          "end": 11,
-          "entity": "technology",
-          "start": 0,
-          "value": "Controlling"
-        }, {
-          "end": 18,
-          "entity": "technology",
-          "start": 13,
-          "value": "React"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 20,
-          "value": "C#"
-        }]
-      }, {
+            "end": 11,
+            "entity": "technology",
+            "start": 0,
+            "value": "Controlling"
+          },
+          {
+            "end": 18,
+            "entity": "technology",
+            "start": 13,
+            "value": "React"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 20,
+            "value": "C#"
+          }
+        ]
+      },
+      {
         "text": "Vue, PostgreSQL, Build Tools",
         "intent": "enter_data",
         "entities": [{
-          "end": 3,
-          "entity": "technology",
-          "start": 0,
-          "value": "Vue"
-        }, {
-          "end": 15,
-          "entity": "technology",
-          "start": 5,
-          "value": "PostgreSQL"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 17,
-          "value": "Build Tools"
-        }]
-      }, {
+            "end": 3,
+            "entity": "technology",
+            "start": 0,
+            "value": "Vue"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 5,
+            "value": "PostgreSQL"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 17,
+            "value": "Build Tools"
+          }
+        ]
+      },
+      {
         "text": "Mocha, Watson, Geschäftsmodell",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "Mocha"
-        }, {
-          "end": 13,
-          "entity": "technology",
-          "start": 7,
-          "value": "Watson"
-        }, {
-          "end": 30,
-          "entity": "technology",
-          "start": 15,
-          "value": "Geschäftsmodell"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "Mocha"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 7,
+            "value": "Watson"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 15,
+            "value": "Geschäftsmodell"
+          }
+        ]
+      },
+      {
         "text": "TensorFlow, Continuous Deployment, Controlling",
         "intent": "enter_data",
         "entities": [{
-          "end": 10,
-          "entity": "technology",
-          "start": 0,
-          "value": "TensorFlow"
-        }, {
-          "end": 33,
-          "entity": "technology",
-          "start": 12,
-          "value": "Continuous Deployment"
-        }, {
-          "end": 46,
-          "entity": "technology",
-          "start": 35,
-          "value": "Controlling"
-        }]
-      }, {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "TensorFlow"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 12,
+            "value": "Continuous Deployment"
+          },
+          {
+            "end": 46,
+            "entity": "technology",
+            "start": 35,
+            "value": "Controlling"
+          }
+        ]
+      },
+      {
         "text": "SASS, CSS, Java",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "SASS"
-        }, {
-          "end": 9,
-          "entity": "technology",
-          "start": 6,
-          "value": "CSS"
-        }, {
-          "end": 15,
-          "entity": "technology",
-          "start": 11,
-          "value": "Java"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "SASS"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "CSS"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 11,
+            "value": "Java"
+          }
+        ]
+      },
+      {
         "text": "LESS, OpenShift, Steuerrecht",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "LESS"
-        }, {
-          "end": 15,
-          "entity": "technology",
-          "start": 6,
-          "value": "OpenShift"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 17,
-          "value": "Steuerrecht"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "LESS"
+          },
+          {
+            "end": 15,
+            "entity": "technology",
+            "start": 6,
+            "value": "OpenShift"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 17,
+            "value": "Steuerrecht"
+          }
+        ]
+      },
+      {
         "text": "Prozessdesign, Gantt, Photo",
         "intent": "enter_data",
         "entities": [{
-          "end": 13,
-          "entity": "technology",
-          "start": 0,
-          "value": "Prozessdesign"
-        }, {
-          "end": 20,
-          "entity": "technology",
-          "start": 15,
-          "value": "Gantt"
-        }, {
-          "end": 27,
-          "entity": "technology",
-          "start": 22,
-          "value": "Photo"
-        }]
-      }, {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Prozessdesign"
+          },
+          {
+            "end": 20,
+            "entity": "technology",
+            "start": 15,
+            "value": "Gantt"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 22,
+            "value": "Photo"
+          }
+        ]
+      },
+      {
         "text": "Kotlin, Swift, Integrationstest",
         "intent": "enter_data",
         "entities": [{
-          "end": 6,
-          "entity": "technology",
-          "start": 0,
-          "value": "Kotlin"
-        }, {
-          "end": 13,
-          "entity": "technology",
-          "start": 8,
-          "value": "Swift"
-        }, {
-          "end": 31,
-          "entity": "technology",
-          "start": 15,
-          "value": "Integrationstest"
-        }]
-      }, {
+            "end": 6,
+            "entity": "technology",
+            "start": 0,
+            "value": "Kotlin"
+          },
+          {
+            "end": 13,
+            "entity": "technology",
+            "start": 8,
+            "value": "Swift"
+          },
+          {
+            "end": 31,
+            "entity": "technology",
+            "start": 15,
+            "value": "Integrationstest"
+          }
+        ]
+      },
+      {
         "text": "Softwarearchitektur, Rasa, Office",
         "intent": "enter_data",
         "entities": [{
-          "end": 19,
-          "entity": "technology",
-          "start": 0,
-          "value": "Softwarearchitektur"
-        }, {
-          "end": 25,
-          "entity": "technology",
-          "start": 21,
-          "value": "Rasa"
-        }, {
-          "end": 33,
-          "entity": "technology",
-          "start": 27,
-          "value": "Office"
-        }]
-      }, {
+            "end": 19,
+            "entity": "technology",
+            "start": 0,
+            "value": "Softwarearchitektur"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 21,
+            "value": "Rasa"
+          },
+          {
+            "end": 33,
+            "entity": "technology",
+            "start": 27,
+            "value": "Office"
+          }
+        ]
+      },
+      {
         "text": "Konfigurationsmanagement, Software Testing, Projektplan",
         "intent": "enter_data",
         "entities": [{
-          "end": 24,
-          "entity": "technology",
-          "start": 0,
-          "value": "Konfigurationsmanagement"
-        }, {
-          "end": 42,
-          "entity": "technology",
-          "start": 26,
-          "value": "Software Testing"
-        }, {
-          "end": 55,
-          "entity": "technology",
-          "start": 44,
-          "value": "Projektplan"
-        }]
-      }, {
+            "end": 24,
+            "entity": "technology",
+            "start": 0,
+            "value": "Konfigurationsmanagement"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 26,
+            "value": "Software Testing"
+          },
+          {
+            "end": 55,
+            "entity": "technology",
+            "start": 44,
+            "value": "Projektplan"
+          }
+        ]
+      },
+      {
         "text": "Geschäftsmodell, Releasemanagement, NoSQL",
         "intent": "enter_data",
         "entities": [{
-          "end": 15,
-          "entity": "technology",
-          "start": 0,
-          "value": "Geschäftsmodell"
-        }, {
-          "end": 34,
-          "entity": "technology",
-          "start": 17,
-          "value": "Releasemanagement"
-        }, {
-          "end": 41,
-          "entity": "technology",
-          "start": 36,
-          "value": "NoSQL"
-        }]
-      }, {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Geschäftsmodell"
+          },
+          {
+            "end": 34,
+            "entity": "technology",
+            "start": 17,
+            "value": "Releasemanagement"
+          },
+          {
+            "end": 41,
+            "entity": "technology",
+            "start": 36,
+            "value": "NoSQL"
+          }
+        ]
+      },
+      {
         "text": "Typescript, React, Sozialversicherungsrecht",
         "intent": "enter_data",
         "entities": [{
-          "end": 10,
-          "entity": "technology",
-          "start": 0,
-          "value": "Typescript"
-        }, {
-          "end": 17,
-          "entity": "technology",
-          "start": 12,
-          "value": "React"
-        }, {
-          "end": 43,
-          "entity": "technology",
-          "start": 19,
-          "value": "Sozialversicherungsrecht"
-        }]
-      }, {
+            "end": 10,
+            "entity": "technology",
+            "start": 0,
+            "value": "Typescript"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 12,
+            "value": "React"
+          },
+          {
+            "end": 43,
+            "entity": "technology",
+            "start": 19,
+            "value": "Sozialversicherungsrecht"
+          }
+        ]
+      },
+      {
         "text": "Rasa, Testautomatisierung, Teststrategie",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "Rasa"
-        }, {
-          "end": 25,
-          "entity": "technology",
-          "start": 6,
-          "value": "Testautomatisierung"
-        }, {
-          "end": 40,
-          "entity": "technology",
-          "start": 27,
-          "value": "Teststrategie"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Rasa"
+          },
+          {
+            "end": 25,
+            "entity": "technology",
+            "start": 6,
+            "value": "Testautomatisierung"
+          },
+          {
+            "end": 40,
+            "entity": "technology",
+            "start": 27,
+            "value": "Teststrategie"
+          }
+        ]
+      },
+      {
         "text": "Chai, Weiterbildungsmanagement, Cucumber",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "Chai"
-        }, {
-          "end": 30,
-          "entity": "technology",
-          "start": 6,
-          "value": "Weiterbildungsmanagement"
-        }, {
-          "end": 40,
-          "entity": "technology",
-          "start": 32,
-          "value": "Cucumber"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "Chai"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 6,
+            "value": "Weiterbildungsmanagement"
+          },
+          {
+            "end": 40,
+            "entity": "technology",
+            "start": 32,
+            "value": "Cucumber"
+          }
+        ]
+      },
+      {
         "text": "Accessibility, C, Weiterbildungsmanagement",
         "intent": "enter_data",
         "entities": [{
-          "end": 13,
-          "entity": "technology",
-          "start": 0,
-          "value": "Accessibility"
-        }, {
-          "end": 16,
-          "entity": "technology",
-          "start": 15,
-          "value": "C"
-        }, {
-          "end": 42,
-          "entity": "technology",
-          "start": 18,
-          "value": "Weiterbildungsmanagement"
-        }]
-      }, {
+            "end": 13,
+            "entity": "technology",
+            "start": 0,
+            "value": "Accessibility"
+          },
+          {
+            "end": 16,
+            "entity": "technology",
+            "start": 15,
+            "value": "C"
+          },
+          {
+            "end": 42,
+            "entity": "technology",
+            "start": 18,
+            "value": "Weiterbildungsmanagement"
+          }
+        ]
+      },
+      {
         "text": "Android, Testautomatisierung, OpenShift",
         "intent": "enter_data",
         "entities": [{
-          "end": 7,
-          "entity": "technology",
-          "start": 0,
-          "value": "Android"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 9,
-          "value": "Testautomatisierung"
-        }, {
-          "end": 39,
-          "entity": "technology",
-          "start": 30,
-          "value": "OpenShift"
-        }]
-      }, {
+            "end": 7,
+            "entity": "technology",
+            "start": 0,
+            "value": "Android"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 9,
+            "value": "Testautomatisierung"
+          },
+          {
+            "end": 39,
+            "entity": "technology",
+            "start": 30,
+            "value": "OpenShift"
+          }
+        ]
+      },
+      {
         "text": "NoSQL, Javascript, Cucumber",
         "intent": "enter_data",
         "entities": [{
-          "end": 5,
-          "entity": "technology",
-          "start": 0,
-          "value": "NoSQL"
-        }, {
-          "end": 17,
-          "entity": "technology",
-          "start": 7,
-          "value": "Javascript"
-        }, {
-          "end": 27,
-          "entity": "technology",
-          "start": 19,
-          "value": "Cucumber"
-        }]
-      }, {
+            "end": 5,
+            "entity": "technology",
+            "start": 0,
+            "value": "NoSQL"
+          },
+          {
+            "end": 17,
+            "entity": "technology",
+            "start": 7,
+            "value": "Javascript"
+          },
+          {
+            "end": 27,
+            "entity": "technology",
+            "start": 19,
+            "value": "Cucumber"
+          }
+        ]
+      },
+      {
         "text": "NOFS, npm, iOS",
         "intent": "enter_data",
         "entities": [{
-          "end": 4,
-          "entity": "technology",
-          "start": 0,
-          "value": "NOFS"
-        }, {
-          "end": 9,
-          "entity": "technology",
-          "start": 6,
-          "value": "npm"
-        }, {
-          "end": 14,
-          "entity": "technology",
-          "start": 11,
-          "value": "iOS"
-        }]
-      }, {
+            "end": 4,
+            "entity": "technology",
+            "start": 0,
+            "value": "NOFS"
+          },
+          {
+            "end": 9,
+            "entity": "technology",
+            "start": 6,
+            "value": "npm"
+          },
+          {
+            "end": 14,
+            "entity": "technology",
+            "start": 11,
+            "value": "iOS"
+          }
+        ]
+      },
+      {
         "text": "Geschäftsmodell, arc42, Java",
         "intent": "enter_data",
         "entities": [{
-          "end": 15,
-          "entity": "technology",
-          "start": 0,
-          "value": "Geschäftsmodell"
-        }, {
-          "end": 22,
-          "entity": "technology",
-          "start": 17,
-          "value": "arc42"
-        }, {
-          "end": 28,
-          "entity": "technology",
-          "start": 24,
-          "value": "Java"
-        }]
-      }, {
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "Geschäftsmodell"
+          },
+          {
+            "end": 22,
+            "entity": "technology",
+            "start": 17,
+            "value": "arc42"
+          },
+          {
+            "end": 28,
+            "entity": "technology",
+            "start": 24,
+            "value": "Java"
+          }
+        ]
+      },
+      {
         "text": "End-to-End-Test, Docker, Swift",
         "intent": "enter_data",
         "entities": [{
-          "end": 15,
-          "entity": "technology",
-          "start": 0,
-          "value": "End-to-End-Test"
-        }, {
-          "end": 23,
-          "entity": "technology",
-          "start": 17,
-          "value": "Docker"
-        }, {
-          "end": 30,
-          "entity": "technology",
+            "end": 15,
+            "entity": "technology",
+            "start": 0,
+            "value": "End-to-End-Test"
+          },
+          {
+            "end": 23,
+            "entity": "technology",
+            "start": 17,
+            "value": "Docker"
+          },
+          {
+            "end": 30,
+            "entity": "technology",
+            "start": 25,
+            "value": "Swift"
+          }
+        ]
+      },
+      {
+        "text": "Gibt es etwas im Bereich Frontend?",
+        "intent": "enter_data",
+        "entities": [{
           "start": 25,
-          "value": "Swift"
+          "end": 33,
+          "value": "Frontend",
+          "entity": "domain"
+        }]
+      },
+      {
+        "text": "Ich könnte mir vorstellen im Bereich Backend-Entwicklung zu arbeiten",
+        "intent": "enter_data",
+        "entities": [{
+          "start": 37,
+          "end": 56,
+          "value": "Backend-Entwicklung",
+          "entity": "domain"
         }]
       }
     ],

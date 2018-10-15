@@ -85,6 +85,9 @@ templates:
       Stelle
   utter_bye:
   - text: Machs gut {nameApplicant}
+  utter_default:
+  - text: Tut mir Leid, das habe ich nicht verstanden. Kannst du das bitte nocheinmal
+      anders formulieren?
   utter_greet:
   - text: Hallo {nameApplicant}! Wie kann ich dir behilflich sein?
   utter_youarewelcome:
