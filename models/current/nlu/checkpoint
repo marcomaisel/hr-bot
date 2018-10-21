@@ -1,2 +1,0 @@
-model_checkpoint_path: "C:\\Code\\hr-bot\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "C:\\Code\\hr-bot\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

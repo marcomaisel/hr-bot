@@ -23,13 +23,11 @@ entities:
 intents:
 - enter_data:
     use_entities: true
-- greet:
-    use_entities: true
 - thankyou:
     use_entities: true
 - goodbye:
     use_entities: true
-- introduction:
+- greet:
     use_entities: true
 - find_job:
     use_entities: true
@@ -79,16 +77,13 @@ templates:
   - text: Welche Tätigkeit möchtest du bei uns ausführen?
   utter_askTechnology:
   - text: Mit welchen Technologien würdest du gerne arbeiten?
-  utter_ask_job_intention:
-  - text: Hast du bereits eine konkrete Stelle gefunden oder kann ich dich bei der
-      Suche unterstützen? Gerne helfe ich dir beim Finden einer für dich passenden
-      Stelle
   utter_bye:
   - text: Machs gut {nameApplicant}
   utter_default:
-  - text: Tut mir Leid, das habe ich nicht verstanden. Kannst du das bitte nocheinmal
-      anders formulieren?
+  - text: Tut mir Leid, mit dieser Antwort kann ich gerade nichts anfangen. Kannst
+      du das bitte noch einmal anders formulieren?
   utter_greet:
-  - text: Hallo {nameApplicant}! Wie kann ich dir behilflich sein?
+  - text: Hallo {nameApplicant}! Wie kann ich dir behilflich sein? Gerne helfe ich
+      dir beim Finden einer für dich passenden Stelle
   utter_youarewelcome:
   - text: Freut mich, dass ich dir helfen konnte

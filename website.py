@@ -10,25 +10,28 @@ from rasa_core.policies.fallback import FallbackPolicy
 import os
 import sys
 
-_domain = TemplateDomain.load(os.path.join("models/dialogue", "domain.yml"))
+domain = TemplateDomain.load(os.path.join("models/dialogue", "domain.yml"))
 
-_fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
-                           core_threshold=0.3,
-                           nlu_threshold=0.3)
+interpreter = RasaNLUInterpreter("models/nlu/default/current")
 
-_interpreter = RasaNLUInterpreter("models/current/nlu/")
-
-_tracker_store = MongoTrackerStore(_domain,
-                                   host="mongodb://localhost:27017",
-                                   db="rasa",
-                                   username=None,
-                                   password=None,
-                                   collection="conversations")
-
-agent = Agent(policies=[MemoizationPolicy(), KerasPolicy(), _fallback])
+tracker_store = MongoTrackerStore(domain,
+                                  host="mongodb://localhost:27017",
+                                  db="rasa",
+                                  username=None,
+                                  password=None,
+                                  collection="conversations")
 
 agent = Agent.load("models/dialogue",
-                   interpreter=_interpreter,
-                   tracker_store=_tracker_store)
+                   interpreter=interpreter,
+                   tracker_store=tracker_store)
 
-agent.handle_channels([SocketIOInput()], 5500, serve_forever=True)
+input_channel = SocketIOInput(
+    # event name for messages sent from the user
+    user_message_evt="user_uttered",
+    # event name for messages sent from the bot
+    bot_message_evt="bot_uttered",
+    # socket.io namespace to use for the messages
+    namespace=None
+)
+
+agent.handle_channels([input_channel], 5500)

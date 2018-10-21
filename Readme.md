@@ -20,13 +20,13 @@ This will install the bot and all of its requirements.
 To train the core model: 
 
 ```
-python3 -m rasa_core.train -d domain.yml -s data/core/stories.md -o models/dialogue
+python3 bot.py train-dialogue
 ```
 
 To train the NLU model: 
 
 ```
-python3 -m rasa_nlu.train -c config_tensorflow.yml --data data/nlu/nlu.json -o models --fixed_model_name nlu --project current --verbose
+python3 bot.py train-nlu
 ```
 
 To evaluate the NLU model: 
@@ -35,10 +35,10 @@ To evaluate the NLU model:
 python3 -m rasa_nlu.evaluate --config config_tensorflow.yml --data data/nlu/nlu.json --mode crossvalidation
 ```
 
-To run the bot with both these models:
+<!-- To run the bot with both these models:
 ```
 python3 -m rasa_core.run -d models/dialogue -u models/current/nlu --endpoints endpoints.yml
-```
+``` -->
 
 To start interactive learning
 ```
@@ -50,7 +50,7 @@ python3 -m rasa_core_sdk.endpoint --actions actions
 ```
 
 ```
-python3 -m rasa_core.train -u models/current/nlu/ --online -o models/dialogue -d domain.yml -s data/core/stories.md --endpoints endpoints.yml
+python3 -m rasa_core.train --interactive -u models/nlu/default/current/ -o models/dialogue -d domain.yml -s data/core/stories.md --endpoints endpoints.yml --skip_visualization
 
 ```
 

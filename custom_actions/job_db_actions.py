@@ -436,12 +436,12 @@ def populate_database():
         administrieren], domains=[personal])
     projektplan = Technology(name='projektplan', tasks=[
         administrieren], domains=[business])
-    projektmanagement = Technology(name='projektmanagement', tasks=[
-        administrieren], domains=[business])
     gantt = Technology(name='gantt', tasks=[
         administrieren], domains=[business])
     requirements_engineering = Technology(name='requirements engineering', tasks=[
         administrieren, analysieren, entwickeln], domains=[business])
+    projektmanagement = Technology(name='projektmanagement', tasks=[
+        administrieren], domains=[business])
 
     controlling = Technology(name='controlling', tasks=[
         administrieren], domains=[finanzen])
@@ -473,7 +473,7 @@ if __name__ == "__main__":
     with db_session:
         if Technology.select().first() is None:
             populate_database()
-    get_domain_for_technology(['angular'])
+    # get_domain_for_technology(['projektmanagement'])
     # get_task_for_technology(['angular', 'photoshop', 'swift'])
     # get_technology_for_task(['entwickeln'])
     # get_domain_for_task(['entwickeln'])

@@ -1,9 +1,8 @@
 intents:
   - enter_data
-  - greet
   - thankyou
   - goodbye
-  - introduction
+  - greet
   - find_job
 
 entities:
@@ -58,11 +57,9 @@ actions:
 templates:
   utter_default:
     - text: "Tut mir Leid, mit dieser Antwort kann ich gerade nichts anfangen. Kannst du das bitte noch einmal anders formulieren?"
-  utter_greet:
-    - text: "Hallo {nameApplicant}! Wie kann ich dir behilflich sein?"
 
-  utter_ask_job_intention:
-    - text: "Hast du bereits eine konkrete Stelle gefunden oder kann ich dich bei der Suche unterstützen? Gerne helfe ich dir beim Finden einer für dich passenden Stelle"
+  utter_greet:
+    - text: "Hallo {nameApplicant}! Wie kann ich dir behilflich sein? Gerne helfe ich dir beim Finden einer für dich passenden Stelle"
 
   utter_bye:
     - text: "Machs gut {nameApplicant}"

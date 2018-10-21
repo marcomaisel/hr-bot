@@ -2,12 +2,12 @@
   "rasa_nlu_data": {
     "common_examples": [{
         "text": "Hallo. Ich bin auf der Suche nach einer Arbeitsstelle auf diese Seite gelangt.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": []
       },
       {
         "text": "Hallo, mein Name ist Hans.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 25,
@@ -17,7 +17,7 @@
       },
       {
         "text": "Sehr geehrte Damen und Herren, mein Name ist Janina.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 45,
           "end": 51,
@@ -27,7 +27,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Lukas.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 30,
@@ -37,7 +37,7 @@
       },
       {
         "text": "Guten Morgen, ich bin der Alex",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 26,
           "end": 30,
@@ -47,7 +47,7 @@
       },
       {
         "text": "Guten Abend, mein Name ist Fati.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 27,
           "end": 31,
@@ -57,7 +57,7 @@
       },
       {
         "text": "Hallo, mein Name ist Daniel.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -67,7 +67,7 @@
       },
       {
         "text": "Hallo Chatbot, ich heiße Laura und freue mich mich heute bei Dir vorstellen zu dürfen.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 30,
@@ -77,7 +77,7 @@
       },
       {
         "text": "Hallo ich bin Corinna und bin auf eure ausgeschriebenen Stellen aufmerksam geworden.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 14,
           "end": 21,
@@ -87,7 +87,7 @@
       },
       {
         "text": "Hallo, mein Name ist Christof und ich würde mich gerne auf eine Stelle bewerben.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 21,
           "end": 29,
@@ -97,7 +97,7 @@
       },
       {
         "text": "Hi Bot, ich bin Marcel. Ich würde mich gerne bei euch bewerben.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 16,
           "end": 22,
@@ -107,7 +107,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Korbinian. Ich würde mich gerne auf eine Stelle bewerben",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 25,
           "end": 34,
@@ -117,7 +117,7 @@
       },
       {
         "text": "Hallo mein Name ist Mark und ich suche einen Job als Werkstudent",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
             "start": 20,
             "end": 24,
@@ -133,8 +133,8 @@
         ]
       },
       {
-        "text": "Sehr geehrte Damen und Herren, meine Name ist Melissa und ich bin im Internet auf Ihre Anzeige gestoßen.",
-        "intent": "introduction",
+        "text": "Sehr geehrte Damen und Herren, meine Name ist Melissa.",
+        "intent": "greet",
         "entities": [{
           "start": 46,
           "end": 53,
@@ -144,7 +144,7 @@
       },
       {
         "text": "Hallo, mein Name ist Stephanie.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 30,
@@ -154,7 +154,7 @@
       },
       {
         "text": "Hallo! Mein Name ist Conny",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 26,
@@ -164,7 +164,7 @@
       },
       {
         "text": "Hallo, mein Name ist Nick.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 25,
@@ -174,7 +174,7 @@
       },
       {
         "text": "Hallo, mein Name ist Sabine.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -184,7 +184,7 @@
       },
       {
         "text": "Hallo, ich bin der Laurenz.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 19,
           "end": 26,
@@ -194,7 +194,7 @@
       },
       {
         "text": "Guten Tag, hier ist Martin.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 20,
           "end": 26,
@@ -204,7 +204,7 @@
       },
       {
         "text": "Hi, ich bin Tim",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 12,
           "end": 15,
@@ -214,7 +214,7 @@
       },
       {
         "text": "Servus, ich bin der Max",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 20,
           "end": 23,
@@ -224,7 +224,7 @@
       },
       {
         "text": "Mein Name ist Caroline und bin 27 Jahre alt.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 14,
           "end": 22,
@@ -234,7 +234,7 @@
       },
       {
         "text": "Hi, ich bin Susanne.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 12,
           "end": 19,
@@ -244,7 +244,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Almut.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 30,
@@ -254,7 +254,7 @@
       },
       {
         "text": "Hallo, mein Name ist Julian. Ich bin 24 Jahre alt",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -264,7 +264,7 @@
       },
       {
         "text": "Hallo, mein Name ist Daniel",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -274,7 +274,7 @@
       },
       {
         "text": "Guten Morgen, mein Name ist Judith",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 28,
           "end": 34,
@@ -284,12 +284,12 @@
       },
       {
         "text": "Guten Abend, ich bin Stefanie",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Sehr geehrte Damen und Herren, mein Name ist Mona",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 45,
           "end": 49,
@@ -299,7 +299,7 @@
       },
       {
         "text": "Hallo, ich heiße Manuel",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 17,
           "end": 23,
@@ -309,7 +309,7 @@
       },
       {
         "text": "Hallo, mein Name ist Stefan",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -319,7 +319,7 @@
       },
       {
         "text": "Ich heiße Carina",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 10,
           "end": 16,
@@ -329,7 +329,7 @@
       },
       {
         "text": "Hallo, ich bin Marco",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 20,
@@ -339,7 +339,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Peter",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 30,
@@ -349,42 +349,42 @@
       },
       {
         "text": "Hallo",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Hi",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "hi",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Hey",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Guten Tag",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Guten Morgen",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Guten Abend",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": []
       },
       {
         "text": "Guten Tag, mein Name ist Stefan.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 31,
@@ -394,7 +394,7 @@
       },
       {
         "text": "Liebes Team, mein Name ist Stefanie. Ich interessiere mich sehr für Ihre Firma und würde mich freuen, ein Teil ihres Teams zu werden!",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 27,
           "end": 35,
@@ -404,7 +404,7 @@
       },
       {
         "text": "Hi, ich bin die Lisa.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 16,
           "end": 20,
@@ -414,7 +414,7 @@
       },
       {
         "text": "Hallo, mein Name ist Christian.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 30,
@@ -424,7 +424,7 @@
       },
       {
         "text": "Servus, ich bin die Johanna.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 20,
           "end": 27,
@@ -434,7 +434,7 @@
       },
       {
         "text": "Hallo, ich bin Theresia. Ich bin 22 Jahre alt und komme aus Jena.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 23,
@@ -444,7 +444,7 @@
       },
       {
         "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 28,
           "end": 32,
@@ -454,7 +454,7 @@
       },
       {
         "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 21,
           "end": 24,
@@ -464,7 +464,7 @@
       },
       {
         "text": "Mein Name ist Marco und ich würde mich gerne bewerben.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 14,
           "end": 19,
@@ -474,7 +474,7 @@
       },
       {
         "text": "Guten Tag, ich bin Jonas. Auf der Suche nach einem Job bin ich auf euere Seite gelangt.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 19,
           "end": 24,
@@ -484,7 +484,7 @@
       },
       {
         "text": "Guten Morgen! Mein Name ist Anna und ich bin nach meinem Studium auf der Suche nach einem Job.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 28,
           "end": 32,
@@ -494,7 +494,7 @@
       },
       {
         "text": "Hallo! Mein Name ist Jan und ich melde mich, weil ich auf der Suche nach einem Job bin.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 21,
           "end": 24,
@@ -504,7 +504,7 @@
       },
       {
         "text": "Hey, ich bin der Sebastian, 30 Jahre alt und komme aus dem schönen Alpenvorland.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 17,
           "end": 26,
@@ -514,7 +514,7 @@
       },
       {
         "text": "Liebes Team, mein Name ist Elise",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 27,
           "end": 32,
@@ -524,7 +524,7 @@
       },
       {
         "text": "Moin. Ich bin der Ferdinand, Bachelor-Student im Fach Public Relations und auf der Suche nach einem Job ab sofort.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 18,
           "end": 27,
@@ -534,7 +534,7 @@
       },
       {
         "text": "Lieber Bot, ich bin die Lauren und bin Studentin im Fach Mathematik.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 24,
           "end": 30,
@@ -544,7 +544,7 @@
       },
       {
         "text": "Hi, ich bin die Madeleine",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 16,
           "end": 25,
@@ -554,7 +554,7 @@
       },
       {
         "text": "Sehr geehrte Damen und Herren, meine Name ist Sibylle. Ich bin 25 Jahre alt und Studentin",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 46,
           "end": 53,
@@ -564,7 +564,7 @@
       },
       {
         "text": "Hallo! :) Ich bin die Ana-Maria. Ich würde mich gerne über offene Stellen in Ihrem Unternehmen erkundigen.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 22,
           "end": 31,
@@ -574,7 +574,7 @@
       },
       {
         "text": "Hallo, mein Name ist Christian.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 30,
@@ -584,7 +584,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Theresa. Ich würde mich gerne bei Ihnen vorstellen.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 25,
           "end": 32,
@@ -594,7 +594,7 @@
       },
       {
         "text": "Hallo, ich bin Johann",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 21,
@@ -604,7 +604,7 @@
       },
       {
         "text": "Hallo, mein Name ist Kristina. Ich bin auf der Suche nach einer Stelle.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 21,
           "end": 29,
@@ -614,7 +614,7 @@
       },
       {
         "text": "Hi, ich bin Patrick",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 12,
           "end": 19,
@@ -624,7 +624,7 @@
       },
       {
         "text": "Hallo, mein Name ist Roman und würde mich gerne bei Ihnen vorstellen.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 26,
@@ -634,7 +634,7 @@
       },
       {
         "text": "Hi, mein Name ist Timo",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 18,
           "end": 22,
@@ -644,7 +644,7 @@
       },
       {
         "text": "Hallo, mein Name ist Benedict und ich interessiere mich für eine Stelle in Ihrem Unternehmen.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 21,
           "end": 29,
@@ -654,7 +654,7 @@
       },
       {
         "text": "Guten Tag. Ich heiße Petra.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 26,
@@ -664,7 +664,7 @@
       },
       {
         "text": "Hi, ich bin Robin",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 12,
           "end": 17,
@@ -674,7 +674,7 @@
       },
       {
         "text": "Servus, ich bin der Adam",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 20,
           "end": 24,
@@ -684,7 +684,7 @@
       },
       {
         "text": "Hallo, mein Name ist Larissa",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 28,
@@ -694,7 +694,7 @@
       },
       {
         "text": "Sehr geehrte Damen und Herren, ich heiße Abnet",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 41,
           "end": 46,
@@ -704,7 +704,7 @@
       },
       {
         "text": "Hallo, ich bin die Annalena",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 19,
           "end": 27,
@@ -714,7 +714,7 @@
       },
       {
         "text": "Grüß euch, ich bin der Bernhard",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 23,
           "end": 31,
@@ -724,7 +724,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Dean",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 29,
@@ -734,7 +734,7 @@
       },
       {
         "text": "Hi, ich bin der Dominik. Nach Abschluss meines Bachelor-Studiums bin ich auf der Suche nach einem Job.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 16,
           "end": 23,
@@ -744,7 +744,7 @@
       },
       {
         "text": "Hey, ich bin der Georg. Ich bin 23 Jahre alt und komme aus Nürnberg",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 17,
           "end": 22,
@@ -754,7 +754,7 @@
       },
       {
         "text": "Hallo, ich bin Frizzi",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 21,
@@ -764,7 +764,7 @@
       },
       {
         "text": "Hey, ich bin Klaus.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 13,
           "end": 18,
@@ -774,7 +774,7 @@
       },
       {
         "text": "Hallo, mein Name ist Louisa.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 27,
@@ -784,7 +784,7 @@
       },
       {
         "text": "Hallo zusammen. Ich bin Maja",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 24,
           "end": 28,
@@ -794,7 +794,7 @@
       },
       {
         "text": "Morgen. Ich heiße Mario",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 18,
           "end": 23,
@@ -804,7 +804,7 @@
       },
       {
         "text": "Hi, ich bin Rebecca",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 12,
           "end": 19,
@@ -814,7 +814,7 @@
       },
       {
         "text": "Hallo, ich bin die Sara und würde mich gerne bei Ihnen bewerben.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 19,
           "end": 23,
@@ -824,7 +824,7 @@
       },
       {
         "text": "Hey, ich bin der Simon und komme aus einem kleinen Dorf in der Nähe von Berlin.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 17,
           "end": 22,
@@ -834,7 +834,7 @@
       },
       {
         "text": "Hallo, ich bin die Tami",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 19,
           "end": 23,
@@ -844,7 +844,7 @@
       },
       {
         "text": "Hi, ich bin der Uli.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 16,
           "end": 19,
@@ -854,7 +854,7 @@
       },
       {
         "text": "Hallo, ich bin Nino.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 19,
@@ -864,7 +864,7 @@
       },
       {
         "text": "Hallo ich bin Stefan",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 14,
           "end": 20,
@@ -874,7 +874,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Martina.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 32,
@@ -884,7 +884,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Monika.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 31,
@@ -894,7 +894,7 @@
       },
       {
         "text": "Hallo! Mein Name ist Conny",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 26,
@@ -904,7 +904,7 @@
       },
       {
         "text": "Hi, ich bin der Joost. Ich bin auf der Suche nach einer neuen Herausforderung.",
-        "intent": "introduction+find_job",
+        "intent": "greet+find_job",
         "entities": [{
           "start": 16,
           "end": 21,
@@ -914,7 +914,7 @@
       },
       {
         "text": "Hallo, mein Name ist Jose",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 25,
@@ -924,7 +924,7 @@
       },
       {
         "text": "Hi, mein Name ist Marc",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 18,
           "end": 22,
@@ -934,7 +934,7 @@
       },
       {
         "text": "Guten Tag, mein Name ist Michael.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 25,
           "end": 32,
@@ -944,7 +944,7 @@
       },
       {
         "text": "Hallo, ich bin Stefan",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 15,
           "end": 21,
@@ -954,7 +954,7 @@
       },
       {
         "text": "Guten Morgen, ich bin Julia.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 22,
           "end": 27,
@@ -964,7 +964,7 @@
       },
       {
         "text": "Hi, ich bin die Nadine. Ich bin 22 Jahre alt",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 16,
           "end": 22,
@@ -974,7 +974,7 @@
       },
       {
         "text": "Hallo, mein Name ist Francis.",
-        "intent": "introduction",
+        "intent": "greet",
         "entities": [{
           "start": 21,
           "end": 28,
@@ -4466,6 +4466,36 @@
           "value": "Backend-Entwicklung",
           "entity": "domain"
         }]
+      },
+      {
+        "text": "hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "guten tag",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Ahoi!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Schönen guten Tag",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
       }
     ],
     "regex_features": [],

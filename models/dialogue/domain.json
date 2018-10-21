@@ -4,7 +4,6 @@
     "intent_find_job",
     "intent_goodbye",
     "intent_greet",
-    "intent_introduction",
     "intent_thankyou",
     "entity_nameApplicant",
     "entity_formOfEmployment",
