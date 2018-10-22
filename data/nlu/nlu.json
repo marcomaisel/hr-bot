@@ -4448,6 +4448,52 @@
         ]
       },
       {
+        "text": "analysieren",
+        "intent": "enter_data",
+        "entities": [{
+          "end": 11,
+          "entity": "jobTask",
+          "start": 0,
+          "value": "analysieren"
+        }]
+      }, {
+        "text": "designen",
+        "intent": "enter_data",
+        "entities": [{
+          "end": 8,
+          "entity": "jobTask",
+          "start": 0,
+          "value": "designen"
+        }]
+      }, {
+        "text": "entwickeln",
+        "intent": "enter_data",
+        "entities": [{
+          "end": 10,
+          "entity": "jobTask",
+          "start": 0,
+          "value": "entwickeln"
+        }]
+      }, {
+        "text": "coachen",
+        "intent": "enter_data",
+        "entities": [{
+          "end": 7,
+          "entity": "jobTask",
+          "start": 0,
+          "value": "coachen"
+        }]
+      }, {
+        "text": "administrieren",
+        "intent": "enter_data",
+        "entities": [{
+          "end": 14,
+          "entity": "jobTask",
+          "start": 0,
+          "value": "administrieren"
+        }]
+      },
+      {
         "text": "Gibt es etwas im Bereich Frontend?",
         "intent": "enter_data",
         "entities": [{
