@@ -10,7 +10,7 @@ class ActionFindExistingJob(Action):
 
     def run(self, dispatcher, tracker, domain):
         jobs = [
-            {"name": "Werkstudent Software-Entwicklung", "formOfEmployment": "student",
+            {"name": "Werkstudent Software-Entwicklung", "formOfEmployment": "werkstudent",
              "jobTask": "entwickeln", "domain": ["web", "mobile"], "technology": ["java ee", "java"]},
 
             {"name": "Webdesigner", "formOfEmployment": "vollzeit", "jobTask": "designen",

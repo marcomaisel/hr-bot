@@ -4,13 +4,13 @@ actions:
 - action_find_job
 - action_match_job_slots
 - utter_greet
-- utter_ask_job_intention
 - utter_bye
 - utter_youarewelcome
 - utter_askJobTask
 - utter_askTechnology
 - utter_askDomain
 - utter_askFormOfEmployment
+- utter_help
 config:
   store_entities_as_slots: true
 entities:
@@ -21,6 +21,8 @@ entities:
 - jobTask
 - jobName
 intents:
+- start_dialogue:
+    use_entities: true
 - enter_data:
     use_entities: true
 - thankyou:
@@ -30,6 +32,8 @@ intents:
 - greet:
     use_entities: true
 - find_job:
+    use_entities: true
+- help:
     use_entities: true
 slots:
   domain:
@@ -61,22 +65,24 @@ slots:
     type: rasa_core.slots.ListSlot
 templates:
   utter_askDomain:
-  - text: In welchem Bereich würdest du gerne arbeiten?
+  - text: Für welches Fachgebiet interessiert du dich am meisten?
   utter_askFormOfEmployment:
   - buttons:
     - payload: '/enter_data{"formOfEmployment": "vollzeit"}'
       title: Vollzeit
     - payload: '/enter_data{"formOfEmployment": "teilzeit"}'
       title: Teilzeit
-    - payload: '/enter_data{"formOfEmployment": "student"}'
+    - payload: '/enter_data{"formOfEmployment": "werkstudent"}'
       title: Werkstudent
     - payload: '/enter_data{"formOfEmployment": "praktikum"}'
       title: Praktikum
-    text: In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?
+    text: In welchem Beschäftigungsverhältnis würdest du gerne bei uns arbeiten?
+  utter_askJobStart:
+  - text: -text
   utter_askJobTask:
   - text: Welche Tätigkeit möchtest du bei uns ausführen?
   utter_askTechnology:
-  - text: Mit welchen Technologien würdest du gerne arbeiten?
+  - text: Welchen Technologien würdest du gerne einsetzen?
   utter_bye:
   - text: Machs gut {nameApplicant}
   utter_default:
@@ -85,5 +91,7 @@ templates:
   utter_greet:
   - text: Hallo {nameApplicant}! Wie kann ich dir behilflich sein? Gerne helfe ich
       dir beim Finden einer für dich passenden Stelle
+  utter_help:
+  - text: Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden.
   utter_youarewelcome:
   - text: Freut mich, dass ich dir helfen konnte

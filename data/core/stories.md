@@ -1,17 +1,17 @@
-## greet
-* greet
+## Start
+* start_dialogue
     - utter_greet
 
 ## happy
 * thankyou
-    - utter_youarewelcome
+    - utter_askFormOfEmployment
 
 ## goodbye
 * goodbye
     - utter_bye
 
-## Greet + find_job
-* greet
+## Start + find_job
+* start_dialogue
     - utter_greet
 * find_job
     - utter_askJobTask

@@ -1,9 +1,11 @@
 intents:
+  - start_dialogue
   - enter_data
   - thankyou
   - goodbye
   - greet
   - find_job
+  - help
 
 entities:
   - nameApplicant
@@ -46,13 +48,13 @@ actions:
 - action_find_job
 - action_match_job_slots
 - utter_greet
-- utter_ask_job_intention
 - utter_bye
 - utter_youarewelcome
 - utter_askJobTask
 - utter_askTechnology
 - utter_askDomain
 - utter_askFormOfEmployment
+- utter_help
 
 templates:
   utter_default:
@@ -64,26 +66,32 @@ templates:
   utter_bye:
     - text: "Machs gut {nameApplicant}"
 
+  utter_askJobStart:
+    -text: "Für welchen Bereich interessiert du dich?"
+
   utter_youarewelcome:
     - text: "Freut mich, dass ich dir helfen konnte"
 
   utter_askTechnology:
-    - text: "Mit welchen Technologien würdest du gerne arbeiten?"
+    - text: "Welchen Technologien würdest du gerne einsetzen?"
 
   utter_askJobTask:
     - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
 
   utter_askDomain:
-    - text: "In welchem Bereich würdest du gerne arbeiten?"
+    - text: "Für welches Fachgebiet interessiert du dich am meisten?"
 
   utter_askFormOfEmployment:
-    - text: "In welchem Beschäftigungsverhältnis möchtest du bei uns arbeiten?"
+    - text: "In welchem Beschäftigungsverhältnis würdest du gerne bei uns arbeiten?"
       buttons:
       - title: "Vollzeit"
         payload: '/enter_data{"formOfEmployment": "vollzeit"}'
       - title: "Teilzeit"
         payload: '/enter_data{"formOfEmployment": "teilzeit"}'
       - title: "Werkstudent"
-        payload: '/enter_data{"formOfEmployment": "student"}'
+        payload: '/enter_data{"formOfEmployment": "werkstudent"}'
       - title: "Praktikum"
         payload: '/enter_data{"formOfEmployment": "praktikum"}'
+  
+  utter_help:
+    - text: "Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden."

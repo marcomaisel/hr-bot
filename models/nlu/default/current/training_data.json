@@ -5005,6 +5005,66 @@
         "intent": "enter_data",
         "entities": [
           {
+            "end": 11,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "analysieren"
+          }
+        ],
+        "text": "analysieren"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "designen"
+          }
+        ],
+        "text": "designen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "entwickeln"
+          }
+        ],
+        "text": "entwickeln"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "coachen"
+          }
+        ],
+        "text": "coachen"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "jobTask",
+            "start": 0,
+            "value": "administrieren"
+          }
+        ],
+        "text": "administrieren"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
             "start": 25,
             "end": 33,
             "value": "Frontend",
@@ -5024,6 +5084,54 @@
           }
         ],
         "text": "Ich könnte mir vorstellen im Bereich Backend-Entwicklung zu arbeiten"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Teilzeit"
+          }
+        ],
+        "text": "Teilzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Werkstudent"
+          }
+        ],
+        "text": "Werkstudent"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Vollzeit"
+          }
+        ],
+        "text": "Vollzeit"
+      },
+      {
+        "intent": "enter_data",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "formOfEmployment",
+            "start": 0,
+            "value": "Praktikum"
+          }
+        ],
+        "text": "Praktikum"
       },
       {
         "intent": "greet",
@@ -5048,6 +5156,76 @@
       {
         "intent": "greet",
         "text": "hello"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Praktika",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Praktika habt ihr?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Welche Stellen für Praktikanten könnt ihr anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Praktikanten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Könnt ihr Stellen für Praktikanten anbieten?"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 29,
+            "end": 42,
+            "value": "Werkstudenten",
+            "entity": "formOfEmployment"
+          }
+        ],
+        "text": "Wie sieht es mit Stellen für Werkstudenten aus?"
+      },
+      {
+        "intent": "greet",
+        "text": "Moin!"
+      },
+      {
+        "intent": "find_job",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "Java",
+            "entity": "technology"
+          },
+          {
+            "start": 31,
+            "end": 41,
+            "value": "Entwickler",
+            "entity": "jobTask"
+          }
+        ],
+        "text": "Ich suche eine Stelle als Java Entwickler"
       }
     ],
     "regex_features": [],

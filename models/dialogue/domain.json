@@ -4,6 +4,8 @@
     "intent_find_job",
     "intent_goodbye",
     "intent_greet",
+    "intent_help",
+    "intent_start_dialogue",
     "intent_thankyou",
     "entity_nameApplicant",
     "entity_formOfEmployment",
@@ -26,12 +28,12 @@
     "prev_action_find_job",
     "prev_action_match_job_slots",
     "prev_utter_greet",
-    "prev_utter_ask_job_intention",
     "prev_utter_bye",
     "prev_utter_youarewelcome",
     "prev_utter_askJobTask",
     "prev_utter_askTechnology",
     "prev_utter_askDomain",
-    "prev_utter_askFormOfEmployment"
+    "prev_utter_askFormOfEmployment",
+    "prev_utter_help"
   ]
 }
