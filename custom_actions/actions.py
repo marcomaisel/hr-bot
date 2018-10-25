@@ -91,11 +91,22 @@ class ActionMatchJobSlots(Action):
                     SlotSet("domain", possibleDomains),
                     FollowupAction("action_find_job")]
 
-            # if none or more than 1 domain is possible: ask for domain
+            # if no domain is possible:
+            elif len(possibleDomains) == 0:
+                return [FollowupAction("utter_askSpeculativeApplication")]
+
+            # if more than 1 domain is possible: ask for domain
             else:
+                message = "Für welches dieser Gebiete interessiert du dich am meisten?"
+                buttons = []
+                for possDomain in possibleDomains:
+                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    buttons.append({"title": possDomain, "payload": payload})
+                dispatcher.utter_button_message(message, buttons)
+
                 return [
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askDomain")]
+                    FollowupAction("action_listen")]
 
         # for given domain and technology: differentiate between 1 or more than 1 possible task
         elif domainSlot is not None and technologySlot is not None:
@@ -109,11 +120,22 @@ class ActionMatchJobSlots(Action):
                     SlotSet("jobTask", possibleTasks),
                     FollowupAction("action_find_job")]
 
-            # if non or more than 1 task is possible: ask for task
+            # if no task is possible:
+            elif len(possibleTasks) == 0:
+                return [FollowupAction("utter_askSpeculativeApplication")]
+
+            # if more than 1 task is possible: ask for task
             else:
+                message = "Welche dieser Tätigkeiten beschreibt deine gesucht Stelle am besten?"
+                buttons = []
+                for possTask in possibleTasks:
+                    payload = ('/enter_data{\"jobTask\": ' + possTask + '}')
+                    buttons.append({"title": possTask, "payload": payload})
+                dispatcher.utter_button_message(message, buttons)
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askJobTask")]
+                    FollowupAction("action_listen")]
 
         elif taskSlot is not None:
 
@@ -127,7 +149,11 @@ class ActionMatchJobSlots(Action):
                     SlotSet("domain", possibleDomains),
                     FollowupAction("utter_askTechnology")]
 
-            # if non or more than 1 domain is possible: ask for technology
+            # if no domain is possible:
+            elif len(possibleDomains) == 0:
+                return [FollowupAction("utter_askSpeculativeApplication")]
+
+            # if more than 1 domain is possible: ask for technology
             else:
                 return [
                     SlotSet("possibleTechnologies", possibleTechnologies),
@@ -146,12 +172,16 @@ class ActionMatchJobSlots(Action):
                     SlotSet("jobTask", possibleTasks),
                     FollowupAction("utter_askTechnology")]
 
-            # if non or more than 1 task is possible: ask for domain
+            # if no task is possible:
+            elif len(possibleTasks) == 0:
+                return [FollowupAction("utter_askSpeculativeApplication")]
+
+            # if more than 1 task is possible: ask for domain
             else:
                 return [
                     SlotSet("possibleTechnologies", possibleTechnologies),
                     SlotSet("possibleTasks", possibleTasks),
-                    FollowupAction("utter_askJobTask")]
+                    FollowupAction("utter_askTechnology")]
 
         elif technologySlot is not None:
             possibleDomains = get_domain_for_technology(technologySlot)
@@ -165,25 +195,54 @@ class ActionMatchJobSlots(Action):
                     SlotSet("domain", possibleDomains),
                     FollowupAction("action_find_job")]
 
-            # if only 1 task is possible: automatically set it and ask for domain
+            # if only 1 task is possible: automatically set it
+            # ask for domain in form of buttons of all domains which are still possible
             elif len(possibleTasks) == 1:
-                print("possibleTasks: ", possibleTasks)
+
+                message = "Für welches dieser Gebiete interessiert du dich am meisten?"
+                buttons = []
+                for possDomain in possibleDomains:
+                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    buttons.append({"title": possDomain, "payload": payload})
+                dispatcher.utter_button_message(message, buttons)
+
                 return [
                     SlotSet("jobTask", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askDomain")]
+                    FollowupAction("action_listen")]
 
-            # if only 1 domain is possible: automatically set it and ask for task
+            # if only 1 domain is possible: automatically set it
+            # ask for task in form of buttons of all tasks which are still possible
             elif len(possibleDomains) == 1:
+
+                message = "Welche dieser Tätigkeiten beschreibt deine gesucht Stelle am besten?"
+                buttons = []
+                for possTask in possibleTasks:
+                    payload = ('/enter_data{\"jobTask\": ' + possTask + '}')
+                    buttons.append({"title": possTask, "payload": payload})
+                dispatcher.utter_button_message(message, buttons)
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("domain", possibleDomains),
-                    FollowupAction("utter_askJobTask")]
+                    FollowupAction("action_listen")]
 
-            # if non or more than 1 in both slots is possible: ask for task
+            # if no task is possible:
+            elif ((len(possibleTasks) == 0) or (len(possibleDomains) == 0)):
+                return [FollowupAction("utter_askSpeculativeApplication")]
+
+            # if non or more than 1 in both slots is possible:
+            # ask for domain in form of buttons of all domains which are still possible
             else:
+                message = "Für welches dieser Gebiete interessiert du dich am meisten?"
+                buttons = []
+                for possDomain in possibleDomains:
+                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    buttons.append({"title": possDomain, "payload": payload})
+                dispatcher.utter_button_message(message, buttons)
+
                 return [
                     SlotSet("possibleTasks", possibleTasks),
                     SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("utter_askJobTask")]
+                    FollowupAction("action_listen")]
         return

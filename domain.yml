@@ -73,7 +73,7 @@ templates:
     - text: "Freut mich, dass ich dir helfen konnte"
 
   utter_askTechnology:
-    - text: "Welchen Technologien würdest du gerne einsetzen?"
+    - text: "Welche Technologien würdest du gerne einsetzen?"
 
   utter_askJobTask:
     - text: "Welche Tätigkeit möchtest du bei uns ausführen?"
@@ -93,5 +93,8 @@ templates:
       - title: "Praktikum"
         payload: '/enter_data{"formOfEmployment": "praktikum"}'
   
+  utter_askSpeculativeApplication:
+    - text: "Leider kann ich für deine bisherigen Angaben keine offene Stelle finden. Möchtest du dich stattdessen initiativ bewerben?"
+
   utter_help:
     - text: "Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden."

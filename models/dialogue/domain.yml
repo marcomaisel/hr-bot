@@ -82,7 +82,7 @@ templates:
   utter_askJobTask:
   - text: Welche Tätigkeit möchtest du bei uns ausführen?
   utter_askTechnology:
-  - text: Welchen Technologien würdest du gerne einsetzen?
+  - text: Welche Technologien würdest du gerne einsetzen?
   utter_bye:
   - text: Machs gut {nameApplicant}
   utter_default:

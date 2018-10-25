@@ -4,9 +4,6 @@ from rasa_core.tracker_store import MongoTrackerStore
 from rasa_core.domain import TemplateDomain
 from rasa_core.interpreter import (
     NaturalLanguageInterpreter, RasaNLUInterpreter)
-from rasa_core.policies.memoization import MemoizationPolicy
-from rasa_core.policies.keras_policy import KerasPolicy
-from rasa_core.policies.fallback import FallbackPolicy
 import os
 import sys
 
