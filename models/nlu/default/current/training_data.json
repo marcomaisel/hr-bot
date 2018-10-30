@@ -2,8 +2,8 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet+find_job",
-        "text": "Hallo. Ich bin auf der Suche nach einer Arbeitsstelle auf diese Seite gelangt."
+        "intent": "start_dialogue",
+        "text": "start_dialogue"
       },
       {
         "intent": "greet",

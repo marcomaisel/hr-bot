@@ -24,6 +24,9 @@ It is accessible on http://localhost:4000
 
 To start the frontend run:
 ```
+npm install
+```
+```
 cd frontend
 ```
 ```
