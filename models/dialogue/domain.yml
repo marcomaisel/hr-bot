@@ -94,8 +94,8 @@ templates:
   - text: Tut mir Leid, mit dieser Antwort kann ich gerade nichts anfangen. Kannst
       du das bitte noch einmal anders formulieren?
   utter_greet:
-  - text: Hallo {nameApplicant}! Wie kann ich dir behilflich sein? Gerne helfe ich
-      dir beim Finden einer für dich passenden Stelle
+  - text: Hallo! Wie kann ich dir behilflich sein? Gerne helfe ich dir beim Finden
+      einer für dich passenden Stelle
   utter_help:
   - text: Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden.
   utter_youarewelcome:
