@@ -1,0 +1,41 @@
+<!-- <div>
+  <br>
+  <mat-card>
+    <br><br>
+    <br>
+    <table mat-table [dataSource]="conversations">
+      <ng-container matColumnDef="sender_id">
+        <th mat-header-cell *matHeaderCellDef> Sender ID </th>
+        <td mat-cell *matCellDef="let element"> {{element.sender_id}} </td>
+      </ng-container>
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef class="mat-column-right"> Actions </th>
+        <td mat-cell *matCellDef="let element" class="mat-column-right">
+          <button mat-button color="warn" (click)="deleteConversation(element._id)">Delete</button>
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </mat-card>
+</div> -->
+
+<div class="container">
+
+  <div class="row">
+    <div *ngFor="let conversation of conversations">
+
+      <div class="card-body">
+        <!-- <p class="card-text">{{ conversation.sender_id }}</p> -->
+        <div *ngFor="let event of conversation.events">
+          <p class="card-text">Event: {{ event.name }}</p>
+          <p class="card-text">Text: {{ event.text }}</p>
+          <br>
+        </div>
+        <hr>
+      </div>
+
+    </div>
+  </div>
+
+</div>
