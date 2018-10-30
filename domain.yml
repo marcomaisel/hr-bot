@@ -6,6 +6,7 @@ intents:
   - greet
   - find_job
   - help
+  - ask_for_technologies
 
 entities:
   - nameApplicant

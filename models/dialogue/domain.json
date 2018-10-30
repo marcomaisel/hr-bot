@@ -1,5 +1,6 @@
 {
   "states": [
+    "intent_ask_for_technologies",
     "intent_enter_data",
     "intent_find_job",
     "intent_goodbye",

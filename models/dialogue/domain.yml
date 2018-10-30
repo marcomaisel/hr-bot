@@ -35,6 +35,8 @@ intents:
     use_entities: true
 - help:
     use_entities: true
+- ask_for_technologies:
+    use_entities: true
 slots:
   domain:
     initial_value: null
@@ -81,6 +83,9 @@ templates:
   - text: -text
   utter_askJobTask:
   - text: Welche Tätigkeit möchtest du bei uns ausführen?
+  utter_askSpeculativeApplication:
+  - text: Leider kann ich für deine bisherigen Angaben keine offene Stelle finden.
+      Möchtest du dich stattdessen initiativ bewerben?
   utter_askTechnology:
   - text: Welche Technologien würdest du gerne einsetzen?
   utter_bye:

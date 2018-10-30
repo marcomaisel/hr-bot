@@ -4648,6 +4648,256 @@
             "entity": "jobTask"
           }
         ]
+      },
+      {
+        "text": "Welche Technologien gibt es?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Welche Technologien gibt es denn alles?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Welche Technologien stehen zur Auswahl?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Kannst du mir sagen, welche Technologien es gibt?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Zeige mir eine Übersicht aller Technologien",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was sind Technologien?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was sind mögliche Technologien?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Ich weiß nicht, was Technologien sind",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Können sie mir erklären, was Technologien sind?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Wie ist Technologie definiert?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was verstehen sie unter Technologie?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was verstehst du unter einer Technologie?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Ich bin mir nicht sicher was Technologien sind",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Ich weiß nicht genau, was sie mit Technologien meinen",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Ich bin mir nicht sicher, was Technologien bedeutet",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was wäre denn beispielsweise eine Technologie?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Können sie mir erklären, was sie mit \"Technologien\" meinen?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was sind denn bitte Technologien?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Wie ist Technologie definiert?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Was ist eine Technologie bei ihnen?",
+        "intent": "ask_for_technologies",
+        "entities": []
+      },
+      {
+        "text": "Welche Arbeitsplätze habt ihr zu vergeben?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Habt ihr Stellen zu vergeben?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Zeige mir Stellenangebote",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Zeig mir Stellenangebote",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Zeig mir bitte Stellenangebote",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich suche Arbeit",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich bin auf der Suche nach Arbeit",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Gibt es Stellen für mich?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Habt ihr Stellen für mich?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich brauche Hilfe bei der Arbeitssuche",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich brauche Hilfe bei der Stellensuche",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Hallo! Ich brauche Hilfe bei der Stellensuche",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich benötige bitte Hilfe bei der Stellensuche",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Hallo, welche Arbeitsplätze haben sie zu vergeben?",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Guten Tag. Welche Stellen haben sie zu vergeben?",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Kannst du mir bei der Stellensuche helfen ?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Können Sie mir bei der Stellensuche helfen ?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Guten Abend. Können Sie mir bei der Stellensuche helfen?",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Kannst du mir bei der Stellensuche behilflich sein?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Können Sie mir bitte bei der Stellensuche behilflich sein?",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich möchte einen Arbeitsplatz bei euch",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Hallo, ich hätte gerne eine Stelle bei euch",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich hätte gerne eine Stelle in ihrem Unternehmen",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde gerne bei euch anfangen",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde gerne bei euch arbeiten",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Hi! Ich würde gerne bei euch arbeiten",
+        "intent": "greet+find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde mich gerne über Stellen informieren",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich informiere mich gerade über offene Stellen",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Ich würde mich gerne informieren, welche Jobs es in ihrem Unternehmen gibt",
+        "intent": "find_job",
+        "entities": []
+      },
+      {
+        "text": "Guten Morgen, ich informiere mich gerade über offene Stellen",
+        "intent": "greet+find_job",
+        "entities": []
       }
     ],
     "regex_features": [],
