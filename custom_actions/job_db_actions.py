@@ -389,7 +389,9 @@ def populate_database():
     integrationstest = Technology(name='integrationstest', tasks=[
         entwickeln], domains=[testing])
     end_to_end_test = Technology(name='end-to-end test', tasks=[
-        entwickeln], domains=[testing])
+        entwickeln], domains=[testing]),
+    ui_test = Technology(name='ui-test', tasks=[
+        entwickeln, designen], domains=[testing, frontend, web, mobile])
 
     accessibility = Technology(name='accessibility', tasks=[
         designen, entwickeln, coachen], domains=[web, mobile, frontend, fullstack, testing])

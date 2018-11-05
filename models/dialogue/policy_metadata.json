@@ -2,14 +2,20 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "jobTask",
-        "domain",
         "formOfEmployment",
-        "technology"
+        "jobTask",
+        "technology",
+        "domain"
       ]
     },
-    "utter_greet": {
+    "utter_askFormOfEmployment": {
       "slots": []
+    },
+    "action_match_job_slots": {
+      "slots": [
+        "possibleTechnologies",
+        "possibleDomains"
+      ]
     },
     "action_find_job": {
       "slots": [
@@ -19,22 +25,22 @@
     "utter_bye": {
       "slots": []
     },
-    "utter_askFormOfEmployment": {
+    "utter_greet": {
       "slots": []
     }
   },
   "rasa_core": "0.12.0a4",
-  "python": "3.6.6",
+  "python": "3.6.2",
   "max_histories": [
-    null,
-    3,
-    3
+    5,
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
-    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20181030-151529"
+  "trained_at": "20181105-160636"
 }

@@ -1,4 +1,4 @@
- HR-Bot with Rasa NLU and Rasa Core
+HR-Bot with Rasa NLU and Rasa Core
 
 ## Introduction
 

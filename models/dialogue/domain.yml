@@ -55,13 +55,13 @@ slots:
     type: rasa_core.slots.TextSlot
   possibleDomains:
     initial_value: null
-    type: rasa_core.slots.ListSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   possibleTasks:
     initial_value: null
-    type: rasa_core.slots.ListSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   possibleTechnologies:
     initial_value: null
-    type: rasa_core.slots.ListSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   technology:
     initial_value: null
     type: rasa_core.slots.ListSlot
@@ -89,10 +89,10 @@ templates:
   utter_askTechnology:
   - text: Welche Technologien würdest du gerne einsetzen?
   utter_bye:
-  - text: Machs gut {nameApplicant}
+  - text: Bis bald {nameApplicant}
   utter_default:
-  - text: Tut mir Leid, mit dieser Antwort kann ich gerade nichts anfangen. Kannst
-      du das bitte noch einmal anders formulieren?
+  - text: Tut mir Leid, das muss ich noch lernen. Kannst du das bitte noch einmal
+      anders formulieren?
   utter_greet:
   - text: Hallo! Wie kann ich dir behilflich sein? Gerne helfe ich dir beim Finden
       einer für dich passenden Stelle

@@ -37,13 +37,13 @@ slots:
     type: text
 
   possibleTasks:
-    type: list
+    type: unfeaturized
 
   possibleDomains:
-    type: list
+    type: unfeaturized
 
   possibleTechnologies:
-    type: list
+    type: unfeaturized
 
 actions:
 - action_find_job
@@ -59,13 +59,13 @@ actions:
 
 templates:
   utter_default:
-    - text: "Tut mir Leid, mit dieser Antwort kann ich gerade nichts anfangen. Kannst du das bitte noch einmal anders formulieren?"
+    - text: "Tut mir Leid, das muss ich noch lernen. Kannst du das bitte noch einmal anders formulieren?"
 
   utter_greet:
     - text: "Hallo! Wie kann ich dir behilflich sein? Gerne helfe ich dir beim Finden einer für dich passenden Stelle"
 
   utter_bye:
-    - text: "Machs gut {nameApplicant}"
+    - text: "Bis bald {nameApplicant}"
 
   utter_askJobStart:
     -text: "Für welchen Bereich interessiert du dich?"
