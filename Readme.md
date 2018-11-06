@@ -37,7 +37,7 @@ python3 -m rasa_nlu.evaluate --config config_tensorflow.yml --data data/nlu/nlu.
 
 <!-- To run the bot with both these models:
 ```
-python3 -m rasa_core.run -d models/dialogue -u models/current/nlu --endpoints endpoints.yml
+python3 -m rasa_core.run -d models/dialogue -u models/nlu/default/current/ --endpoints endpoints.yml
 ``` -->
 
 To start interactive learning

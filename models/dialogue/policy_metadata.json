@@ -2,19 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "formOfEmployment",
-        "jobTask",
         "technology",
-        "domain"
-      ]
-    },
-    "utter_askFormOfEmployment": {
-      "slots": []
-    },
-    "action_match_job_slots": {
-      "slots": [
-        "possibleTechnologies",
-        "possibleDomains"
+        "domain",
+        "formOfEmployment",
+        "jobTask"
       ]
     },
     "action_find_job": {
@@ -22,14 +13,20 @@
         "jobs"
       ]
     },
-    "utter_bye": {
+    "action_match_job_slots": {
+      "slots": [
+        "possibleTechnologies",
+        "possibleDomains"
+      ]
+    },
+    "utter_askFormOfEmployment": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     }
   },
-  "rasa_core": "0.12.0a4",
+  "rasa_core": "0.11.12",
   "python": "3.6.2",
   "max_histories": [
     5,
@@ -41,6 +38,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
-  ],
-  "trained_at": "20181105-160636"
+  ]
 }

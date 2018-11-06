@@ -22,7 +22,6 @@ class ActionFindExistingJob(Action):
             {"name": "Frontend Developer", "formOfEmployment": "vollzeit", "jobTask": [
                 "entwickeln", "designen"], "domain": ["web", "mobile", "frontend"], "technology": ["angular", "typescript", "javascript", "html", "css", "sass", "less", "react", "vue", "jquery", "npm", "buildtools", "photoshop", "illustrator", "sketch", "invision", "ui-test"]}
 
-
         ]
 
         foundJobs = []
@@ -47,9 +46,9 @@ class ActionFindExistingJob(Action):
             # Search for matches between slots sent by the user and stored jobs in the jobs list.
             # If a job has at least one value for each key in the dictionary the job is appended to the foundJobs list.
             if [i.lower() for i in technologySlot if i.lower() in tech] and \
-            [i.lower() for i in domainSlot if i.lower() in domain] and \
-            [i.lower() for i in taskSlot if i.lower() in task] and \
-            [i.lower() for i in formOfEmploymentSlot if i.lower() in employment]:
+                [i.lower() for i in domainSlot if i.lower() in domain] and \
+                [i.lower() for i in taskSlot if i.lower() in task] and \
+                    [i.lower() for i in formOfEmploymentSlot if i.lower() in employment]:
                 foundJobs.append(job)
 
         # Create a message for the user with a list of names of all found jobs, separated by comma
@@ -103,16 +102,17 @@ class ActionMatchJobSlots(Action):
 
             # if more than 1 domain is possible: ask for domain
             else:
+
                 message = "Für welches dieser Gebiete interessiert du dich am meisten?"
                 buttons = []
                 for possDomain in possibleDomains:
-                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    payload = (
+                        '/enter_data{\"domain\":' + '\"' + possDomain + '\"}')
                     buttons.append({"title": possDomain, "payload": payload})
                 dispatcher.utter_button_message(message, buttons)
 
                 return [
-                    SlotSet("possibleDomains", possibleDomains),
-                    FollowupAction("action_listen")]
+                    SlotSet("possibleDomains", possibleDomains)]
 
         # for given domain and technology: differentiate between 1 or more than 1 possible task
         elif domainSlot is not None and technologySlot is not None:
@@ -135,7 +135,8 @@ class ActionMatchJobSlots(Action):
                 message = "Welche dieser Tätigkeiten beschreibt deine gesucht Stelle am besten?"
                 buttons = []
                 for possTask in possibleTasks:
-                    payload = ('/enter_data{\"jobTask\": ' + possTask + '}')
+                    payload = (
+                        '/enter_data{\"jobTask\":' + '\"' + possTask + '\"}')
                     buttons.append({"title": possTask, "payload": payload})
                 dispatcher.utter_button_message(message, buttons)
 
@@ -208,7 +209,8 @@ class ActionMatchJobSlots(Action):
                 message = "Für welches dieser Gebiete interessiert du dich am meisten?"
                 buttons = []
                 for possDomain in possibleDomains:
-                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    payload = (
+                        '/enter_data{\"domain\":' + '\"' + possDomain + '\"}')
                     buttons.append({"title": possDomain, "payload": payload})
                 dispatcher.utter_button_message(message, buttons)
 
@@ -224,7 +226,8 @@ class ActionMatchJobSlots(Action):
                 message = "Welche dieser Tätigkeiten beschreibt deine gesucht Stelle am besten?"
                 buttons = []
                 for possTask in possibleTasks:
-                    payload = ('/enter_data{\"jobTask\": ' + possTask + '}')
+                    payload = (
+                        '/enter_data{\"jobTask\":' + '\"' + possTask + '\"}')
                     buttons.append({"title": possTask, "payload": payload})
                 dispatcher.utter_button_message(message, buttons)
 
@@ -243,7 +246,8 @@ class ActionMatchJobSlots(Action):
                 message = "Für welches dieser Gebiete interessiert du dich am meisten?"
                 buttons = []
                 for possDomain in possibleDomains:
-                    payload = ('/enter_data{\"domain\": ' + possDomain + '}')
+                    payload = (
+                        '/enter_data{\"domain\":' + '\"' + possDomain + '\"}')
                     buttons.append({"title": possDomain, "payload": payload})
                 dispatcher.utter_button_message(message, buttons)
 

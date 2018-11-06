@@ -1,7 +1,7 @@
 ## intent:enter_data
-- [Vue](technology), [React](technology)
-- /enter_data[{"domain": "frontend"}](domain:frontend)
+- [Angular](technology)
+- /enter_data[{"domain":"web"}](domain:web)
 - /enter_data[{"formOfEmployment": "vollzeit"}](formOfEmployment:vollzeit)
 
 ## intent:find_job
-- suche stelle als [entwickler](jobTask:entwickeln)
+- Suche Stelle als [Software-Entwickler](jobTask:entwickeln)
