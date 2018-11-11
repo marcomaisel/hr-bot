@@ -2012,8 +2012,8 @@
         "entities": [{
             "start": 20,
             "end": 31,
-            "value": "ScrumMaster",
-            "entity": "jobName"
+            "value": "scrum",
+            "entity": "technology"
           },
           {
             "start": 52,
