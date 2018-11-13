@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 def train_nlu():
 
     training_data = load_data('data/nlu/nlu.json')
-    trainer = Trainer(config.load("config_tensorflow.yml"))
+    trainer = Trainer(config.load("config/config_tensorflow.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('./models/nlu/',
                                       fixed_model_name="current")

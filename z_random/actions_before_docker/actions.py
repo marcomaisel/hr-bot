@@ -63,6 +63,24 @@ class ActionFindExistingJob(Action):
         return [SlotSet("jobs", foundJobs if foundJobs is not None else [])]
 
 
+class ActionShowTechnologies(Action):
+
+    def name(self):
+        # type: () -> Text
+        return "action_show_technologies"
+
+    def run(self, dispatcher, tracker, domain):
+
+        # Store the values of slots given by the user with the tracker object
+        possibleTechnologySlot = tracker.get_slot('possibleTechnologies')
+
+        # Send message to user with the dispatcher object
+        dispatcher.utter_message(
+            "Mögliche Technologien sind z.B.: " + list[:6] + ".")
+
+        return [FollowupAction("utter_askTechnology")]
+
+
 class ActionMatchJobSlots(Action):
     def name(self):
         # type: () -> Text

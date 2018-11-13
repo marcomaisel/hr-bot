@@ -47,6 +47,7 @@ slots:
 actions:
 - action_find_job
 - action_match_job_slots
+- action_show_technologies
 - utter_greet
 - utter_bye
 - utter_youarewelcome

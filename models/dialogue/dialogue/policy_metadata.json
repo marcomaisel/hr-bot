@@ -2,14 +2,11 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "technology",
-        "formOfEmployment",
         "jobTask",
+        "formOfEmployment",
+        "technology",
         "domain"
       ]
-    },
-    "utter_askFormOfEmployment": {
-      "slots": []
     },
     "action_match_job_slots": {
       "slots": [
@@ -22,15 +19,18 @@
         "jobs"
       ]
     },
+    "utter_bye": {
+      "slots": []
+    },
     "utter_greet": {
       "slots": []
     },
-    "utter_bye": {
+    "utter_askFormOfEmployment": {
       "slots": []
     }
   },
-  "rasa_core": "0.12.0",
-  "python": "3.6.2",
+  "rasa_core": "0.13.0a1",
+  "python": "3.6.7",
   "max_histories": [
     5,
     null,
@@ -42,5 +42,5 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20181113-115353"
+  "trained_at": "20181113-134345"
 }

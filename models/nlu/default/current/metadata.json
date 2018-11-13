@@ -66,13 +66,11 @@
             "class": "rasa_nlu.featurizers.count_vectors_featurizer.CountVectorsFeaturizer"
         },
         {
-            "num_hidden_layers_a": 2,
-            "hidden_layer_size_a": [
+            "hidden_layers_sizes_a": [
                 256,
                 128
             ],
-            "num_hidden_layers_b": 0,
-            "hidden_layer_size_b": [],
+            "hidden_layers_sizes_b": [],
             "batch_size": [
                 64,
                 256
@@ -84,6 +82,7 @@
             "similarity_type": "cosine",
             "num_neg": 20,
             "use_max_sim_neg": true,
+            "random_seed": null,
             "C2": 0.002,
             "C_emb": 0.8,
             "droprate": 0.2,
@@ -97,6 +96,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20181105-142202",
-    "rasa_nlu_version": "0.13.6"
+    "trained_at": "20181113-181803",
+    "rasa_nlu_version": "0.14.0a1"
 }

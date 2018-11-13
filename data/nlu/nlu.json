@@ -4960,7 +4960,11 @@
           "Webentwicklung",
           "Web-Entwicklung",
           "Webentwickler",
-          "Web-Entwickler"
+          "Web-Entwickler",
+          "Webumgebung",
+          "Webumgebungen",
+          "webdevelopment",
+          "Webdevelopment"
         ]
       },
       {
@@ -5021,14 +5025,6 @@
         ]
       },
       {
-        "value": "teilzeit",
-        "synonyms": [
-          "Teilzeit-Stellen",
-          "Teilzeit",
-          "halbtags"
-        ]
-      },
-      {
         "value": "cui",
         "synonyms": [
           "CUI",
@@ -5036,7 +5032,12 @@
           "Conversational User Interfaces",
           "Conversational Interface",
           "Conversational Interfaces",
-          "Chatbot-Entwickler"
+          "Chatbot-Entwickler",
+          "Chatbot-Entwicklung",
+          "Chatbots",
+          "Chatbots",
+          "Sprachassistent",
+          "Sprachassistent"
         ]
       },
       {
@@ -5046,7 +5047,11 @@
           "künstliche intelligenz",
           "Machine Learning",
           "Machine-Learning",
-          "KI"
+          "KI",
+          "Maschinelles Lernen",
+          "maschinelles Lernen",
+          "AI",
+          "Artficial Intelligence"
         ]
       },
       {
@@ -5054,8 +5059,10 @@
         "synonyms": [
           "Personalwesen",
           "Human Ressources",
+          "Human-Ressources-Bereich",
           "HR",
-          "HR-Bereich"
+          "HR-Bereich",
+          "Personal"
         ]
       },
       {
@@ -5067,7 +5074,23 @@
           "Frontendentwickler",
           "frontendentwicklung",
           "frontendentwickler",
-          "Frontend-Bereich"
+          "Frontend-Bereich",
+          "Frontend",
+          "Frontends"
+        ]
+      },
+      {
+        "value": "fullstack",
+        "synonyms": [
+          "Fullstack-Entwickler",
+          "Fullstack-Entwicklung",
+          "Fullstackentwicklung",
+          "Fullstackentwickler",
+          "fullstackentwicklung",
+          "fullstackentwickler",
+          "Fullstack-Bereich",
+          "Fullstack",
+          "Fullstacks"
         ]
       },
       {
@@ -5079,7 +5102,9 @@
           "Backendentwickler",
           "backendentwicklung",
           "backendentwickler",
-          "Backend-Bereich"
+          "Backend-Bereich",
+          "Backend",
+          "Backends"
         ]
       },
       {
@@ -5093,6 +5118,7 @@
         "value": "finanzen",
         "synonyms": [
           "finance",
+          "Finanzen",
           "Finanzwesen"
         ]
       },
@@ -5100,6 +5126,7 @@
         "value": "nodejs",
         "synonyms": [
           "Node.js",
+          "node.js",
           "node"
         ]
       },
@@ -5109,7 +5136,314 @@
           "vue.js",
           "vuejs"
         ]
+      },
+      {
+        "value": "administrieren",
+        "synonyms": [
+          "Administrieren",
+          "Administration"
+        ]
+      },
+      {
+        "value": "coachen",
+        "synonyms": [
+          "Coachen",
+          "Coach",
+          "Coaching"
+        ]
+      },
+      {
+        "value": "analysieren",
+        "synonyms": [
+          "Analysieren",
+          "Analyse"
+        ]
+      },
+      {
+        "value": "mobile",
+        "synonyms": [
+          "Mobile",
+          "mobil",
+          "mobilen",
+          "mobiler"
+        ]
+      },
+      {
+        "value": "devops",
+        "synonyms": [
+          "DevOps"
+        ]
+      },
+      {
+        "value": "devops",
+        "synonyms": [
+          "DevOps"
+        ]
+      },
+      {
+        "value": "data science",
+        "synonyms": [
+          "datascience",
+          "Data Science",
+          "Datenwissenschaft",
+          "Data Scientist",
+          "datascientist"
+        ]
+      },
+      {
+        "value": "security",
+        "synonyms": [
+          "Security",
+          "sicherheit",
+          "Sicherheit"
+        ]
+      },
+      {
+        "value": "agile",
+        "synonyms": [
+          "agil",
+          "Agil",
+          "agilem",
+          "agiles"
+        ]
+      },
+      {
+        "value": "testing",
+        "synonyms": [
+          "testen",
+          "Testing",
+          "Testen",
+          "Tests"
+        ]
+      },
+      {
+        "value": "recht",
+        "synonyms": [
+          "Recht",
+          "Law"
+        ]
+      },
+      {
+        "value": "consulting",
+        "synonyms": [
+          "Consulting",
+          "Beratung",
+          "Beratertätigkeit"
+        ]
+      },
+      {
+        "value": "angular",
+        "synonyms": [
+          "Angular",
+          "AngularJS",
+          "Angular JS"
+        ]
+      },
+      {
+        "value": "react",
+        "synonyms": [
+          "ReactJS",
+          "React"
+        ]
+      },
+      {
+        "value": "jquery",
+        "synonyms": [
+          "jQuery",
+          "JQuery"
+        ]
+      },
+      {
+        "value": "npm",
+        "synonyms": [
+          "node package manager",
+          "Node Package Manager"
+        ]
+      },
+      {
+        "value": "build tools",
+        "synonyms": [
+          "buildtools",
+          "Webpack",
+          "Grunt",
+          "Gulp",
+          "Require.js",
+          "Brunch"
+        ]
+      },
+      {
+        "value": "Natural Language Understanding",
+        "synonyms": [
+          "NLU",
+          "nlu"
+        ]
+      },
+      {
+        "value": "Natural Language Processing",
+        "synonyms": [
+          "NLP",
+          "nlp"
+        ]
+      },
+      {
+        "value": "softwarearchitektur",
+        "synonyms": [
+          "Software Architektur",
+          "Software-Architektur"
+        ]
+      },
+      {
+        "value": "arc42",
+        "synonyms": [
+          "arc"
+        ]
+      },
+      {
+        "value": "postgresql",
+        "synonyms": [
+          "postgres"
+        ]
+      },
+      {
+        "value": "couchdb",
+        "synonyms": [
+          "couch"
+        ]
+      },
+      {
+        "value": "verschlüsselung",
+        "synonyms": [
+          "Verschlüsselung",
+          "Verschlüsselungstechnologien",
+          "Verschlüsselungstechnologie",
+          "encryption"
+        ]
+      },
+      {
+        "value": "continuous integration",
+        "synonyms": [
+          "continuous integration",
+          "Continuous Integration",
+          "CI"
+        ]
+      },
+      {
+        "value": "continuous deployment",
+        "synonyms": [
+          "continuous deployment",
+          "Continuous Deployment",
+          "CD"
+        ]
+      },
+      {
+        "value": "releasemanagement",
+        "synonyms": [
+          "Releasemanagement",
+          "Release-Management",
+          "Release Management"
+        ]
+      },
+      {
+        "value": "konfigurationsmanagement",
+        "synonyms": [
+          "Konfigurationsmanagement"
+        ]
+      },
+      {
+        "value": "softwaretesting",
+        "synonyms": [
+          "Softwaretesting",
+          "Software-Testing",
+          "Software Testing",
+          "Softwaretests",
+          "Softwaretest"
+        ]
+      },
+      {
+        "value": "teststrategie",
+        "synonyms": [
+          "Teststrategien",
+          "Teststrategie"
+        ]
+      },
+      {
+        "value": "unit test",
+        "synonyms": [
+          "unittests",
+          "Unittest",
+          "Unit-Test",
+          "Unittests",
+          "Unit-Tests",
+          "UnitTesting",
+          "Unit-Testing",
+          "unittesting"
+        ]
+      },
+      {
+        "value": "end-to-end test",
+        "synonyms": [
+          "end-to-end-test",
+          "End-to-End-Test",
+          "end to end test",
+          "End To End Test",
+          "end-to-end testing",
+          "end-to-end-testing",
+          "End-to-End-Testing",
+          "end to end testing",
+          "End To End Testing",
+          "end-to-end tests",
+          "end-to-end-tests",
+          "End-to-End-Tests",
+          "end to end tests",
+          "End To End Tests"
+        ]
+      },
+      {
+        "value": "design thinking",
+        "synonyms": [
+          "designthinking",
+          "Design thinking"
+        ]
+      },
+      {
+        "value": "geschäftsmodell",
+        "synonyms": [
+          "Geschäftsmodell",
+          "Geschäftsmodelle"
+        ]
+      },
+      {
+        "value": "projektplan",
+        "synonyms": [
+          "Projektplan",
+          "Projektpläne"
+        ]
+      },
+      {
+        "value": "gantt",
+        "synonyms": [
+          "Gantt-Diagramm",
+          "GANTT"
+        ]
+      },
+      {
+        "value": "requirements engineering",
+        "synonyms": [
+          "Anforderungsanalyse",
+          "Requirements Engineering",
+          "Requirement Engineering",
+          "requirement engineering",
+          "Anforderungsmanagement"
+        ]
+      },
+      {
+        "value": "workshop",
+        "synonyms": [
+          "Workshop",
+          "Workshops"
+        ]
       }
+
     ]
   }
 }

@@ -370,7 +370,7 @@ def populate_database():
     systemintegration = Technology(name='systemintegration', tasks=[
         entwickeln], domains=[devops])
 
-    software_testing = Technology(name='software_testing', tasks=[
+    software_testing = Technology(name='softwaretesting', tasks=[
         entwickeln], domains=[testing])
     teststrategie = Technology(name='teststrategie', tasks=[
         entwickeln], domains=[testing])

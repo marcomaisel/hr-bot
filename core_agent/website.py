@@ -11,15 +11,15 @@ import sys
 
 domain = TemplateDomain.load(os.path.join("models/dialogue", "domain.yml"))
 
-interpreter = RasaNLUInterpreter("models/nlu/default/current")
+interpreter = RasaNLUInterpreter("models/nlu/default/current/")
 
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 
 tracker_store = MongoTrackerStore(domain,
-                                  host="mongodb://localhost:27017",
+                                  host="mongodb://mongo:27017",
                                   db="rasa",
-                                  username=None,
-                                  password=None,
+                                  username="rasa",
+                                  password="PbgQcoevs7cbJjJDK503",
                                   collection="conversations")
 
 agent = Agent.load("models/dialogue",
