@@ -504,10 +504,6 @@ class ActionFindExistingJob(Action):
         technologySlot = tracker.get_slot('technology')
         formOfEmploymentSlot = tracker.get_slot('formOfEmployment')
 
-        # Send message to user with the dispatcher object
-        dispatcher.utter_message(
-            "Ich habe folgende Stellenanzeigen für dich gefunden:")
-
         for job in jobs:
             # Store the values of each key for all job dictionaries in the jobs list
             tech = job["technology"]
@@ -523,15 +519,18 @@ class ActionFindExistingJob(Action):
                     [i.lower() for i in formOfEmploymentSlot if i.lower() in employment]:
                 foundJobs.append(job)
 
-        # Create a message for the user with a list of names of all found jobs, separated by comma
-        jobMessage = ", ".join([c["name"] for c in foundJobs])
+        if len(foundJobs) >= 1:
+            # Create a message for the user with a list of names of all found jobs, separated by comma
+            jobMessage = ", ".join([c["name"] for c in foundJobs])
 
-        print("JobMessage: " + jobMessage)
-        # Send message with all found jobs to the user with the dispatcher object
-        dispatcher.utter_message("{}".format(jobMessage))
+            # Send message with all found jobs to the user with the dispatcher object
+            dispatcher.utter_message("Ich habe folgende Stellenanzeigen für dich gefunden:")
+            dispatcher.utter_message("{}".format(jobMessage))
 
-        # Set jobs slot with all found jobs
-        return [SlotSet("jobs", foundJobs if foundJobs is not None else [])]
+            # Set jobs slot with all found jobs
+            return [SlotSet("jobs", foundJobs if foundJobs is not None else [])]
+        else:
+            return[FollowupAction("utter_askSpeculativeApplication")]
 
 
 class ActionShowTechnologies(Action):
@@ -544,10 +543,11 @@ class ActionShowTechnologies(Action):
 
         # Store the values of slots given by the user with the tracker object
         possibleTechnologySlot = tracker.get_slot('possibleTechnologies')
+        technologyMessage = ', '.join(possibleTechnologySlot[:6])
 
         # Send message to user with the dispatcher object
         dispatcher.utter_message(
-            "Mögliche Technologien sind z.B.: " + list[:6] + ".")
+            "Mögliche Technologien sind z.B.: " + technologyMessage + ".")
 
         return [FollowupAction("utter_askTechnology")]
 
@@ -603,11 +603,11 @@ class ActionMatchJobSlots(Action):
                 possibleDomains = get_domain_for_task_and_tech(
                     taskSlot, technologySlot)
 
-                # if only 1 domain is possible: automatically set it and proceed with action_find_job
+                # if only 1 domain is possible: automatically set it and proceed with utter_askFormOfEmployment
                 if len(possibleDomains) == 1:
                     return [
                         SlotSet("domain", possibleDomains),
-                        FollowupAction("action_find_job")]
+                        FollowupAction("utter_askFormOfEmployment")]
 
                 # if no domain is possible:
                 elif len(possibleDomains) == 0:
@@ -634,11 +634,11 @@ class ActionMatchJobSlots(Action):
                 possibleTasks = get_task_for_domain_and_tech(
                     domainSlot, technologySlot)
 
-                # if only 1 task is possible: automatically set it and proceed with action_find_job
+                # if only 1 task is possible: automatically set it and proceed with utter_askFormOfEmployment
                 if len(possibleTasks) == 1:
                     return [
                         SlotSet("jobTask", possibleTasks),
-                        FollowupAction("action_find_job")]
+                        FollowupAction("utter_askFormOfEmployment")]
 
                 # if no task is possible:
                 elif len(possibleTasks) == 0:
@@ -709,12 +709,12 @@ class ActionMatchJobSlots(Action):
                 possibleTasks = get_task_for_technology(technologySlot)
 
                 # if only 1 task is possible and only 1 domain is possible:
-                # automatically set both and proceed with action_find_job
+                # automatically set both and proceed with utter_askFormOfEmployment
                 if len(possibleTasks) == 1 and len(possibleDomains) == 1:
                     return [
                         SlotSet("jobTask", possibleTasks),
                         SlotSet("domain", possibleDomains),
-                        FollowupAction("action_find_job")]
+                        FollowupAction("utter_askFormOfEmployment")]
 
                 # if only 1 task is possible: automatically set it
                 # ask for domain in form of buttons of all domains which are still possible

@@ -1,7 +1,9 @@
+## intent:ask_for_technologies
+- Welche Technologien gibt es?
+
 ## intent:enter_data
-- [Angular](technology)
-- /enter_data[{"domain":"web"}](domain:web)
+- [Angular](technology:angular), [Vue](technology), [React](technology:react)
 - /enter_data[{"formOfEmployment": "vollzeit"}](formOfEmployment:vollzeit)
 
 ## intent:find_job
-- Suche Stelle als [Software-Entwickler](jobTask:entwickeln)
+- Ich suche eine offene Stelle im Bereich [Frontend-Entwicklung](domain:frontend)

@@ -72,3 +72,25 @@
     - action_find_job
     - slot{"jobs": [{"domain": ["web", "mobile", "frontend"], "formOfEmployment": "vollzeit", "jobTask": ["entwickeln", "designen"], "name": "Frontend Developer", "technology": ["angular", "typescript", "javascript", "html", "css", "sass", "less", "react", "vue", "jquery", "npm", "buildtools", "photoshop", "illustrator", "sketch", "invision", "ui-test"]}]}
 
+## Generated Story 5724709280556869179
+* find_job{"domain": "frontend"}
+    - slot{"domain": ["frontend"]}
+    - action_match_job_slots
+    - slot{"possibleTechnologies": ["vue", "illustrator", "spring", "arc42", "react", "angular", "softwarearchitektur", "less", "photoshop", "invison", "build tools", "typescript", "sass", "sketch", "python", "java", "css", "npm", "html", "design thinking", "nodejs", "javascript", "usability", "jquery", "indesign", "accessibility"]}
+    - slot{"possibleTasks": ["designen", "entwickeln", "coachen"]}
+    - followup{"name": "utter_askTechnology"}
+    - utter_askTechnology
+* ask_for_technologies
+    - action_show_technologies
+    - followup{"name": "utter_askTechnology"}
+    - utter_askTechnology
+* enter_data{"technology": "react"}
+    - slot{"technology": ["angular", "Vue", "react"]}
+    - action_match_job_slots
+    - slot{"jobTask": ["entwickeln"]}
+    - followup{"name": "utter_askFormOfEmployment"}
+    - utter_askFormOfEmployment
+* enter_data{"formOfEmployment": "vollzeit"}
+    - slot{"formOfEmployment": "vollzeit"}
+    - action_find_job
+    - slot{"jobs": [{"domain": ["web", "mobile", "frontend"], "formOfEmployment": "vollzeit", "jobTask": ["entwickeln", "designen"], "name": "Frontend Developer", "technology": ["angular", "typescript", "javascript", "html", "css", "sass", "less", "react", "vue", "jquery", "npm", "buildtools", "photoshop", "illustrator", "sketch", "invision", "ui-test"]}]}
