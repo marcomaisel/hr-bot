@@ -543,6 +543,10 @@ class ActionShowTechnologies(Action):
 
         # Store the values of slots given by the user with the tracker object
         possibleTechnologySlot = tracker.get_slot('possibleTechnologies')
+
+        if possibleTechnologySlot == None:
+            possibleTechnologySlot = ["JavaScript", "Kotlin", "Photoshop", "SCRUM", "Docker", "Projektmanagement"]
+
         technologyMessage = ', '.join(possibleTechnologySlot[:6])
 
         # Send message to user with the dispatcher object

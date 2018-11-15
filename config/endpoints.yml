@@ -8,5 +8,5 @@ tracker_store:
   store_type: mongod
   url: mongodb://mongo:27017
   db: rasa
-  username: rasa
-  password: PbgQcoevs7cbJjJDK503
+  # username: rasa
+  # password: PbgQcoevs7cbJjJDK503

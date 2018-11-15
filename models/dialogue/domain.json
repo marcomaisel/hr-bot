@@ -1,6 +1,9 @@
 {
   "states": [
     "intent_ask_for_technologies",
+    "intent_ask_speculative_application",
+    "intent_confirm",
+    "intent_deny",
     "intent_enter_data",
     "intent_find_job",
     "intent_goodbye",
@@ -33,6 +36,9 @@
     "prev_utter_askTechnology",
     "prev_utter_askDomain",
     "prev_utter_askFormOfEmployment",
-    "prev_utter_help"
+    "prev_utter_help",
+    "prev_utter_askSpeculativeApplication",
+    "prev_utter_startSpeculativeApplication",
+    "prev_utter_yourewelcome"
   ]
 }

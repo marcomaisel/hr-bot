@@ -95,8 +95,7 @@ The website can be found on http://localhost:5100/index.html
 
 Train Core
 ```
-docker run -v ${pwd}:/app/project -v ${pwd}/models/dialogue:/app/models rasa/rasa_core:latest train -c project/config/policy_config.yml --domain project/domain.yml --stories project/data/core/stories.md --out models/dialogue
-```
+docker run -v ${pwd}:/app/project -v ${pwd}/models/dialogue:/app/models rasa/rasa_core:latest train -c project/config/policy_config.yml --domain project/domain.yml --stories project/data/core/stories.md --out models
 
 Train NLU
 ```
@@ -108,7 +107,7 @@ docker run -v ${pwd}:/app/project -v ${pwd}/models/nlu:/app/models -v ${pwd}/con
 - Train Core
 - Starte NLU, Core, MongoDB:
 ```
-docker-compose.up
+docker-compose up
 ```
 - Starte Frontend
 - Starte Logging

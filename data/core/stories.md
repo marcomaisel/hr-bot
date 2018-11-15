@@ -94,3 +94,43 @@
     - slot{"formOfEmployment": "vollzeit"}
     - action_find_job
     - slot{"jobs": [{"domain": ["web", "mobile", "frontend"], "formOfEmployment": "vollzeit", "jobTask": ["entwickeln", "designen"], "name": "Frontend Developer", "technology": ["angular", "typescript", "javascript", "html", "css", "sass", "less", "react", "vue", "jquery", "npm", "buildtools", "photoshop", "illustrator", "sketch", "invision", "ui-test"]}]}
+
+## Generated Story 723948800213092792
+* start_dialogue
+    - utter_greet
+* confirm
+    - utter_askTechnology
+* ask_for_technologies
+    - action_show_technologies
+    - followup{"name": "utter_askTechnology"}
+    - utter_askTechnology
+* enter_data{"technology": "Kanban"}
+    - slot{"technology": ["SCRUM", "Kanban"]}
+    - action_match_job_slots
+    - slot{"possibleTasks": ["coachen", "entwickeln"]}
+    - slot{"domain": ["agile"]}
+    - followup{"name": "action_listen"}
+* enter_data{"jobTask": "coachen"}
+    - slot{"jobTask": ["coachen"]}
+    - utter_askFormOfEmployment
+* enter_data{"formOfEmployment": "vollzeit"}
+    - slot{"formOfEmployment": "vollzeit"}
+    - action_find_job
+    - followup{"name": "utter_askSpeculativeApplication"}
+    - utter_askSpeculativeApplication
+* confirm
+    - utter_startSpeculativeApplication
+
+## Generated Story -2672295187300215437
+* start_dialogue
+    - utter_greet
+* ask_speculative_application
+    - utter_startSpeculativeApplication
+* thankyou
+    - utter_yourewelcome
+
+## Generated Story -2672295187300215438
+* ask_speculative_application
+    - utter_startSpeculativeApplication
+* thankyou
+    - utter_yourewelcome

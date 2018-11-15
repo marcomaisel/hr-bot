@@ -8,7 +8,7 @@ const app = express();
 const router = express.Router();
 app.use(cors());
 app.use(bodyParser.json());
-mongoose.connect('mongodb://rasa:PbgQcoevs7cbJjJDK503@localhost:27017/rasa');
+mongoose.connect('mongodb://localhost:27017/rasa');
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log('MongoDB database connection established successfully!');

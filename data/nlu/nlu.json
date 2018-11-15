@@ -4898,6 +4898,448 @@
         "text": "Guten Morgen, ich informiere mich gerade über offene Stellen",
         "intent": "greet+find_job",
         "entities": []
+      },
+      {
+        "text": "Ja",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ja bitte",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ja ok",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ok",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Okay",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Sicher",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Na sicher",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Super",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Super!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Klasse!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das klingt gut",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Klingt gut",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ok, los gehts",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ok super",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "oki doki",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ja bitte!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ja, bitte",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Nice",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Cool!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "cool",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Alles klar",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Alles klar!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ok cool",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Ok, cool",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Auf jeden Fall",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Auf jeden Fall!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Oh, ok",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre cool",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre super",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre cool!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre super!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre spitze!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Das wäre spitze",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yay",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Wie cool!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Nein",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Definitiv nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Niemals",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Absolut nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Ich glaube nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Ich glaub nicht!",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Glaub nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Glaube nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein danke",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein, danke!",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein, eigentlich nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nö",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nö!",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nö danke",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "ne danke",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Ich verzichte",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein!!!",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein, kannst du nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nein kann ich nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "NEIN",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nein",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "eher nicht",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nicht wirklich",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Dankeschön",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "dankeschön",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Vielen Dank",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Super, danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Ok danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Ich danke dir",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Danke dir",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Cool. Danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "wow danke",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Danke für die Hilfe",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "Danke für den Vorschlag",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "SCRUM und Kanban",
+        "intent": "enter_data",
+        "entities": [{
+            "start": 0,
+            "end": 5,
+            "value": "SCRUM",
+            "entity": "technology"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Kanban",
+            "entity": "technology"
+          }
+        ]
+      },
+      {
+        "text": "Ich würde mich gerne initiativ bewerben",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Ich suche nach einer Möglichkeit mich initiativ zu bewerben",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Gibt es die Möglichkeit sich initiativ zu bewerben?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Initiativbewerbung",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Ist eine Initiativbewerbung möglich?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Ist eine Initiativbewerbung bei ihnen möglich?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Kann ich mich initiativ bewerben?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Kann ich mich initiativ bei ihnen bewerben?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Kann ich mich auch initiativ bewerben?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Wie sieht es mit einer Initiativbewerbung aus?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Ich will mich initiativ bewerben!",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Besteht die Möglichkeit einer Initiativbewerbung?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Besteht die Chance einer Initiativbewerbung?",
+        "intent": "ask_speculative_application",
+        "entities": []
+      },
+      {
+        "text": "Könnte ich mich auch initiativ bei Ihnen bewerben?",
+        "intent": "ask_speculative_application",
+        "entities": []
       }
     ],
     "regex_features": [],
@@ -5443,7 +5885,6 @@
           "Workshops"
         ]
       }
-
     ]
   }
 }

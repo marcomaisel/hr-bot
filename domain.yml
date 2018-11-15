@@ -9,6 +9,7 @@ intents:
   - ask_for_technologies
   - confirm
   - deny
+  - ask_speculative_application
 
 entities:
   - nameApplicant
@@ -58,6 +59,9 @@ actions:
 - utter_askDomain
 - utter_askFormOfEmployment
 - utter_help
+- utter_askSpeculativeApplication
+- utter_startSpeculativeApplication
+- utter_yourewelcome
 
 templates:
   utter_default:
@@ -68,6 +72,9 @@ templates:
 
   utter_bye:
     - text: "Bis bald {nameApplicant}"
+
+  utter_yourewelcome:
+    - text: "Das hab ich gerne für dich gemacht {nameApplicant}"
 
   utter_askJobStart:
     -text: "Für welchen Bereich interessiert du dich?"
@@ -101,3 +108,6 @@ templates:
 
   utter_help:
     - text: "Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden."
+  
+  utter_startSpeculativeApplication:
+    - text: "Sende deine Initiativbewerbung einfach per Mail an jobs@adorsys.de. Weitere Informationen findest du unter adorsys.de/karriere"

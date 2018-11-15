@@ -12,6 +12,9 @@ actions:
 - utter_askDomain
 - utter_askFormOfEmployment
 - utter_help
+- utter_askSpeculativeApplication
+- utter_startSpeculativeApplication
+- utter_yourewelcome
 config:
   store_entities_as_slots: true
 entities:
@@ -37,6 +40,12 @@ intents:
 - help:
     use_entities: true
 - ask_for_technologies:
+    use_entities: true
+- confirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- ask_speculative_application:
     use_entities: true
 slots:
   domain:
@@ -108,5 +117,10 @@ templates:
       einer für dich passenden Stelle
   utter_help:
   - text: Ich kann dir helfen eine passende Stelle in unserem Unternehmen zu finden.
+  utter_startSpeculativeApplication:
+  - text: Sende deine Initiativbewerbung einfach per Mail an jobs@adorsys.de. Weitere
+      Informationen findest du unter https://www.adorsys.de/karriere.html
   utter_youarewelcome:
   - text: Freut mich, dass ich dir helfen konnte
+  utter_yourewelcome:
+  - text: Das hab ich gerne für dich gemacht {nameApplicant}
