@@ -96,10 +96,17 @@ The website can be found on http://localhost:5100/index.html
 Train Core
 ```
 docker run -v ${pwd}:/app/project -v ${pwd}/models/dialogue:/app/models rasa/rasa_core:latest train -c project/config/policy_config.yml --domain project/domain.yml --stories project/data/core/stories.md --out models
+```
 
 Train NLU
 ```
 docker run -v ${pwd}:/app/project -v ${pwd}/models/nlu:/app/models -v ${pwd}/config:/app/config rasa/rasa_nlu:latest run python -m rasa_nlu.train -c config/config_tensorflow.yml -d project/data/nlu/nlu.json -o models --fixed_model_name current
+```
+
+Build Rasa-SDK docker image with custom compontents
+```
+cd actions
+docker build -t rasa_core_sdk_hr .
 ```
 
 ## Deploy
