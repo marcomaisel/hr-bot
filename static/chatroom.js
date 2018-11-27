@@ -42587,7 +42587,8 @@ parcelRequire = function(e, r, n, t) {
           v = function() {
               return s.default.createElement("li", {
                   className: "chat waiting"
-              }, s.default.createElement("span", null, "â—"), " ", s.default.createElement("span", null, "â—"), " ", s.default.createElement("span", null, "â—"))
+              }, s.default.createElement("span", null, "Loading"))
+            //   , " ", s.default.createElement("span", null, "â—"), " ", s.default.createElement("span", null, "â—"))
           },
           w = function(e) {
               var t = e.messages,
@@ -42749,7 +42750,7 @@ parcelRequire = function(e, r, n, t) {
                           ref: this.inputRef
                       }), s.default.createElement("input", {
                           type: "submit",
-                          value: "Submit"
+                          value: "Senden"
                       }), null != this.props.speechRecognition ? s.default.createElement(p.default, {
                           language: this.props.speechRecognition,
                           onSpeechInput: function(r) {

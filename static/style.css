@@ -168,6 +168,11 @@ p {
     margin-top: -500px;
 }
 
+.waiting p li {
+    font-size: 5px;
+    color: pink;
+}
+
 .chatroom,
 .chatroom * {
     box-sizing: border-box
@@ -256,7 +261,8 @@ p {
 .chatroom .chats .chat.waiting {
     background: transparent;
     margin: 10px 0;
-    padding: 0
+    padding: 5px;
+    font-size: 10px;
 }
 
 @keyframes fade {
